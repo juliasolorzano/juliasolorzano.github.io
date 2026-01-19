@@ -3,30 +3,30 @@ layout: post
 title: Teen Tech camp recap
 ---
 
-As some of you [may already know](http://exitevent.com/teen-tech-camp-hosts-future-developers-1389.asp), last week I had the honor and privilege to help organize the 2013 Teen Tech Camp in Durham, North Carolina. The event was extremely challenging, fun and one of the most rewarding things I have ever been a part of.
+As some of you [may already know](https://exitevent.com/teen-tech-camp-hosts-future-developers-1389.asp), last week I had the honor and privilege to help organize the 2013 Teen Tech Camp in Durham, North Carolina. The event was extremely challenging, fun and one of the most rewarding things I have ever been a part of.
 
 #### the idea
 
-The idea for the camp came from my experience at the Teen Tech Camp in 2012. [Refresh the Triangle](http://www.meetup.com/refreshthetriangle/), a community made up of area designers and developers, hosted the camp and focused it around web applications, websites and web design. The kids learned about HTML, CSS, web design and other web-related technologies from local professional technologists.
+The idea for the camp came from my experience at the Teen Tech Camp in 2012. [Refresh the Triangle](https://www.meetup.com/refreshthetriangle/), a community made up of area designers and developers, hosted the camp and focused it around web applications, websites and web design. The kids learned about HTML, CSS, web design and other web-related technologies from local professional technologists.
 
 This year, I wanted to help move the camp in a different direction...
 
-At the 2012 Teen Tech Camp, one of the volunteers brought in a [Raspberry Pi](http://raspberrypi.org/) for the students to learn about. It was by far one of the most interesting aspects of that event. Almost every participant gathered around the device out of curiosity and to find out what it was. We were impressed to see so many of the kids wanting to learn about this tiny micro-computer and what it could do.
+At the 2012 Teen Tech Camp, one of the volunteers brought in a [Raspberry Pi](https://raspberrypi.org/) for the students to learn about. It was by far one of the most interesting aspects of that event. Almost every participant gathered around the device out of curiosity and to find out what it was. We were impressed to see so many of the kids wanting to learn about this tiny micro-computer and what it could do.
 
 ![2012 Teen Tech campers checking out a Raspberry Pi](/assets/images/2012teentechcamp.jpg)
 _Students checking out Raspberry Pi at 2012 Teen Tech Camp_
 
-Since the kids from the previous year seemed so intrigued by the Raspberry Pi, that it seemed only natural to focus this year's event around it. After seeing the initiatives from my colleagues [Barbara](https://twitter.com/bshaurette) and [Katie](https://twitter.com/kcunning) at the [Young Coders](https://us.pycon.org/2013/events/letslearnpython/) tutorial, which focused on teaching [Python](http://python.org/) through Raspberry Pi, I decided to start organizing a similar event for the 2013 Teen Tech Camp.
+Since the kids from the previous year seemed so intrigued by the Raspberry Pi, that it seemed only natural to focus this year's event around it. After seeing the initiatives from my colleagues [Barbara](https://twitter.com/bshaurette) and [Katie](https://twitter.com/kcunning) at the [Young Coders](https://us.pycon.org/2013/events/letslearnpython/) tutorial, which focused on teaching [Python](https://python.org/) through Raspberry Pi, I decided to start organizing a similar event for the 2013 Teen Tech Camp.
 
 #### the planning
 
 Shortly after returning from [PyCon 2013](https://us.pycon.org/2013/), I spoke with Refresh organizer [Sarah Kahn](https://twitter.com/aarahkahak) about my idea for the next Teen Tech Camp. She was totally psyched about the new angle for the event and we started formulating a game plan to make it all happen.
 
-We started by gathering information and creating to-do items for each of us. We formulated an equipment list, started recruiting volunteers, re-connected with [Autumn Winters](http://linkedin.com/pub/autumn-winters/11/a74/5b2/) (Teen Librarian at [Southwest Durham Regional Library](http://durhamcountylibrary.org/location/southwest/) and co-organizer for 2012 Teen Tech Camp) and reached out to sponsors for fundraising.
+We started by gathering information and creating to-do items for each of us. We formulated an equipment list, started recruiting volunteers, re-connected with [Autumn Winters](https://linkedin.com/pub/autumn-winters/11/a74/5b2/) (Teen Librarian at [Southwest Durham Regional Library](https://durhamcountylibrary.org/location/southwest/) and co-organizer for 2012 Teen Tech Camp) and reached out to sponsors for fundraising.
 
-In that vein, we also applied for a grant from the [Python Software Foundation (PSF)](http://python.org/psf/) to provide funds for the Raspberry Pi's, some basic peripherals (SD Card + power supply) and books for the students to take home with them to continue their computer programming education after the camp. After reviewing the proposal, the PSF granted us the funds to pay for all of the proposed items and gave us a great head start!
+In that vein, we also applied for a grant from the [Python Software Foundation (PSF)](https://python.org/psf/) to provide funds for the Raspberry Pi's, some basic peripherals (SD Card + power supply) and books for the students to take home with them to continue their computer programming education after the camp. After reviewing the proposal, the PSF granted us the funds to pay for all of the proposed items and gave us a great head start!
 
-Other peripherals for the event came from generous donations from businesses like [Triangle Ecylcing](http://www.triangleecycling.com/), an electronics recycling business, [Ayima](http://ayima.com/) and the members at [Splatspace](http://splatspace.org/), who created twenty unique 3D Raspberry Pi cases. It was amazing to see my local community come together to donate equipment for the camp. Very cool, indeed.
+Other peripherals for the event came from generous donations from businesses like [Triangle Ecylcing](https://www.triangleecycling.com/), an electronics recycling business, [Ayima](https://ayima.com/) and the members at [Splatspace](https://splatspace.org/), who created twenty unique 3D Raspberry Pi cases. It was amazing to see my local community come together to donate equipment for the camp. Very cool, indeed.
 
 ![Splatspace 3D printed Raspberry Pi cases](/assets/images/splatspace-rpi-cases.jpg)
 _3D printed Raspberry Pi cases from [@splatspace](https://twitter.com/splat_space)_
@@ -43,9 +43,9 @@ After about 2 hours, lots of volunteer help and some masterful debugging by [Cli
 ![2013 Teen Tech Camp Raspberry Pi setup](/assets/images/2013teentechcamp-2.jpg)
 _2013 Teen Tech camp setup_
 
-The day of the event finally arrived. I stopped by and picked up pastries and juice for the students + volunteers (thank you, [Caktus](http://caktusgroup.com/)!) and headed to the library.
+The day of the event finally arrived. I stopped by and picked up pastries and juice for the students + volunteers (thank you, [Caktus](https://caktusgroup.com/)!) and headed to the library.
 
-The students started to trickle in one-by-one, each of them peering over at the work stations to see what awaited them. We passed out name tags, Raspberry Pi magazines donated by [Linux New Media](http://linuxnewmedia.com/) and let them settle in.
+The students started to trickle in one-by-one, each of them peering over at the work stations to see what awaited them. We passed out name tags, Raspberry Pi magazines donated by [Linux New Media](https://linuxnewmedia.com/) and let them settle in.
 
 We started off the camp with teacher and student introductions. Each of us gave our name and favorite video game (most common answer: Minecraft). We then moved on to the first portion of the lesson: What is a Raspberry Pi?
 
@@ -54,16 +54,16 @@ During the first lesson, we went through each component of the Pi and what it do
 ![2013 Teen Tech Camp lead instructor Clinton Dreisbach explaining the workings of a Raspberry Pi](/assets/images/2013teentechcamp-3.jpg)
 _2013 Teen Tech Camp instructor Clinton Dreisbach giving a Raspberry Pi tour, photo courtesy of [@rmurphey](https://twitter.com/rmurphey)_
 
-We next moved away from the slides and opened up the [iPython notebooks](http://ipython.org/notebook.html) for the Python coding examples (slides and examples are [availabe on Github](https://github.com/kgrandis/teentechcamp)). Each student followed along on his/her own machine` using [LXTerminal](http://wiki.lxde.org/en/LXTerminal), the command line terminal program that comes with the Raspbian distribution. We reviewed how to use Python to do basic math equations, assign variables, input/output concepts (e.g. print), comparisons, control structures, conditionals and loops. During each section, we went through a few examples and then had the kids try it themselves. With six teaching assistants and one lead instructor, we were able to to go around to each student to provide individual guidance and support. We also included a few Minecraft and other gaming breaks to keep the students engaged.
+We next moved away from the slides and opened up the [iPython notebooks](https://ipython.org/notebook.html) for the Python coding examples (slides and examples are [availabe on Github](https://github.com/kgrandis/teentechcamp)). Each student followed along on his/her own machine` using [LXTerminal](https://wiki.lxde.org/en/LXTerminal), the command line terminal program that comes with the Raspbian distribution. We reviewed how to use Python to do basic math equations, assign variables, input/output concepts (e.g. print), comparisons, control structures, conditionals and loops. During each section, we went through a few examples and then had the kids try it themselves. With six teaching assistants and one lead instructor, we were able to to go around to each student to provide individual guidance and support. We also included a few Minecraft and other gaming breaks to keep the students engaged.
 
 ![Students giving a thumbs up](/assets/images/2013teentechcamp-4.jpg)
 _Students giving a thumbs up while learning conditionals_
 
-There were also parts of the camp where we would ask for group participation. For each correct, or even "good try", answer we had various donated gift items from local companies like [Greenlight Community Broadband](http://greenlightnc.com/) to hand out.
+There were also parts of the camp where we would ask for group participation. For each correct, or even "good try", answer we had various donated gift items from local companies like [Greenlight Community Broadband](https://greenlightnc.com/) to hand out.
 
 During the lunch break, [Caleb](https://twitter.com/CalebSmithNC) and I did a demo of the game we collaborated on called [Razzytails](https://github.com/calebsmith/razzytails/). Both of us went over the parts we contributed towards the game. We then demo'd the actual game and had the kids participate in the Pythonic questions [Razzy](https://github.com/calebsmith/razzytails/blob/master/assets/images/razzy.png) encountered.
 
-After lunch, we moved onto piecing all of the lessons we learned in the morning to help start writing functions. The students moved out of LXTerminal and opened up [IDLE](http://wiki.python.org/moin/IDLE), a simple Python IDE, where they could easily run their functions and save their Python script files. We taught them about the .py file extension and how to actually run the script to make the program responsive. It was so amazing to see what the kids came up with on their own! They had gone from learning how to compute basic math equations to writing whole functions.
+After lunch, we moved onto piecing all of the lessons we learned in the morning to help start writing functions. The students moved out of LXTerminal and opened up [IDLE](https://wiki.python.org/moin/IDLE), a simple Python IDE, where they could easily run their functions and save their Python script files. We taught them about the .py file extension and how to actually run the script to make the program responsive. It was so amazing to see what the kids came up with on their own! They had gone from learning how to compute basic math equations to writing whole functions.
 
 ![Students learning how to run and write functions](/assets/images/2013teentechcamp-5.jpg)
 _Learning how to run and write Python functions, photo courtesy of [@rmurphey](https://twitter.com/rmurphey)_
@@ -80,5 +80,3 @@ My goal for the 2013 Teen Tech Camp was not to have the students walk out of the
 Organizing the Teen Tech Camp has really sparked something in me. Having experienced the trials and successes of running an event like this has motivated me to do more and continue to teach computer programming education for our youth. The importance of getting them excited about technology is imperative. I truly believe that it is our responsibility as technologists to reach out to the younger generation and guide them.
 
 The Python community is just beginnning to understand the importance of raising the next generation to be creators and not just consumers. After-school Python clubs, tutorials and classes are starting to spring up around the globe, and more resources are becoming readily available. We all hear the call and I can sense a strong collaboration coming, which will  provide any child the type of education necessary to be successful.
-
-[Stay tuned](https://twitter.com/juliaelman/) and [keep in touch](mailto:juliaelman@gmail.com). We're already planning the 2014 Teen Tech Camp and I can't wait to tell you all about it.

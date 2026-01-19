@@ -3,7 +3,7 @@ layout: post
 title: What I've learned from teaching
 ---
 
-![Julia Elman, Girl Develop It RDU](/assets/images/julia-solorzano-gdirdu-teaching.jpg)
+![Julia Solorzano, Girl Develop It RDU](/assets/images/julia-solorzano-gdirdu-teaching.jpg)
 
 In my journey into teaching, I learned many things about the craft and its role in education, primarily in the programming realm. The challenges I encountered as a teacher are beyond many of the challenges I faced as even as a programmer. In the past year or so, I have been thinking of new ways to teach and bring new awareness to students. Here are a few things I have learned and would like to share.
 
@@ -25,7 +25,7 @@ As a teacher, it is sometimes hard to evaluate how you are doing on the job. Wer
 
 ### You should like people
 
-I love people. And I love helping people. It is why I started teaching programming, organized the [Teen Tech Camp](http://juliaelman.com/blog/2013/08/20/teen-tech-camp-recap/),helped found [Girl Develop It RDU](http://www.meetup.com/Girl-Develop-It-RDU/) and now [PyLadies RDU](http://www.meetup.com/pyladies-rdu/). If you don’t like people, confrontation or managing in general, don’t teach. You will be miserable and ineffective for the people who need you. Also, some of the best teachers I have had in my life are those I felt really cared about my education. It creates a level of trust and confidence between you and your students to show you care.
+I love people. And I love helping people. It is why I started teaching programming, organized the [Teen Tech Camp](http://juliasolorzano.com/blog/2013/08/20/teen-tech-camp-recap/),helped found [Girl Develop It RDU](http://www.meetup.com/Girl-Develop-It-RDU/) and now [PyLadies RDU](http://www.meetup.com/pyladies-rdu/). If you don’t like people, confrontation or managing in general, don’t teach. You will be miserable and ineffective for the people who need you. Also, some of the best teachers I have had in my life are those I felt really cared about my education. It creates a level of trust and confidence between you and your students to show you care.
 
 Also, while being empathetic is important, being able to stand your ground with your students is important too. Your students look to you as the expert running the ship and it's crucial for you to stand firm in your steering.
 

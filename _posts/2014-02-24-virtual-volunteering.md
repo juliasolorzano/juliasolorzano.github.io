@@ -20,7 +20,7 @@ During my talk, I touched on the past, present and future of solving big problem
 
 This statement presents an answer to the question of our ability to solve big problems. So, how can we help as technologists? Where can we even start?
 
-I mentioned a few virtual volunteering opportunities where we, as professional technologists, can help contribute our talents. I've started a short list below and also made it completely open source, [forkable on Github](https://github.com/juliaelman/juliaelman.github.com/blob/master/_posts/2014-02-24-virtual-volunteering.md). I encourage you to submit a pull request, or even shoot me a message on [Twitter](http://twitter.com/juliaelman) or email me at [juliaelman@gmail.com](mailto:juliaelman@gmail.com) for events and/or opportunities where professional technologists can give back. It's an exciting time and I am looking forward to hearing about all of the opportunities we have to help contribute and solve big problems.
+I mentioned a few virtual volunteering opportunities where we, as professional technologists, can help contribute our talents. I've started a short list below and also made it completely open source, [forkable on Github](https://github.com/juliasolorzano/juliasolorzano.github.com/blob/master/_posts/2014-02-24-virtual-volunteering.md). I encourage you to submit a pull request, email me at [hello@juliasolorzano.com](mailto:hello@juliasolorzano.com) for events and/or opportunities where professional technologists can give back. It's an exciting time and I am looking forward to hearing about all of the opportunities we have to help contribute and solve big problems.
 
 ### Click (One-day event)
 [http://www.nashvillecode.org/](http://www.nashvillecode.org/)
