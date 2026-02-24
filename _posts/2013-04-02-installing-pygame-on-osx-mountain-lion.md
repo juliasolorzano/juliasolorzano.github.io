@@ -15,7 +15,7 @@ Here is what you should have installed as a precursor to installing pygame. You 
 
 - [XCode v4.6.1](https://developer.apple.com/xcode/)
 - [XQuartz 2.7.4](http://xquartz.macosforge.org/landing/)
-- [pip v1.3.1](http://www.pip-installer.org/en/1.3.1/installing.html)
+- [pip v1.3.1](https://pip.pypa.io/en/stable/installation/)
 - [hg v2.5.2](http://mercurial.berkwood.com/)
 - [homebrew v0.9.4](https://github.com/mxcl/homebrew/wiki/Installation)
 
@@ -59,12 +59,12 @@ brew install smpeg --HEAD
 {% endhighlight %}
 
 
-As explained in [this Github comment](https://github.com/samueljohn/homebrew-python/issues/22#issuecomment-14958411), these options pull the latest (and possible unstable) version of smpeg. This is not ideal, but this is what ended up working for me.
+As explained in this Github comment, these options pull the latest (and possible unstable) version of smpeg. This is not ideal, but this is what ended up working for me.
 
 And now, onto pygame! I really don't like installing pre-packaged distributions and much rather work with active code. So, I installed via hg in order for it to work properly, and run `sudo` because of my folder permissions setup (I swear, I'll fix that one day!):
 
 {% highlight bash %}
-sudo pip install hg+http://bitbucket.org/pygame/pygame
+sudo pip install https://github.com/pygame/pygame
 {% endhighlight %}
 
 Now, open up a python shell prompt and type `import pygame`. Did it work? If so, congratulations! pygame is now installed on your machine.

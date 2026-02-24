@@ -4,7 +4,7 @@ title: Reflections on imagine how creativity works by jonah lehrer
 permalink: /blog/2012/may/7/reflection-imagine-how-creativity-works/
 ---
 
-This past April, I had the pleasure of attending [Switchpoint](http://www.switchpointideas.com/) in Saxapahaw, North Carolina. The conference brought together people from all walks of life. American beat poets, global health workers, an African midwife and a Kenyan tech advocate all came together in one space for one day to see what would happen. It was pretty awesome.
+This past April, I had the pleasure of attending [Switchpoint](https://www.instagram.com/switchpoint/) in Saxapahaw, North Carolina. The conference brought together people from all walks of life. American beat poets, global health workers, an African midwife and a Kenyan tech advocate all came together in one space for one day to see what would happen. It was pretty awesome.
 
 One of the speakers of the day was [Jonathan Opp](http://appliedpoetics.com/). He spoke of branding and his experience at Red Hat and the Road Tour he helped develop. I got the chance to talk with him during the conference and how I was starting to try to draw more often. He mentioned a good book that he had recently read called, "Imagine: How Creativity Works" by Jonah Lehrer and highly recommend I read it. I tend to listen when smart good folks tell me to do something, and most of the time they are right.
 

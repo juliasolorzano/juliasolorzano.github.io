@@ -16,7 +16,7 @@ body_id: page-list
 <h3>2021</h3>
 <article>
 	<p>
-			<a href="https://governmentciomedia.com/principles-digital-service-experience">
+			<a href="https://govciomedia.com/events/archive/digital-services-series-customer-experiences-recap/">
 			Digital Service Series, Customer Experience <em>Plugging in the User Needs For Improved Experiences</em>
 		</a>
 	</p>
@@ -24,7 +24,7 @@ body_id: page-list
 <h3>2019</h3>
 <article>
 	<p>
-			<a href="https://www.apidays.co/paris">
+			<a href="https://www.apidays.global/">
 			API Days Paris, <em>Designing APIs for Humans: Leveraging UX Methods to Develop Human-Centered APIs</em>
 		</a>
 	</p>

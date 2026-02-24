@@ -12,7 +12,6 @@ Mozilla hosts triennial meetings in which Mozillians from all over the world com
 There are a few things that Mozilla is up to that I found particularly interesting. Here are some of the highlights:
 
 ##### WebMaker
-[https://webmaker.org](https://webmaker.org)
 
 Webmaker is a global community whose focus is promoting web literacy through making, teaching and remixing. Mozilla created this out of the desire to engage users not only to create content, but also to understand how the web works.
 
@@ -26,12 +25,10 @@ Here are a few brief explanations of each of the Webmaker tools, and what they d
 Popcorn Maker is an easy way to make your own web video, audio and images by remixing already existing media. By providing an easy-to-use editing browser interface, users can create customized mixes of their favorite media and share them with the world. The layout reminds me of a Flash timeline, where you can drag-and-drop your files and slice them together.
 
 ##### X-Ray Goggles
-[https://goggles.webmaker.org/](https://goggles.webmaker.org/)
 
 X-Ray Goggles is a simplified web page inspector for those looking to understand the elements that make up a page. After activating X-Ray Googles in your browser, users can hover over each element of the page to see what HTML tag creates that portion of it. You can then click, view and edit to create your own remix of that markup. I feel this could be an incredibly useful tool for folks to use to dig in and get a better understanding of how web pages are made up. It also makes it simpler for newer users to grasp the concept of a web inspector, which contains a multitude of other tools that could make things more confusing.
 
 ##### Thimble
-[https://thimble.webmaker.org/](https://thimble.webmaker.org/)
 
 Thimble is, by far, my favorite of all of the tools provided by Webmaker! It's a simple way for users to create and share code they have been working on. It is paired up nicely with a mirrored output viewer, so you can see immediately how your page looks as you write it.
 
@@ -51,9 +48,8 @@ Every year, several fellows are selected to travel to a selected news outlet (e.
 Having worked with [Django](http://djangoproject.com) for nearly six years now, I can't help but be interested in anything related to making the news industry a happier place. It was great to meet some of the fellows and hear about the interesting things they are working on in their assigned destinations.
 
 #### Shumway
-[http://mozilla.github.io/shumway/](http://mozilla.github.io/shumway/)
 
-If you have worked on the web at any capacity, you've probably worked somewhere in the realms of Flash. At times, it has been a pain point to work with, especially within the mobile space. [Mozilla Labs](https://mozillalabs.com/en-US/) has come out with a way to render SWF files using Javascript and the HTML5 canvas element.
+If you have worked on the web at any capacity, you've probably worked somewhere in the realms of Flash. At times, it has been a pain point to work with, especially within the mobile space. Mozilla Labs has come out with a way to render SWF files using Javascript and the HTML5 canvas element.
 
 So, why is this cool? Many mobile devices have little to no support to run SWF files. With Shumway, you can easily see a rendered version of the file on your device easily. With everything Mozilla is doing in the mobile space (e.g. Firefox OS), it is really cool to see what new innovations they are coming up with to strengthen the mobile platform.
 

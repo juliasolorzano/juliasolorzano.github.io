@@ -71,8 +71,8 @@ I presented these creative assets to the team, speaking to the visual strengths 
 
 After much deliberation, thought, evaluation and effort, the team chose:
 
-[![trinket: the key to open teaching](/assets/images/trinket-logo.png)](http://bit.ly/1e7OyZM)
+![trinket: the key to open teaching](/assets/images/trinket-logo.png)
 
-When we think about trinkets, we think about something that is precious and small. Something that we can carry around with us and collect over time. This mindset perfectly sets our brand in a position for our users to create something meaningful and precious to them. Creating courses, and sessions within them, takes time and collection of materials. The goal for [trinket](http://get.trinket.io/) is to create this space where educators can bring those courses and materials together in the open.
+When we think about trinkets, we think about something that is precious and small. Something that we can carry around with us and collect over time. This mindset perfectly sets our brand in a position for our users to create something meaningful and precious to them. Creating courses, and sessions within them, takes time and collection of materials. The goal for trinket is to create this space where educators can bring those courses and materials together in the open.
 
-We've created a [sign-up](http://trinket.io) for our new product and are thrilled to finally be able to announce it to you all! I am very proud of my team and how we worked together seamlessly to create this new and meaningful brand. We are looking forward to hearing your feedback and joining us on the next step of our journey.
+We've created a sign-up for our new product and are thrilled to finally be able to announce it to you all! I am very proud of my team and how we worked together seamlessly to create this new and meaningful brand. We are looking forward to hearing your feedback and joining us on the next step of our journey.
