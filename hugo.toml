@@ -1,0 +1,24 @@
+baseURL = "https://juliasolorzano.com"
+languageCode = "en-us"
+title = "Julia Solórzano"
+
+[params]
+  description = "Julia Solórzano is a technology leader passionate about creating seamless digital experiences and building high-performing teams."
+
+[permalinks]
+  posts = "/blog/:year/:month/:day/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[markup.highlight]
+  style = "monokai"
+
+[outputFormats.RSS]
+  baseName = "feed"
+
+[taxonomies]
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML"]

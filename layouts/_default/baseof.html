@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    ___       ___       ___       ___       ___
+   /\__\     /\  \     /\__\     /\__\     /\  \
+  /:/__/_   /::\  \   /:/  /    /:/  /    /::\  \
+ /::\/\__\ /::\:\__\ /:/__/    /:/__/    /:/\:\__\
+ \/\::/  / \:\:\/  / \:\  \    \:\  \    \:\/:/  /
+   /:/  /   \:\/  /   \:\__\    \:\__\    \::/  /
+   \/__/     \/__/     \/__/     \/__/     \/__/
+
+Thanks for taking a look at my source code to learn more about how I work.
+To get an even better look, check out the code base at:
+https://github.com/juliasolorzano/juliasolorzano.github.io
+
+Here is a list of the libraries I chose to use on this project. Most of the
+time I like to experiment with different libraries on this website. It's my
+personal site and use it to try out new things:
+
+- Hugo: A fast and flexible static site generator written in Go.
+- Sass: A CSS preprocessor for writing CSS more easily and efficiently.
+
+The font pairings are Raleway for headings and Open Sans for body copy. Both are Google Web Fonts and
+open sourced for anyone to use:
+
+https://fonts.google.com/specimen/Raleway
+https://fonts.google.com/specimen/Open+Sans
+
+-->
+  {{ partial "head.html" . }}
+  <body id="{{ .Params.body_id }}">
+
+    <div id="overlay"></div>
+    <a class="skipnav" href="#content">Skip to main content</a>
+    <div class="container">
+      {{ partial "header.html" . }}
+      <main id="content">
+      {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+  {{ partial "footer.html" . }}
+  {{ partial "scripts.html" . }}
+  </body>
+</html>

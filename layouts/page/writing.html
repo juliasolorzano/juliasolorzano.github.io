@@ -1,0 +1,29 @@
+{{ define "main" }}
+<h2 class="title">{{ .Title }}</h2>
+
+<h3>Book</h3>
+
+<p><a href="https://shop.oreilly.com/product/0636920032502.do">Lightweight Django</a> is a technical book that aims to show readers how to leverage the <a href="https://www.djangoproject.com/">Django framework</a> to work with modern web applications.</p>
+
+{{ $prev_year := "" }}
+{{ range where site.RegularPages "Section" "posts" }}
+  {{ $year := .Date.Format "2006" }}
+  {{ if ne $year $prev_year }}
+<h3>{{ $year }}</h3>
+    {{ $prev_year = $year }}
+  {{ end }}
+<article>
+  <p>
+  	{{ if .Params.external_url }}
+  		<a href="{{ .Params.external_url }}" target="_blank">
+	  		{{ .Title }}
+	  	</a>
+  	{{ else }}
+	  	<a href="{{ .RelPermalink }}">
+	  		{{ .Title }}
+	  	</a>
+  	{{ end }}
+  </p>
+</article>
+{{ end }}
+{{ end }}
