@@ -1,0 +1,17 @@
+{{ define "main" }}
+<h2 class="title">{{ .Title }}</h2>
+
+<p class="subtitle">A selection of projects I have worked on throughout my career.</p>
+
+<div class="projects-grid">
+  {{ range .Params.projects }}
+  <div class="project-card">
+    <h3 class="project-card__name">{{ .name }}</h3>
+    <p class="project-card__description">{{ .description }}</p>
+    {{ with .url }}
+    <a href="{{ . }}" class="project-card__link">View project &rarr;</a>
+    {{ end }}
+  </div>
+  {{ end }}
+</div>
+{{ end }}

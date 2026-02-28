@@ -1,3 +1,52 @@
 {{ define "main" }}
-{{ .Content }}
+<div class="hero">
+  <h1 class="hero__heading">Hey, I'm Julia!</h1>
+  <p class="hero__tagline">Design operations leader, open-source advocate, and civic tech enthusiast.</p>
+</div>
+<div class="hero__content">
+  {{ .Content }}
+</div>
+
+<section class="home-section">
+  <h2 class="home-section__heading">
+    Recent Posts
+    <a href="/writing/" class="home-section__link">View all &rarr;</a>
+  </h2>
+  {{ range first 5 (where site.RegularPages "Section" "posts") }}
+  <article class="writing-entry">
+    <div class="writing-entry__meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    </div>
+    <div class="writing-entry__content">
+      {{ if .Params.external_url }}
+        <a href="{{ .Params.external_url }}" target="_blank">{{ .Title }}</a>
+        <span class="writing-entry__external" aria-label="External link">&nearr;</span>
+      {{ else }}
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      {{ end }}
+    </div>
+  </article>
+  {{ end }}
+</section>
+
+<section class="home-section">
+  <h2 class="home-section__heading">
+    Projects
+    <a href="/projects/" class="home-section__link">View all &rarr;</a>
+  </h2>
+  {{ $projects := site.GetPage "/projects" }}
+  {{ with $projects }}
+  <div class="projects-grid projects-grid--home">
+    {{ range first 3 .Params.projects }}
+    <div class="project-card">
+      <h3 class="project-card__name">{{ .name }}</h3>
+      <p class="project-card__description">{{ .description }}</p>
+      {{ with .url }}
+      <a href="{{ . }}" class="project-card__link">View project &rarr;</a>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</section>
 {{ end }}

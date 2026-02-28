@@ -12,18 +12,21 @@
 <h3>{{ $year }}</h3>
     {{ $prev_year = $year }}
   {{ end }}
-<article>
-  <p>
-  	{{ if .Params.external_url }}
-  		<a href="{{ .Params.external_url }}" target="_blank">
-	  		{{ .Title }}
-	  	</a>
-  	{{ else }}
-	  	<a href="{{ .RelPermalink }}">
-	  		{{ .Title }}
-	  	</a>
-  	{{ end }}
-  </p>
+<article class="writing-entry">
+  <div class="writing-entry__meta">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+  </div>
+  <div class="writing-entry__content">
+    {{ if .Params.external_url }}
+      <a href="{{ .Params.external_url }}" target="_blank">{{ .Title }}</a>
+      <span class="writing-entry__external" aria-label="External link">&nearr;</span>
+    {{ else }}
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ end }}
+    {{ with .Params.description }}
+      <p class="writing-entry__description">{{ . }}</p>
+    {{ end }}
+  </div>
 </article>
 {{ end }}
 {{ end }}

@@ -1,8 +1,9 @@
 ---
-title: About
+title: About Me
 type: page
 url: /about/
-body_id: page-detail
+aliases:
+  - /speaking/
 ---
 
 Julia Solórzano serves as Senior Design Operations Specialist at <a href="https://esri.com">Esri</a>, where she establishes scalable design processes and fosters strategic partnerships between UX/UI teams to enhance consistency across ArcGIS products. Previously, she served as Program Manager for the <a href="https://standards.digital.gov/">Federal Website Standards</a> and Branch Chief of User Experience for <a href="https://login.gov">Login.gov</a>, the federal government's single sign-on platform serving over 30 agency partners across more than 300 applications. With over two decades of experience in design and technology, she has led teams of 20+ remote user experience practitioners while playing a crucial role in shaping the future of digital services.
@@ -16,3 +17,106 @@ Julia is also an accomplished educator and author. She served as an adjunct facu
 As a community leader, Julia founded <a href="https://girldevelopit.com/">Girl Develop It RDU</a>, growing the chapter to over 2,000 members in just two years. She also founded Teen Tech Camp, securing funding to provide Raspberry Pi computers and education to young students. Throughout her career, she has worked with prominent organizations including <a href="https://www.mozilla.org/">Mozilla</a>, the <a href="https://www.python.org/psf-landing/">Python Software Foundation</a>, University of Chicago, and <a href="https://www.hallmark.com/">Hallmark Cards</a>, where her work on the <a href="https://www.red.org/products/">(PRODUCT)RED</a> website earned an AIGA Kansas City award for excellence in interaction design.
 
 Currently, at Esri, Julia continues to champion user-centered design and ethical technology implementation, focusing on making digital experiences more accessible, secure, and inclusive for all users while supporting Esri's mission of using geographic science to create sustainable solutions for global challenges.
+
+## Speaking
+
+<h3>2023</h3>
+<article>
+	<p>
+			<a href="https://2023.djangocon.us/talks/keynote-django-the-dinosaur/">
+			DjangoCon 2023, <em>Keynote: Django the Dinosaur: A Story About A Web Framework.</em>
+		</a>
+	</p>
+</article>
+<h3>2021</h3>
+<article>
+	<p>
+			<a href="https://govciomedia.com/events/archive/digital-services-series-customer-experiences-recap/">
+			Digital Service Series, Customer Experience <em>Plugging in the User Needs For Improved Experiences</em>
+		</a>
+	</p>
+</article>
+<h3>2019</h3>
+<article>
+	<p>
+			<a href="https://www.apidays.global/">
+			API Days Paris, <em>Designing APIs for Humans: Leveraging UX Methods to Develop Human-Centered APIs</em>
+		</a>
+	</p>
+</article>
+<h3>2016</h3>
+<article>
+	<p>
+			<a href="https://talkpython.fm/episodes/show/88/lightweight-django">
+			Talk Python Podcast
+		</a>
+	</p>
+</article>
+<article>
+	<p>
+	  Ela Conf, <em>WERK MAMA: A tale from one working mama in the tech industry.</em>
+	</p>
+</article>
+<article>
+	<p>
+	  Women in Tech Summit, Panel: <em>Staying a Woman in Tech</em>
+	</p>
+</article>
+<h3>2015</h3>
+<article>
+	<p>
+		<a href="https://responsivewebdesign.com/podcast/usds/">
+			Responsive Web Design Podcast
+		</a>
+	</p>
+</article>
+<h3>2014</h3>
+<article>
+	<p>
+		<a href="https://www.youtube.com/watch?v=9zN7KeDqLDs">
+			Frontporch.io, <em>To The Moon And Back: Taking The Leap Towards Solving Big Problems</em>
+		</a>
+	</p>
+</article>
+<article>
+	<p>
+		<a href="https://vimeo.com/114568893">
+			BlendConf, <em>To The Moon And Back: Taking the Leap Towards Solving Big Problems</em>
+		</a>
+	</p>
+</article>
+<article>
+	<p>
+		<a href="https://www.youtube.com/watch?v=ZRFFEsoSbKs">
+			Midwest.io, <em>To The Moon And Back: Taking the Leap Towards Solving Big Problems</em>
+		</a>
+	</p>
+</article>
+<article>
+	<p>PyTennessee, <em>To The Moon And Back: Taking the Leap Towards Solving Big Problems</em></p>
+</article>
+<h3>2013</h3>
+<article>
+	<p>SecondConf, <em>To The Moon And Back: Taking the Leap Towards Solving Big Problems</em></p>
+</article>
+<article>
+	<p>
+		<a href="https://conferences.oreilly.com/oscon/oscon2013/public/schedule/detail/28590">
+			OSCON, <em>Developers + Designers: Collaborating on your Open Source project</em>
+		</a>
+	</p>
+</article>
+<article>
+	<p>
+		<a href="https://us.pycon.org/2013/schedule/presentation/56/">
+			PyCon, <em>Designers + Developers: Collaborating on your Python project</em>
+		</a>
+	</p>
+</article>
+<h3>2012</h3>
+<article>
+	<p>PyCarolinas, <em>Working with Designers</em></p>
+</article>
+<article>
+	<p>DjangoCon, <em>Is Django for Designers?</em></p>
+</article>

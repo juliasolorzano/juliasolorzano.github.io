@@ -1,13 +1,24 @@
 {{ define "main" }}
-<div class="post">
+<article class="post">
   <header>
-    <h2>
-      {{ .Title }}
-    </h2>
-    <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }} pubdate">
-    PUBLISHED: {{ .Date.Format "02 January, 2006" }}
-    </time>
+    <h2>{{ .Title }}</h2>
+    <div class="post__meta">
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+        {{ .Date.Format "January 2, 2006" }}
+      </time>
+      <span class="post__reading-time">{{ math.Round (div (countwords .Content) 200.0) }} min read</span>
+    </div>
   </header>
-  {{ .Content }}
-</div>
+
+  {{ if and (.Params.toc | default false) (gt (len .TableOfContents) 100) }}
+  <nav class="post__toc" aria-label="Table of Contents">
+    <h3>Table of Contents</h3>
+    {{ .TableOfContents }}
+  </nav>
+  {{ end }}
+
+  <div class="post__content">
+    {{ .Content }}
+  </div>
+</article>
 {{ end }}
