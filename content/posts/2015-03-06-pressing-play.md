@@ -18,9 +18,9 @@ While during my time off I've been pretty quiet, I have also been *really* busy.
 - Attended the [2014 Girl Develop It Leadership Summit](http://f.cl.ly/items/2g0r0v1b282o3b2E3b2Y/summit2014-groupfoto.png) in NYC.
 - Spoke at [2014 Frontporch.io](http://frontporch.io/) in Dallas, TX.
 - Spoke at [2014 BlendConf](http://2014.blendconf.com/) in Charlotte, NC.
-- "[Lightweight Django](http://bit.ly/lightweightdjango)" book launch hosted by [Caktus Consulting Group](http://caktusgroup.com) and [Girl Develop It RDU](http://www.meetup.com/Girl-Develop-It-RDU/).
+- "[Lightweight Django](http://bit.ly/lightweightdjango)" book launch hosted by [Caktus Consulting Group](http://caktusgroup.com) and Girl Develop It RDU.
 
-I have also been helping lead the effort in launching the [Girl Develop It](http://girldevelopit.com) website re-design. While my role did include some developer work, I mostly help steer the project towards the finish line and keep it on track. We successfully launched February 16, 2015 and [pull requests are always welcome](https://github.com/girldevelopit/gdi-new-site)!
+I have also been helping lead the effort in launching the Girl Develop It website re-design. While my role did include some developer work, I mostly help steer the project towards the finish line and keep it on track. We successfully launched February 16, 2015 and [pull requests are always welcome](https://github.com/girldevelopit/gdi-new-site)!
 
 In January 2015, I started working as the interim Director of Project and Community Engagement at CodeMontage, a web platform dedicated to helping coders improve their impact on the world. I've had the pleasure and honor of working with [Vanessa Hurst](https://twitter.com/dbness) and [Courteney Ervin](https://twitter.com/courteneyervin) to help connect non-profits and their open source projects with new contributors. It's been a truly rewarding experience to work on such an important goal and with such an amazing group of women!
 

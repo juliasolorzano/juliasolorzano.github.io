@@ -1,0 +1,63 @@
+{{ define "main" }}
+<div class="now">
+  <h2 class="title">{{ .Title }}</h2>
+  <p class="now__intro">This is a <a href="https://nownownow.com/about">now page</a>. It's a place to share what I'm focused on right now.</p>
+  <p class="now__updated">Last updated: {{ .Params.last_updated }}</p>
+
+  {{ range .Params.sections }}
+  <section class="now__section">
+    <h3 class="now__heading"><span class="now__emoji">{{ .emoji }}</span> {{ .title }}</h3>
+
+    {{ with .image }}
+    <img class="now__image" src="{{ . }}" alt="{{ .title }}">
+    {{ end }}
+
+    {{ with .image_placeholder }}
+    <div class="now__image-placeholder">{{ . }}</div>
+    {{ end }}
+
+    <div class="now__body">
+      {{ .content | markdownify }}
+    </div>
+
+    {{ with .progress }}
+    <div class="now__progress">
+      <div class="now__progress-label">
+        <span>{{ .label }}</span>
+        <span>{{ .value }}%</span>
+      </div>
+      <div class="now__progress-bar">
+        <div class="now__progress-fill" style="width: {{ .value }}%"></div>
+      </div>
+    </div>
+    {{ end }}
+
+    {{ with .progress_list }}
+    {{ range . }}
+    <div class="now__progress">
+      <div class="now__progress-label">
+        <span>{{ .label }}</span>
+        <span>{{ .value }}%</span>
+      </div>
+      <div class="now__progress-bar">
+        <div class="now__progress-fill" style="width: {{ .value }}%"></div>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+  </section>
+  {{ end }}
+
+  {{ with .Params.changelog }}
+  <section class="now__changelog">
+    <h3>Changelog</h3>
+    {{ range . }}
+    <div class="now__changelog-entry">
+      <time>{{ .date }}</time>
+      <span>{{ .note }}</span>
+    </div>
+    {{ end }}
+  </section>
+  {{ end }}
+</div>
+{{ end }}

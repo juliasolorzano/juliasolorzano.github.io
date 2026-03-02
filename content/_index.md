@@ -1,6 +1,4 @@
 ---
-title: ""
+title: "Hello! I'm Julia."
 ---
-<p>Hello! I'm Julia Solórzano — a Senior Design Operations Specialist at <a href="https://esri.com">Esri</a>, where I focus on enhancing consistency across ArcGIS products and fostering strategic partnerships between UX/UI leaders, researchers, and development teams. I establish scalable design processes and champion best practices that empower designers to create intuitive geographic solutions addressing global sustainability challenges. Throughout my career at organizations like Login.gov, Zapier, and the Department of Veterans Affairs API Platform, I've championed human-centered design, built innovative design systems, and mentored countless practitioners. I'm particularly energized by solving complex challenges in civic technology, working with open-source communities, and helping teams deliver amazing digital experiences that meet the needs of diverse users worldwide.</p>
-
-<p>Want to work together? <a href="mailto:hello@juliasolorzano.com">I'd love to hear from you</a>.</p>
+I'm a design operations and systems specialist. I've been crafting systems, services and growing teams across tech since 2002. I like to help solve big problems with real solutions. When I'm not doing that, I'm out in the field mapping rocks and thinking about clean water.
