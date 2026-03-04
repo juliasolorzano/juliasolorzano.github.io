@@ -5,13 +5,19 @@
 
 <div class="projects-grid">
   {{ range .Params.projects }}
+  {{ $name := .name }}
   {{ with .url }}
   <a href="{{ . }}" class="project-card project-card--link">
   {{ else }}
   <div class="project-card">
   {{ end }}
-    <h3 class="project-card__name">{{ .name }}</h3>
-    <p class="project-card__description">{{ .description }}</p>
+    {{ with .image }}
+    <img class="project-card__image" src="{{ . }}" alt="{{ $name }}">
+    {{ end }}
+    <div class="project-card__body">
+      <h3 class="project-card__name">{{ .name }}</h3>
+      <p class="project-card__description">{{ .description }}</p>
+    </div>
   {{ with .url }}
   </a>
   {{ else }}

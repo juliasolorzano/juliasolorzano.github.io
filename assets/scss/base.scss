@@ -812,13 +812,14 @@ footer {
 .project-card {
   background-color: var(--color-bg-secondary);
   border-radius: 6px;
-  padding: 1.5rem;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
-  transition: transform 0.15s ease;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
 
   &:hover {
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   }
 }
 
@@ -826,6 +827,18 @@ footer {
   text-decoration: none;
   color: var(--color-text);
   cursor: pointer;
+}
+
+.project-card__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.project-card__body {
+  padding: 1.25rem;
 }
 
 .project-card__name {
@@ -839,19 +852,8 @@ footer {
   font-size: 0.9rem;
   line-height: 1.5;
   opacity: 0.85;
-  margin: 0 0 1rem 0;
+  margin: 0;
   flex-grow: 1;
-}
-
-.project-card__link {
-  font-size: 0.85rem;
-  font-weight: 500;
-  color: var(--color-accent);
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
 
 // Now page

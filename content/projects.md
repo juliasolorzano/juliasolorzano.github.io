@@ -6,19 +6,24 @@ url: /projects/
 aliases:
   - /work/
 projects:
+  - name: Esri
+    description: "Design operations in the Creative Lab, helping teams across ArcGIS product lines — Pro, Online, Map Viewer, Instant Apps, and Indoors — build shared standards and smoother ways of working together."
+    image: "/assets/images/projects/esri.svg"
+    url: "https://www.esri.com"
   - name: Login.gov
-    description: "Login.gov is a secure sign in service used by the public to sign in to participating government agencies. Participating agencies will ask you to create a Login.gov account to securely access your information on their website or application."
+    description: "I grew the design team from 4 to 24 people, expanded into 3 new markets, and rethought how millions of folks log in to government services. A big, meaningful challenge."
+    image: "/assets/images/projects/login-gov.svg"
     url: "https://login.gov"
   - name: Department of Veterans Affairs API Platform
-    description: "VA Developers is part of VA's Digital Modernization strategy. Since August 2018, we've been giving approved individuals and organizations access to the VA data they need. Our platform adheres to Office of Information and Technology (OIT) standards and technology to provide these approved entities with the highest quality integration experience."
-    url: "https://developer.va.gov/about"
+    description: "Built the human-centered design practice from scratch for the VA's API program. Led a remote crew of designers and researchers focused on making the platform genuinely useful for developers."
+    image: "/assets/images/projects/va-api.svg"
+    url: "https://developer.va.gov"
   - name: Zapier
-    description: "Zapier is a product that allows end users to integrate the web applications they use and automate workflows. It connects to more than 4,000 apps, with free and paid plans. The company was founded in 2011 and is fully remote."
+    description: "I scaled the design team by 150% in 3 months, drove a full visual identity redesign, and shipped the company's first design system. It changed how the whole org approached product design."
+    image: "/assets/images/projects/zapier.svg"
     url: "https://zapier.com"
   - name: U.S. Web Design System
-    description: "The U.S. Web Design System was created by a collaborative team at 18F and the U.S. Digital Service in 2015, under the guidance of an advisory board of talented, experienced government workers across multiple federal agencies."
-    url: "https://designsystem.digital.gov/about/"
-  - name: Mozillians
-    description: "A secure place for all Mozillians, staff and non-staff alike, to manage their Mozilla profile. A Mozilla profile is a universal identity shared by a growing number of Mozilla projects and websites."
-    url: "https://people.mozilla.org/"
+    description: "Co-founded USWDS — a design system now used by hundreds of government websites serving millions of people. One of those rare projects where the work really matters."
+    image: "/assets/images/projects/uswds.svg"
+    url: "https://designsystem.digital.gov"
 ---
