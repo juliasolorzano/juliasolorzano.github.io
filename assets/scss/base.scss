@@ -844,7 +844,7 @@ footer {
 .project-card__name {
   font-family: 'Lora', Georgia, serif;
   font-weight: 700;
-  font-size: 1.1rem;
+  @include font-size-map(( null: 1.5rem, $small: 1.35rem, $xsmall: 1.25rem));
   margin: 0 0 0.5rem 0;
 }
 
