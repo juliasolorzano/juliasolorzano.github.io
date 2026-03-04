@@ -1,7 +1,17 @@
 {{ define "main" }}
 <h2 class="title">{{ .Title }}</h2>
 
-<p class="subtitle">A selection of projects I have worked on throughout my career.</p>
+{{ with .Params.headline }}
+<p class="headline">{{ . }}</p>
+{{ end }}
+
+{{ with .Params.intro }}
+<p class="subtitle">{{ . }}</p>
+{{ end }}
+
+{{ with .Params.section_title }}
+<h3 class="section-title">{{ . }}</h3>
+{{ end }}
 
 <div class="projects-grid">
   {{ range .Params.projects }}

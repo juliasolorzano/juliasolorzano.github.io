@@ -5,6 +5,9 @@ layout: projects
 url: /projects/
 aliases:
   - /work/
+headline: "I help teams build better products — and better ways of working together."
+intro: "I'm drawn to messy, meaningful problems — the kind where design, operations, and people all need to come together. Whether it's scaling a team, launching a design system, or rethinking how millions of people interact with government services, I care most about the humans in the process."
+section_title: "Here's a look at some of the work I'm most proud of:"
 projects:
   - name: Esri
     description: "Design operations in the Creative Lab, helping teams across ArcGIS product lines — Pro, Online, Map Viewer, Instant Apps, and Indoors — build shared standards and smoother ways of working together."
@@ -28,6 +31,6 @@ projects:
     url: "https://designsystem.digital.gov"
   - name: Lightweight Django
     description: "I co-authored this O'Reilly book to show developers how to build modern web apps by pairing Django with client-side frameworks and real-time features. Still one of my proudest shipped things."
-    image: "/assets/images/projects/lightweight-django-screenshot.png"
+    image: "/assets/images/projects/lightweight-django.svg"
     url: "https://www.oreilly.com/library/view/lightweight-django/9781491946275/"
 ---
