@@ -23,10 +23,10 @@
     {{ with .progress }}
     <div class="now__progress">
       <div class="now__progress-label">
-        <span>{{ .label }}</span>
+        <span id="progress-{{ .label | urlize }}">{{ .label }}</span>
         <span>{{ .value }}%</span>
       </div>
-      <div class="now__progress-bar">
+      <div class="now__progress-bar" role="progressbar" aria-valuenow="{{ .value }}" aria-valuemin="0" aria-valuemax="100" aria-labelledby="progress-{{ .label | urlize }}">
         <div class="now__progress-fill" style="width: {{ .value }}%"></div>
       </div>
     </div>
@@ -36,10 +36,10 @@
     {{ range . }}
     <div class="now__progress">
       <div class="now__progress-label">
-        <span>{{ .label }}</span>
+        <span id="progress-{{ .label | urlize }}">{{ .label }}</span>
         <span>{{ .value }}%</span>
       </div>
-      <div class="now__progress-bar">
+      <div class="now__progress-bar" role="progressbar" aria-valuenow="{{ .value }}" aria-valuemin="0" aria-valuemax="100" aria-labelledby="progress-{{ .label | urlize }}">
         <div class="now__progress-fill" style="width: {{ .value }}%"></div>
       </div>
     </div>

@@ -53,40 +53,40 @@ $paragraph-font-size: ( null: 18px, $large: 17px, $medium: 16px, $small: 15px, $
 
 // Colors (CSS custom properties for dark mode support)
 :root {
-  --color-bg: #ECE5D3;
-  --color-text: #231F20;
-  --color-accent: #00695C;
-  --color-bg-secondary: #DED7C5;
-  --color-bg-active: #ECE5D3;
-  --color-border: #231F20;
-  --color-link: #231F20;
-  --color-link-hover: #00695C;
-  --color-overlay: #01AD99;
+  --color-bg: #f0ede2;
+  --color-text: #2d2a26;
+  --color-accent: #6b5e1e;
+  --color-bg-secondary: #e6e2d6;
+  --color-bg-active: #f0ede2;
+  --color-border: #2d2a26;
+  --color-link: #8b5a2b;
+  --color-link-hover: #b82e3c;
+  --color-overlay: #6b5e1e;
 }
 
 [data-theme="dark"] {
-  --color-bg: #1a1a2e;
-  --color-text: #e0e0e0;
-  --color-accent: #01AD99;
-  --color-bg-secondary: #16162a;
-  --color-bg-active: #252545;
-  --color-border: #444;
-  --color-link: #e0e0e0;
-  --color-link-hover: #01AD99;
-  --color-overlay: #01AD99;
+  --color-bg: #1c1b1a;
+  --color-text: #e8e4dc;
+  --color-accent: #c4b254;
+  --color-bg-secondary: #2a2826;
+  --color-bg-active: #33302d;
+  --color-border: #555;
+  --color-link: #d4a55a;
+  --color-link-hover: #e05a68;
+  --color-overlay: #c4b254;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --color-bg: #1a1a2e;
-    --color-text: #e0e0e0;
-    --color-accent: #01AD99;
-    --color-bg-secondary: #16162a;
-    --color-bg-active: #252545;
-    --color-border: #444;
-    --color-link: #e0e0e0;
-    --color-link-hover: #01AD99;
-    --color-overlay: #01AD99;
+    --color-bg: #1c1b1a;
+    --color-text: #e8e4dc;
+    --color-accent: #c4b254;
+    --color-bg-secondary: #2a2826;
+    --color-bg-active: #33302d;
+    --color-border: #555;
+    --color-link: #d4a55a;
+    --color-link-hover: #e05a68;
+    --color-overlay: #c4b254;
   }
 }
 
@@ -114,8 +114,8 @@ html {
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
-  font-family: 'Open Sans', Helvetica, sans-serif;
-  font-weight: 300;
+  font-family: 'Inter', Helvetica, sans-serif;
+  font-weight: 400;
   line-height: 1.6;
 }
 
@@ -141,7 +141,7 @@ h3 {
 h1,
 h2,
 h3 {
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: 'Lora', Georgia, serif;
   font-weight: 700;
 }
 
@@ -162,10 +162,16 @@ pre {
 
 a {
   color: var(--color-link);
-  font-weight: 300;
+  font-weight: 400;
 
   &:hover {
     color: var(--color-link-hover);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 2px;
   }
 }
 
@@ -267,7 +273,7 @@ img {
   }
 
   .sidebar__name {
-    font-family: 'Raleway', Helvetica, sans-serif;
+    font-family: 'Lora', Georgia, serif;
     font-weight: 700;
     font-size: 1rem;
     white-space: nowrap;
@@ -283,7 +289,7 @@ img {
 
 .sidebar__about {
   h4 {
-    font-family: 'Raleway', Helvetica, sans-serif;
+    font-family: 'Lora', Georgia, serif;
     font-weight: 700;
     font-size: 0.9rem;
     margin: 0 0 0.5rem 0;
@@ -325,7 +331,7 @@ img {
   }
 
   a {
-    font-family: 'Raleway', Helvetica, sans-serif;
+    font-family: 'Lora', Georgia, serif;
     font-weight: 500;
     text-decoration: none;
     color: var(--color-text);
@@ -343,7 +349,7 @@ img {
   margin-top: auto;
 
   h4 {
-    font-family: 'Raleway', Helvetica, sans-serif;
+    font-family: 'Lora', Georgia, serif;
     font-weight: 700;
     font-size: 0.9rem;
     margin: 0 0 0.5rem 0;
@@ -400,7 +406,7 @@ img {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: 'Lora', Georgia, serif;
   font-weight: 700;
   text-decoration: none;
   color: var(--color-text);
@@ -478,6 +484,13 @@ img {
   &:hover {
     opacity: 1;
   }
+
+  &:focus-visible {
+    opacity: 1;
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
 }
 
 .menu-btn__close {
@@ -514,6 +527,13 @@ img {
     opacity: 1;
   }
 
+  &:focus-visible {
+    opacity: 1;
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
   &::after {
     content: 'Theme';
     position: absolute;
@@ -522,7 +542,7 @@ img {
     transform: translateX(-50%);
     background: var(--color-text);
     color: var(--color-bg);
-    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-family: 'Inter', Helvetica, sans-serif;
     font-size: 0.65rem;
     font-weight: 400;
     padding: 0.2rem 0.5rem;
@@ -588,7 +608,7 @@ footer {
 
 .hero__heading {
   @include font-size-map($h1-font-size);
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: 'Lora', Georgia, serif;
   font-weight: 700;
   margin-bottom: 0.25em;
 }
@@ -625,7 +645,7 @@ footer {
 
 .home-section__heading {
   @include font-size-map($h2-font-size);
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: 'Lora', Georgia, serif;
   font-weight: 700;
   display: flex;
   align-items: baseline;
@@ -809,7 +829,7 @@ footer {
 }
 
 .project-card__name {
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: 'Lora', Georgia, serif;
   font-weight: 700;
   font-size: 1.1rem;
   margin: 0 0 0.5rem 0;
@@ -861,7 +881,7 @@ footer {
 }
 
 .now__heading {
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: 'Lora', Georgia, serif;
   font-weight: 700;
   font-size: 1.25rem;
   margin: 0 0 0.75rem 0;
@@ -953,7 +973,7 @@ footer {
   border-top: 1px solid var(--color-border);
 
   h3 {
-    font-family: 'Raleway', Helvetica, sans-serif;
+    font-family: 'Lora', Georgia, serif;
     font-weight: 700;
     font-size: 1.1rem;
     margin: 0 0 1rem 0;
