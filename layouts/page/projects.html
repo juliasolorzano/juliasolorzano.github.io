@@ -5,13 +5,18 @@
 
 <div class="projects-grid">
   {{ range .Params.projects }}
+  {{ with .url }}
+  <a href="{{ . }}" class="project-card project-card--link">
+  {{ else }}
   <div class="project-card">
+  {{ end }}
     <h3 class="project-card__name">{{ .name }}</h3>
     <p class="project-card__description">{{ .description }}</p>
-    {{ with .url }}
-    <a href="{{ . }}" class="project-card__link">View project &rarr;</a>
-    {{ end }}
+  {{ with .url }}
+  </a>
+  {{ else }}
   </div>
+  {{ end }}
   {{ end }}
 </div>
 {{ end }}

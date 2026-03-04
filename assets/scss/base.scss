@@ -741,7 +741,7 @@ footer {
 
 .writing-entry__meta {
   flex-shrink: 0;
-  width: 60px;
+  width: 100px;
 
   time {
     font-size: 0.85rem;
@@ -757,7 +757,9 @@ footer {
 }
 
 .writing-entry__external {
-  font-size: 0.75rem;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 4px;
   opacity: 0.5;
 }
 
@@ -798,6 +800,12 @@ footer {
   &:hover {
     transform: translateY(-2px);
   }
+}
+
+.project-card--link {
+  text-decoration: none;
+  color: var(--color-text);
+  cursor: pointer;
 }
 
 .project-card__name {
