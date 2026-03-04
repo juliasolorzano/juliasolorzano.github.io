@@ -26,4 +26,8 @@ projects:
     description: "Co-founded USWDS — a design system now used by hundreds of government websites serving millions of people. One of those rare projects where the work really matters."
     image: "/assets/images/projects/uswds.svg"
     url: "https://designsystem.digital.gov"
+  - name: Lightweight Django
+    description: "I co-authored this O'Reilly book to show developers how to build modern web apps by pairing Django with client-side frameworks and real-time features. Still one of my proudest shipped things."
+    image: "/assets/images/projects/lightweight-django.svg"
+    url: "https://www.oreilly.com/library/view/lightweight-django/9781491946275/"
 ---
