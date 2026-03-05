@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="four-oh-four">
-  <h2>404</h2>
-  <p>This page doesn't exist. It may have been moved or removed.</p>
-  <a href="/">&#8592; Back to juliasolorzano.com</a>
+  <h2>{{ i18n "not_found_title" }}</h2>
+  <p>{{ i18n "not_found_message" }}</p>
+  <a href="{{ site.Home.RelPermalink }}">&#8592; {{ i18n "back_to_home" }}</a>
 </div>
 {{ end }}

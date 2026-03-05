@@ -1,0 +1,7 @@
+{{ if .IsTranslated }}
+  {{ range .Translations }}
+  <a href="{{ .Permalink }}" class="lang-switch" lang="{{ .Lang }}" aria-label="{{ i18n "language_switch_label" }}">
+    {{ i18n "language_switch" }}
+  </a>
+  {{ end }}
+{{ end }}

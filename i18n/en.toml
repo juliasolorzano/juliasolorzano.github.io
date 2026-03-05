@@ -1,0 +1,110 @@
+# Sidebar
+[sidebar_intro]
+other = "I'm <a href=\"/about/\">Julia</a>, and this is my spot on the web for <a href=\"/writing/\">writing</a>, <a href=\"/projects/\">projects</a>, and whatever else I want to put out into the universe."
+
+[nav_about]
+other = "About Me"
+
+[nav_projects]
+other = "Projects"
+
+[nav_writing]
+other = "Writing"
+
+[nav_cv]
+other = "CV / Resume"
+
+[nav_now]
+other = "Now"
+
+[stay_connected]
+other = "Stay Connected"
+
+[toggle_dark_mode]
+other = "Toggle dark mode"
+
+[menu]
+other = "Menu"
+
+[skip_to_content]
+other = "Skip to main content"
+
+# Homepage
+[recent_posts]
+other = "Recent Posts"
+
+[view_all]
+other = "View all"
+
+[opens_new_tab]
+other = "(opens in new tab)"
+
+# Writing page
+[book]
+other = "Book"
+
+[book_description]
+other = "<a href=\"https://shop.oreilly.com/product/0636920032502.do\">Lightweight Django</a> is a technical book that aims to show readers how to leverage the <a href=\"https://www.djangoproject.com/\">Django framework</a> to work with modern web applications."
+
+# Blog post
+[min_read]
+other = "min read"
+
+[table_of_contents]
+other = "Table of Contents"
+
+# CV
+[print]
+other = "Print"
+
+[print_aria]
+other = "Print or save as PDF"
+
+[professional_experience]
+other = "Professional Experience"
+
+[special_projects]
+other = "Special Projects"
+
+[skills_expertise]
+other = "Skills & Expertise"
+
+[case_studies_publications]
+other = "Case Studies & Publications"
+
+[education]
+other = "Education"
+
+[selected_awards]
+other = "Selected Awards & Recognition"
+
+# Now page
+[now_intro]
+other = "This is a <a href=\"https://nownownow.com/about\">now page</a>. It's a place to share what I'm focused on right now."
+
+[last_updated]
+other = "Last updated:"
+
+[changelog]
+other = "Changelog"
+
+# 404
+[not_found_title]
+other = "404"
+
+[not_found_message]
+other = "This page doesn't exist. It may have been moved or removed."
+
+[back_to_home]
+other = "Back to juliasolorzano.com"
+
+# Language switcher
+[language_switch]
+other = "ES"
+
+[language_switch_label]
+other = "Ver en español"
+
+# Meta
+[meta_keywords]
+other = "Julia Solórzano, GIS, Geographic Information Systems, ArcGIS, design operations, design leader, web development, mobile development, federated identity, Login.gov, design systems, U.S. Web Design System, Django, Python, strategic leadership, people management, team building, front-end developer, Esri, geological survey"

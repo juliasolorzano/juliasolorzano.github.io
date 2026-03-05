@@ -1,0 +1,110 @@
+# Sidebar
+[sidebar_intro]
+other = "Soy <a href=\"/es/about/\">Julia</a>, y este es mi espacio en la web para <a href=\"/es/writing/\">escribir</a>, <a href=\"/es/projects/\">proyectos</a>, y lo que sea que quiera compartir con el universo."
+
+[nav_about]
+other = "Acerca de mí"
+
+[nav_projects]
+other = "Proyectos"
+
+[nav_writing]
+other = "Escritos"
+
+[nav_cv]
+other = "CV / Currículum"
+
+[nav_now]
+other = "Ahora"
+
+[stay_connected]
+other = "Mantente en contacto"
+
+[toggle_dark_mode]
+other = "Cambiar modo oscuro"
+
+[menu]
+other = "Menú"
+
+[skip_to_content]
+other = "Ir al contenido principal"
+
+# Homepage
+[recent_posts]
+other = "Publicaciones recientes"
+
+[view_all]
+other = "Ver todo"
+
+[opens_new_tab]
+other = "(se abre en una pestaña nueva)"
+
+# Writing page
+[book]
+other = "Libro"
+
+[book_description]
+other = "<a href=\"https://shop.oreilly.com/product/0636920032502.do\">Lightweight Django</a> es un libro técnico que busca mostrar a los lectores cómo aprovechar el <a href=\"https://www.djangoproject.com/\">framework Django</a> para trabajar con aplicaciones web modernas."
+
+# Blog post
+[min_read]
+other = "min de lectura"
+
+[table_of_contents]
+other = "Tabla de contenidos"
+
+# CV
+[print]
+other = "Imprimir"
+
+[print_aria]
+other = "Imprimir o guardar como PDF"
+
+[professional_experience]
+other = "Experiencia profesional"
+
+[special_projects]
+other = "Proyectos especiales"
+
+[skills_expertise]
+other = "Habilidades y experiencia"
+
+[case_studies_publications]
+other = "Casos de estudio y publicaciones"
+
+[education]
+other = "Educación"
+
+[selected_awards]
+other = "Premios y reconocimientos destacados"
+
+# Now page
+[now_intro]
+other = "Esta es una <a href=\"https://nownownow.com/about\">página de ahora</a>. Es un espacio para compartir en qué estoy enfocada en este momento."
+
+[last_updated]
+other = "Última actualización:"
+
+[changelog]
+other = "Registro de cambios"
+
+# 404
+[not_found_title]
+other = "404"
+
+[not_found_message]
+other = "Esta página no existe. Es posible que se haya movido o eliminado."
+
+[back_to_home]
+other = "Regresar a juliasolorzano.com"
+
+# Language switcher
+[language_switch]
+other = "EN"
+
+[language_switch_label]
+other = "View in English"
+
+# Meta
+[meta_keywords]
+other = "Julia Solórzano, GIS, Sistemas de Información Geográfica, ArcGIS, operaciones de diseño, líder de diseño, desarrollo web, desarrollo móvil, identidad federada, Login.gov, sistemas de diseño, U.S. Web Design System, Django, Python, liderazgo estratégico, gestión de personas, formación de equipos, desarrolladora front-end, Esri, servicio geológico"

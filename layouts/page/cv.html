@@ -3,7 +3,7 @@
   <header class="cv__header">
     <div class="cv__header-top">
       <h2 class="title">{{ .Title }}</h2>
-      <button class="cv__print-btn" onclick="window.print()" aria-label="Print or save as PDF">
+      <button class="cv__print-btn" onclick="window.print()" aria-label="{{ i18n "print_aria" }}">
         <svg class="cv__print-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 64 64" fill="none" aria-hidden="true">
           <!-- Paper coming out the top -->
           <rect x="16" y="4" width="32" height="20" rx="2" fill="var(--color-bg-secondary)" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -20,7 +20,7 @@
           <line x1="22" y1="52" x2="42" y2="52" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
           <line x1="22" y1="56" x2="34" y2="56" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
         </svg>
-        <span>Print</span>
+        <span>{{ i18n "print" }}</span>
       </button>
     </div>
     <div class="cv__print-only">
@@ -38,7 +38,7 @@
   </section>
 
   <section class="cv__section">
-    <h3 class="cv__section-title">Professional Experience</h3>
+    <h3 class="cv__section-title">{{ i18n "professional_experience" }}</h3>
     {{ range .Params.experience }}
     <div class="cv__role">
       <div class="cv__role-header">
@@ -60,7 +60,7 @@
 
   {{ with .Params.special_projects }}
   <section class="cv__section">
-    <h3 class="cv__section-title">Special Projects</h3>
+    <h3 class="cv__section-title">{{ i18n "special_projects" }}</h3>
     {{ range . }}
     <div class="cv__role">
       <div class="cv__role-header">
@@ -81,7 +81,7 @@
   {{ end }}
 
   <section class="cv__section">
-    <h3 class="cv__section-title">Skills & Expertise</h3>
+    <h3 class="cv__section-title">{{ i18n "skills_expertise" }}</h3>
     {{ range .Params.skills }}
     <div class="cv__skill-group">
       <h4 class="cv__skill-category">{{ .category }}</h4>
@@ -91,7 +91,7 @@
   </section>
 
   <section class="cv__section">
-    <h3 class="cv__section-title">Case Studies & Publications</h3>
+    <h3 class="cv__section-title">{{ i18n "case_studies_publications" }}</h3>
     {{ range .Params.publications }}
     <div class="cv__publication">
       <a href="{{ .url }}" class="cv__publication-title">{{ .title }}</a>
@@ -102,14 +102,14 @@
   </section>
 
   <section class="cv__section">
-    <h3 class="cv__section-title">Education</h3>
+    <h3 class="cv__section-title">{{ i18n "education" }}</h3>
     <div class="cv__education">
       <strong>{{ .Params.education.degree }}</strong>, {{ .Params.education.school }}
     </div>
   </section>
 
   <section class="cv__section">
-    <h3 class="cv__section-title">Selected Awards & Recognition</h3>
+    <h3 class="cv__section-title">{{ i18n "selected_awards" }}</h3>
     <div class="cv__awards">
       {{ range .Params.awards }}
       <div class="cv__award">

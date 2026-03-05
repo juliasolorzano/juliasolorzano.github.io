@@ -1,0 +1,43 @@
+# Julia Solórzano
+
+> Julia Solórzano es una líder de diseño y tecnóloga con más de 20 años de experiencia en gobierno, startups y empresas. Combina una profunda experiencia técnica en desarrollo web y móvil, GIS (Sistemas de Información Geográfica) e identidad federada con liderazgo estratégico y gestión de personas. Le apasiona ayudar a las personas a través de capacitación directa, mentoría y la construcción de software que resuelve problemas significativos.
+
+## Acerca de
+
+Julia es Especialista Senior en Operaciones de Diseño en Esri, donde establece estándares de diseño y bases operativas en los equipos de desarrollo de software de ArcGIS. Es voluntaria con el Servicio Geológico de Carolina del Norte, realizando investigación de campo en mapeo de geología del lecho rocoso que informa decisiones sobre uso de suelo, recursos hídricos e infraestructura. Cofundó el U.S. Web Design System, hizo crecer el equipo de diseño de Login.gov de 4 a 24 profesionales y es coautora de Lightweight Django (O'Reilly Media).
+
+## Áreas de experiencia
+
+- Sistemas de Información Geográfica (GIS): investigación de campo con ArcGIS, trabajo de servicio geológico, recolección de datos geoespaciales, recursos hídricos, mapeo de geología del lecho rocoso
+- Desarrollo web y móvil: Django, Python, HTML, CSS, JavaScript, arquitectura front-end, sistemas de diseño, diseño de APIs
+- Identidad federada: estrategia de plataforma Login.gov, UX de autenticación, diseño de experiencia de seguridad, internacionalización
+- Liderazgo estratégico: operaciones de diseño, escalamiento de equipos, liderazgo de equipos remotos, metodologías ágiles, gestión de partes interesadas
+- Gestión de personas: formación de equipos, mentoría, estrategia de contratación, retención, capacitación, construcción de comunidades
+- Sistemas de diseño: U.S. Web Design System (cofundadora), implementación de sistemas de diseño empresariales, Figma, bibliotecas de componentes
+- Integración de IA: herramientas de diseño asistidas por IA, capacitación en GitHub Copilot, marcos de adopción responsable de IA
+
+## Logros clave
+
+- Cofundó el U.S. Web Design System, ahora usado por cientos de organizaciones gubernamentales
+- Hizo crecer el equipo de diseño de Login.gov de 4 a 24 con tasa de retención del 100%
+- Coautora de Lightweight Django (O'Reilly Media, 2014)
+- Fundó Girl Develop It RDU, creciendo a más de 2,000 miembros
+- Premio Innovación del Año (CyberScoop, 2023)
+- Enseñó desarrollo web en Georgetown University
+
+## Trabajo actual
+
+- Especialista Senior en Operaciones de Diseño en Esri, trabajando en productos ArcGIS
+- Investigadora de campo voluntaria con el Servicio Geológico de Carolina del Norte
+- Capacita equipos en herramientas de IA incluyendo GitHub Copilot, Figma Make y Claude
+
+## Enlaces
+
+- Sitio web: https://juliasolorzano.com/es/
+- Acerca de: https://juliasolorzano.com/es/about/
+- CV: https://juliasolorzano.com/es/cv/
+- Proyectos: https://juliasolorzano.com/es/projects/
+- Escritos: https://juliasolorzano.com/es/writing/
+- LinkedIn: https://www.linkedin.com/in/juliasolorzano
+- GitHub: https://github.com/juliasolorzano
+- Email: hello@juliasolorzano.com

@@ -70,7 +70,8 @@
   "@id": "https://juliasolorzano.com/#website",
   "url": "https://juliasolorzano.com",
   "name": "Julia Solórzano",
-  "description": "Personal website of Julia Solórzano — design leader, technologist, and GIS field researcher. Writing about design operations, web development, GIS, federated identity, and leadership.",
+  "inLanguage": "{{ .Lang }}",
+  "description": "{{ site.Params.description }}",
   "author": {
     "@id": "https://juliasolorzano.com/#person"
   }
@@ -79,14 +80,15 @@
 {{ end }}
 
 {{/* ProfilePage schema — about page */}}
-{{ if eq .RelPermalink "/about/" }}
+{{ if or (eq .RelPermalink "/about/") (eq .RelPermalink "/es/about/") }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
-  "@id": "https://juliasolorzano.com/about/#profilepage",
-  "url": "https://juliasolorzano.com/about/",
-  "name": "About Julia Solórzano",
+  "@id": "{{ .Permalink }}#profilepage",
+  "url": "{{ .Permalink }}",
+  "name": "{{ .Title }}",
+  "inLanguage": "{{ .Lang }}",
   "mainEntity": {
     "@id": "https://juliasolorzano.com/#person"
   }
@@ -103,6 +105,7 @@
   "@id": "{{ .Permalink }}#article",
   "headline": "{{ .Title }}",
   "url": "{{ .Permalink }}",
+  "inLanguage": "{{ .Lang }}",
   "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
   "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
   "wordCount": {{ .WordCount }},

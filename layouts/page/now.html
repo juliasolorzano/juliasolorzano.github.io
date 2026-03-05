@@ -1,8 +1,8 @@
 {{ define "main" }}
 <div class="now">
   <h2 class="title">{{ .Title }}</h2>
-  <p class="now__intro">This is a <a href="https://nownownow.com/about">now page</a>. It's a place to share what I'm focused on right now.</p>
-  <p class="now__updated">Last updated: {{ .Params.last_updated }}</p>
+  <p class="now__intro">{{ i18n "now_intro" | safeHTML }}</p>
+  <p class="now__updated">{{ i18n "last_updated" }} {{ .Params.last_updated }}</p>
 
   {{ range .Params.sections }}
   <section class="now__section">
@@ -50,7 +50,7 @@
 
   {{ with .Params.changelog }}
   <section class="now__changelog">
-    <h3>Changelog</h3>
+    <h3>{{ i18n "changelog" }}</h3>
     {{ range . }}
     <div class="now__changelog-entry">
       <time>{{ .date }}</time>

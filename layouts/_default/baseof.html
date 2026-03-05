@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ .Lang }}">
 <!--
     ___       ___       ___       ___       ___
    /\__\     /\  \     /\__\     /\__\     /\  \
@@ -33,7 +33,7 @@ Supports dark mode!
   <body>
 
     <div id="overlay"></div>
-    <a class="skipnav" href="#content">Skip to main content</a>
+    <a class="skipnav" href="#content">{{ i18n "skip_to_content" }}</a>
     <div class="site-wrapper">
       {{ partial "sidebar.html" . }}
       <div class="content-wrapper">

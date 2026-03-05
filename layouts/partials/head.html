@@ -16,14 +16,21 @@
   {{/* Canonical URL */}}
   <link rel="canonical" href="{{ .Permalink }}">
 
+  {{/* hreflang tags for multilingual SEO */}}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  {{ range .Translations }}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+  <link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+
   {{/* Meta description — page-specific summary/description, or site default */}}
   {{ $description := site.Params.description }}
   {{ with .Params.summary }}{{ $description = . }}{{ end }}
   {{ with .Params.description }}{{ $description = . }}{{ end }}
   <meta name="description" content="{{ $description }}">
 
-  {{/* Meta keywords — GIS and technical leadership emphasized */}}
-  <meta name="keywords" content="Julia Solórzano, GIS, Geographic Information Systems, ArcGIS, design operations, design leader, web development, mobile development, federated identity, Login.gov, design systems, U.S. Web Design System, Django, Python, strategic leadership, people management, team building, front-end developer, Esri, geological survey">
+  {{/* Meta keywords — i18n aware */}}
+  <meta name="keywords" content="{{ i18n "meta_keywords" }}">
   <meta name="author" content="Julia Solórzano">
 
   {{/* Favicon and touch icons */}}

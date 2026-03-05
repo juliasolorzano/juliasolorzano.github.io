@@ -1,0 +1,74 @@
+# Julia Solórzano — Perfil completo
+
+> Julia Solórzano es una líder de diseño y tecnóloga con más de 20 años de experiencia formando equipos, lanzando productos y resolviendo problemas significativos en gobierno, startups y empresas. Se especializa en GIS (Sistemas de Información Geográfica), desarrollo web y móvil, identidad federada, sistemas de diseño y liderazgo estratégico de personas. Le apasiona ayudar a las personas a través de capacitación directa, mentoría y la construcción de software.
+
+## Trayectoria profesional
+
+Julia es actualmente Especialista Senior en Operaciones de Diseño en Esri, donde establece estándares de diseño y bases operativas en los equipos de desarrollo de software de ArcGIS. Se enfoca en herramientas e intercambio de información para aumentar la eficiencia y consistencia en las experiencias de usuario del ecosistema ArcGIS. Impulsa la adopción de herramientas de IA, incluyendo capacitaciones de GitHub Copilot para que los diseñadores puedan contribuir directamente a los repositorios de código.
+
+Anteriormente, fue Gerente de Programa de TI para Estándares Web Federales en la Administración de Servicios Generales, colaborando directamente con la Oficina de Administración y Presupuesto (OMB) para desarrollar estándares web federales bajo la Ley de Experiencia Digital Integrada del Siglo XXI (21st Century IDEA).
+
+En Login.gov (GSA), como Especialista Supervisora en Tecnología de la Información, lideró la estrategia de experiencia de usuario de principio a fin para una plataforma que sirve a millones de usuarios en más de 300 aplicaciones. Escaló la organización de diseño de 4 a 24 profesionales manteniendo una retención del 100%, lideró la internacionalización de la plataforma hacia 3 nuevos mercados y estableció marcos de operaciones de diseño que soportan 5 equipos de producto multifuncionales.
+
+En Ad Hoc, fue Diseñadora UX Senior impulsando la estrategia de UX para la Plataforma API del Departamento de Asuntos de Veteranos, estableciendo prácticas de diseño centrado en el ser humano para el desarrollo de APIs.
+
+En Zapier, como Gerente del Equipo de Diseño, gestionó el diseño de producto e investigación de usuarios, escalando el equipo de diseño un 150% en 3 meses e implementando el primer sistema de diseño de la empresa.
+
+Cofundó el U.S. Web Design System en la Administración de Servicios Generales (18F), ahora utilizado por cientos de organizaciones gubernamentales que sirven a millones de usuarios a nivel global.
+
+## GIS e investigación de campo
+
+Julia es voluntaria con el Servicio Geológico de Carolina del Norte, acompañando a geólogos en campo para mapear la geología del lecho rocoso del estado. Este trabajo informa decisiones sobre uso de suelo, recursos hídricos e infraestructura en toda Carolina del Norte. Ha realizado investigación de campo evaluando la experiencia de usuario de ArcGIS en condiciones reales y proporcionó retroalimentación directa de UX que mejoró los patrones de interfaz para uso en campo. Ha adquirido conocimiento de primera mano sobre las necesidades de optimización de flujos de trabajo GIS a través de la recolección de datos geoespaciales en campo.
+
+## Publicaciones
+
+- "Approaching language translations to provide a better user experience" (Digital.gov, diciembre 2024) — Un caso de estudio sobre operaciones de diseño para incorporar soporte multilingüe en Login.gov.
+- "Security is Everyone's Responsibility: Delivering Secure, Usable Login for Government" (Digital.gov, marzo 2021) — Cómo Login.gov incorpora diseño centrado en el ser humano y descubrimiento continuo en su proceso de desarrollo de producto.
+- "Remote Work for Design Teams" (Blog de Zapier, 2020) — Creando una fuerza laboral remota eficiente y colaborativa y una cultura en Zapier.
+- "Lightweight Django" (O'Reilly Media, 2014) — Libro coescrito que muestra a los desarrolladores cómo construir aplicaciones web modernas combinando Django con frameworks del lado del cliente y funciones en tiempo real.
+
+## Conferencias
+
+- DjangoCon 2023 Keynote: "Django the Dinosaur: A Story About A Web Framework"
+- Digital Service Series 2021: "Plugging in the User Needs For Improved Experiences"
+- API Days París 2019: "Designing APIs for Humans: Leveraging UX Methods to Develop Human-Centered APIs"
+- Talk Python Podcast (2016)
+- Ela Conf 2016: "WERK MAMA: A tale from one working mama in the tech industry"
+- Responsive Web Design Podcast (2015)
+- Frontporch.io, BlendConf, Midwest.io, PyCon, OSCON y otros (2012–2014)
+
+## Premios
+
+- Innovación del Año, CyberScoop (2023)
+- Premio al Servicio Ciudadano (2021)
+- Premio de Innovación FedHealth IT (2018)
+- Premio de Diseño Interactivo AIGA Kansas City (2007)
+
+## Habilidades
+
+- Diseño: Sistemas y Operaciones de Diseño, Estrategia de Investigación de Usuarios, Diseño de Servicios, Design Thinking, Accesibilidad e Inclusión, Diseño de Interacción Humano-IA, Figma, Sketch, Adobe Creative Suite
+- Desarrollo: HTML, CSS, JavaScript, Python, Django, Arquitectura Front-End, Diseño de APIs, Arquitectura de Información, Prototipado y Diseño de Interacción
+- GIS: ecosistema ArcGIS, recolección de datos geoespaciales en campo, mapeo geológico, investigación de recursos hídricos, mapeo de geología del lecho rocoso
+- IA: GitHub Copilot, Figma Make, Claude, Copilot 365, Estrategia y Gobernanza de IA, Marcos de Adopción Responsable de IA
+- Liderazgo: Formación de Equipos y Mentoría, Planificación Estratégica, Administración de Presupuesto, Metodologías Ágiles y Lean, Gestión de Partes Interesadas, Liderazgo de Equipos Remotos
+
+## Educación
+
+Licenciatura en Bellas Artes, Universidad de Kansas
+
+## Comunidad
+
+- Fundó Girl Develop It RDU, haciéndolo crecer a más de 2,000 miembros
+- Enseñó desarrollo web en Georgetown University
+- Asesoró a más de 10 profesionales en tecnologías avanzadas de diseño y desarrollo
+
+## Contacto
+
+- Sitio web: https://juliasolorzano.com/es/
+- Acerca de: https://juliasolorzano.com/es/about/
+- CV: https://juliasolorzano.com/es/cv/
+- Proyectos: https://juliasolorzano.com/es/projects/
+- Escritos: https://juliasolorzano.com/es/writing/
+- LinkedIn: https://www.linkedin.com/in/juliasolorzano
+- GitHub: https://github.com/juliasolorzano
+- Email: hello@juliasolorzano.com

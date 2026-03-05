@@ -4,15 +4,15 @@
     <h2>{{ .Title }}</h2>
     <div class="post__meta">
       <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-        {{ .Date.Format "January 2, 2006" }}
+        {{ time.Format ":date_long" .Date }}
       </time>
-      <span class="post__reading-time">{{ math.Round (div (countwords .Content) 200.0) }} min read</span>
+      <span class="post__reading-time">{{ math.Round (div (countwords .Content) 200.0) }} {{ i18n "min_read" }}</span>
     </div>
   </header>
 
   {{ if and (.Params.toc | default false) (gt (len .TableOfContents) 100) }}
-  <nav class="post__toc" aria-label="Table of Contents">
-    <h3>Table of Contents</h3>
+  <nav class="post__toc" aria-label="{{ i18n "table_of_contents" }}">
+    <h3>{{ i18n "table_of_contents" }}</h3>
     {{ .TableOfContents }}
   </nav>
   {{ end }}
