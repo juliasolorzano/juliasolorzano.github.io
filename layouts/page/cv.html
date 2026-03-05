@@ -1,0 +1,122 @@
+{{ define "main" }}
+<div class="cv">
+  <header class="cv__header">
+    <div class="cv__header-top">
+      <h2 class="title">{{ .Title }}</h2>
+      <button class="cv__print-btn" onclick="window.print()" aria-label="Print or save as PDF">
+        <svg class="cv__print-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <!-- Paper coming out the top -->
+          <rect x="16" y="4" width="32" height="20" rx="2" fill="var(--color-bg-secondary)" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- Text lines on paper -->
+          <line x1="22" y1="10" x2="42" y2="10" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+          <line x1="22" y1="16" x2="36" y2="16" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+          <!-- Printer body -->
+          <rect x="8" y="22" width="48" height="24" rx="6" fill="var(--color-bg-secondary)" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- Power button -->
+          <circle cx="48" cy="34" r="3" fill="currentColor" opacity="0.3"/>
+          <!-- Paper tray -->
+          <path d="M16 46 L16 56 Q16 60 20 60 L44 60 Q48 60 48 56 L48 46" fill="var(--color-bg-secondary)" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <!-- Tray text lines -->
+          <line x1="22" y1="52" x2="42" y2="52" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+          <line x1="22" y1="56" x2="34" y2="56" stroke="currentColor" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+        </svg>
+        <span>Print</span>
+      </button>
+    </div>
+    <div class="cv__print-only">
+      <h2 class="cv__name">Julia Solórzano</h2>
+      <div class="cv__contact">
+        <span>{{ .Params.contact_email }}</span>
+        <span class="cv__contact-sep" aria-hidden="true">|</span>
+        <span>{{ .Params.linkedin }}</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="cv__summary">
+    <p>{{ .Params.summary }}</p>
+  </section>
+
+  <section class="cv__section">
+    <h3 class="cv__section-title">Professional Experience</h3>
+    {{ range .Params.experience }}
+    <div class="cv__role">
+      <div class="cv__role-header">
+        <h4 class="cv__role-title">{{ .title }}</h4>
+        <span class="cv__role-dates">{{ .dates }}</span>
+      </div>
+      <div class="cv__role-org">{{ .organization }}</div>
+      <p class="cv__role-description">{{ .description }}</p>
+      {{ with .bullets }}
+      <ul class="cv__role-bullets">
+        {{ range . }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+    {{ end }}
+  </section>
+
+  {{ with .Params.special_projects }}
+  <section class="cv__section">
+    <h3 class="cv__section-title">Special Projects</h3>
+    {{ range . }}
+    <div class="cv__role">
+      <div class="cv__role-header">
+        <h4 class="cv__role-title">{{ .title }}</h4>
+        <span class="cv__role-dates">{{ .dates }}</span>
+      </div>
+      <div class="cv__role-org">{{ .organization }}</div>
+      {{ with .bullets }}
+      <ul class="cv__role-bullets">
+        {{ range . }}
+        <li>{{ . }}</li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+    {{ end }}
+  </section>
+  {{ end }}
+
+  <section class="cv__section">
+    <h3 class="cv__section-title">Skills & Expertise</h3>
+    {{ range .Params.skills }}
+    <div class="cv__skill-group">
+      <h4 class="cv__skill-category">{{ .category }}</h4>
+      <p class="cv__skill-items">{{ .items }}</p>
+    </div>
+    {{ end }}
+  </section>
+
+  <section class="cv__section">
+    <h3 class="cv__section-title">Case Studies & Publications</h3>
+    {{ range .Params.publications }}
+    <div class="cv__publication">
+      <a href="{{ .url }}" class="cv__publication-title">{{ .title }}</a>
+      <span class="cv__publication-meta">{{ .source }}, {{ .date }}</span>
+      <p class="cv__publication-description">{{ .description }}</p>
+    </div>
+    {{ end }}
+  </section>
+
+  <section class="cv__section">
+    <h3 class="cv__section-title">Education</h3>
+    <div class="cv__education">
+      <strong>{{ .Params.education.degree }}</strong>, {{ .Params.education.school }}
+    </div>
+  </section>
+
+  <section class="cv__section">
+    <h3 class="cv__section-title">Selected Awards & Recognition</h3>
+    <div class="cv__awards">
+      {{ range .Params.awards }}
+      <div class="cv__award">
+        <strong>{{ .title }}</strong>{{ with .source }}, {{ . }}{{ end }} ({{ .year }})
+      </div>
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}

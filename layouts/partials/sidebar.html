@@ -35,8 +35,8 @@
         <li{{ if eq $section "projects" }} class="active"{{ end }}>
           <a href="/projects/">Projects</a>
         </li>
-        <li>
-          <a href="https://docs.google.com/document/d/1qf6PDBRS8STxeKlzEu8LtncPis1WLH6tEAjTLI4-s_o/edit">CV</a>
+        <li{{ if eq $section "cv" }} class="active"{{ end }}>
+          <a href="/cv/">CV / Resume</a>
         </li>
       </ul>
     </nav>
