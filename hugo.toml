@@ -3,7 +3,8 @@ languageCode = "en-us"
 title = "Julia Solórzano"
 
 [params]
-  description = "Julia Solórzano is a technology leader passionate about creating seamless digital experiences and building high-performing teams."
+  description = "Julia Solórzano is a design leader and technologist specializing in GIS, web and mobile development, federated identity, and strategic leadership. With 20+ years in tech, she builds high-performing teams and helps people create seamless digital experiences."
+  author = "Julia Solórzano"
 
 [permalinks]
   posts = "/blog/:year/:month/:day/:slug/"
@@ -23,6 +24,11 @@ title = "Julia Solórzano"
   baseName = "feed"
 
 [taxonomies]
+
+[sitemap]
+  changeFreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [outputs]
   home = ["HTML", "RSS"]

@@ -2,6 +2,7 @@
 title: About Me
 type: page
 url: /about/
+description: "Julia Solórzano is a design operations specialist and technologist based in North Carolina. With expertise in GIS, federated identity, web development, and design systems, she has led teams at Esri, Login.gov, Zapier, and the U.S. Digital Service."
 aliases:
   - /speaking/
 ---

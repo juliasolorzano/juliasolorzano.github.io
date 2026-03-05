@@ -1,0 +1,74 @@
+# Julia Solórzano — Full Profile
+
+> Julia Solórzano is a design leader and technologist with over 20 years of experience building teams, shipping products, and solving meaningful problems across government, startups, and enterprise. She specializes in GIS (Geographic Information Systems), web and mobile development, federated identity, design systems, and strategic people leadership. She is passionate about helping people through direct training, mentoring, and building software.
+
+## Professional Background
+
+Julia is currently a Senior Design Operations Specialist at Esri, where she establishes design standards and operational foundations across ArcGIS software development teams. She focuses on tools and information exchange to increase efficiency and consistency in user experiences across the ArcGIS ecosystem. She champions AI tooling adoption, including leading GitHub Copilot trainings so designers can contribute directly to codebases.
+
+Previously, she served as IT Program Manager for Federal Web Standards at the General Services Administration, partnering directly with the Office of Management and Budget (OMB) to develop federal web standards under the 21st Century Integrated Digital Experience Act (21st Century IDEA).
+
+At Login.gov (GSA), as Supervisory Information Technology Specialist, she led end-to-end user experience strategy for a platform serving millions of users across 300+ applications. She scaled the design organization from 4 to 24 practitioners while maintaining 100% retention, led platform internationalization into 3 new markets, and established design operations frameworks supporting 5 cross-functional product teams.
+
+At Ad Hoc, she was a Senior UX Designer driving UX strategy for the Department of Veterans Affairs API Platform, establishing human-centered design practices for API development.
+
+At Zapier, as Design Team Manager, she managed product design and user research, scaling the design team by 150% in 3 months and implementing the company's first design system.
+
+She co-founded the U.S. Web Design System at the General Services Administration (18F), now used by hundreds of government organizations serving millions of users globally.
+
+## GIS and Field Research
+
+Julia volunteers with the North Carolina Geological Survey, joining geologists in the field to map the state's bedrock geology. This work informs decisions about land use, water resources, and infrastructure across North Carolina. She has conducted field research evaluating ArcGIS user experience in real-world conditions and provided direct UX feedback that improved field-usage interface patterns. She has gained firsthand insight into GIS workflow optimization needs through hands-on geospatial data collection.
+
+## Publications
+
+- "Approaching language translations to provide a better user experience" (Digital.gov, December 2024) — A case study on design operations for incorporating multilingual support for Login.gov.
+- "Security is Everyone's Responsibility: Delivering Secure, Usable Login for Government" (Digital.gov, March 2021) — How Login.gov incorporates human centered design and continuous discovery into their product development process.
+- "Remote Work for Design Teams" (Zapier Blog, 2020) — Creating an efficient and collaborative remote workforce and culture at Zapier.
+- "Lightweight Django" (O'Reilly Media, 2014) — Co-authored book showing developers how to build modern web apps by combining Django with client-side frameworks and real-time features.
+
+## Speaking
+
+- DjangoCon 2023 Keynote: "Django the Dinosaur: A Story About A Web Framework"
+- Digital Service Series 2021: "Plugging in the User Needs For Improved Experiences"
+- API Days Paris 2019: "Designing APIs for Humans: Leveraging UX Methods to Develop Human-Centered APIs"
+- Talk Python Podcast (2016)
+- Ela Conf 2016: "WERK MAMA: A tale from one working mama in the tech industry"
+- Responsive Web Design Podcast (2015)
+- Frontporch.io, BlendConf, Midwest.io, PyCon, OSCON, and others (2012–2014)
+
+## Awards
+
+- Innovation of the Year, CyberScoop (2023)
+- Service to the Citizens Award (2021)
+- FedHealth IT Innovation Award (2018)
+- AIGA Kansas City Interactive Design Award (2007)
+
+## Skills
+
+- Design: Design Systems & Operations, User Research Strategy, Service Design, Design Thinking, Accessibility & Inclusion, Human-AI Interaction Design, Figma, Sketch, Adobe Creative Suite
+- Development: HTML, CSS, JavaScript, Python, Django, Front-End Architecture, API Design, Information Architecture, Prototyping & Interaction Design
+- GIS: ArcGIS ecosystem, geospatial field data collection, geological mapping, water resources research, bedrock geology mapping
+- AI: GitHub Copilot, Figma Make, Claude, Copilot 365, AI Strategy & Governance, Responsible AI Adoption Frameworks
+- Leadership: Team Building & Mentorship, Strategic Planning, Budget Management, Agile & Lean Methodologies, Stakeholder Management, Remote Team Leadership
+
+## Education
+
+Bachelor of Fine Arts, University of Kansas
+
+## Community
+
+- Founded Girl Develop It RDU, growing it to over 2,000 members
+- Taught web development at Georgetown University
+- Mentored 10+ practitioners in advanced design and development technologies
+
+## Contact
+
+- Website: https://juliasolorzano.com
+- About: https://juliasolorzano.com/about/
+- CV: https://juliasolorzano.com/cv/
+- Projects: https://juliasolorzano.com/projects/
+- Writing: https://juliasolorzano.com/writing/
+- LinkedIn: https://www.linkedin.com/in/juliasolorzano
+- GitHub: https://github.com/juliasolorzano
+- Email: hello@juliasolorzano.com

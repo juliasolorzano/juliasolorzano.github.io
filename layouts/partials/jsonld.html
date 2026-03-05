@@ -1,0 +1,121 @@
+{{/* Person schema — included on every page for AI entity recognition */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://juliasolorzano.com/#person",
+  "name": "Julia Solórzano",
+  "alternateName": "Julia Solorzano",
+  "url": "https://juliasolorzano.com",
+  "image": "https://juliasolorzano.com/assets/images/touch_icon.png",
+  "email": "mailto:hello@juliasolorzano.com",
+  "jobTitle": "Senior Design Operations Specialist",
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Esri",
+    "url": "https://www.esri.com"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of Kansas"
+  },
+  "knowsAbout": [
+    "Geographic Information Systems",
+    "GIS",
+    "ArcGIS",
+    "Geospatial Data",
+    "Geological Survey",
+    "Water Resources",
+    "Bedrock Geology Mapping",
+    "Web Development",
+    "Mobile Development",
+    "Django",
+    "Python",
+    "JavaScript",
+    "CSS",
+    "HTML",
+    "Front-End Development",
+    "Federated Identity",
+    "Authentication",
+    "Login.gov",
+    "Design Systems",
+    "U.S. Web Design System",
+    "Design Operations",
+    "User Experience Design",
+    "User Research",
+    "Service Design",
+    "Accessibility",
+    "Strategic Leadership",
+    "People Management",
+    "Team Building",
+    "Mentorship",
+    "Remote Team Leadership",
+    "AI-Assisted Design",
+    "API Design"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/juliasolorzano",
+    "https://github.com/juliasolorzano"
+  ],
+  "description": "Design leader and technologist with 20+ years of experience specializing in GIS, web and mobile development, federated identity, design systems, and strategic leadership. Passionate about helping people through training, mentoring, and building meaningful software."
+}
+</script>
+
+{{/* WebSite schema — homepage only */}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "@id": "https://juliasolorzano.com/#website",
+  "url": "https://juliasolorzano.com",
+  "name": "Julia Solórzano",
+  "description": "Personal website of Julia Solórzano — design leader, technologist, and GIS field researcher. Writing about design operations, web development, GIS, federated identity, and leadership.",
+  "author": {
+    "@id": "https://juliasolorzano.com/#person"
+  }
+}
+</script>
+{{ end }}
+
+{{/* ProfilePage schema — about page */}}
+{{ if eq .RelPermalink "/about/" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://juliasolorzano.com/about/#profilepage",
+  "url": "https://juliasolorzano.com/about/",
+  "name": "About Julia Solórzano",
+  "mainEntity": {
+    "@id": "https://juliasolorzano.com/#person"
+  }
+}
+</script>
+{{ end }}
+
+{{/* BlogPosting schema — blog posts only */}}
+{{ if and (eq .Section "posts") (not .Params.external_url) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "@id": "{{ .Permalink }}#article",
+  "headline": "{{ .Title }}",
+  "url": "{{ .Permalink }}",
+  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "wordCount": {{ .WordCount }},
+  "author": {
+    "@id": "https://juliasolorzano.com/#person"
+  },
+  "publisher": {
+    "@id": "https://juliasolorzano.com/#person"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ .Permalink }}"
+  }
+}
+</script>
+{{ end }}

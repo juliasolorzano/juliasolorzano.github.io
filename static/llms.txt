@@ -1,0 +1,43 @@
+# Julia Solórzano
+
+> Julia Solórzano is a design leader and technologist with over 20 years of experience across government, startups, and enterprise. She combines deep technical expertise in web and mobile development, GIS (Geographic Information Systems), and federated identity with strategic leadership and people management. She is passionate about helping people through direct training, mentoring, and building software that solves meaningful problems.
+
+## About
+
+Julia is a Senior Design Operations Specialist at Esri, where she establishes design standards and operational foundations across ArcGIS software development teams. She volunteers with the North Carolina Geological Survey, conducting field research in bedrock geology mapping that informs land use, water resources, and infrastructure decisions. She co-founded the U.S. Web Design System, grew Login.gov's design team from 4 to 24 practitioners, and co-authored Lightweight Django (O'Reilly Media).
+
+## Areas of Expertise
+
+- Geographic Information Systems (GIS): ArcGIS field research, geological survey work, geospatial data collection, water resources, bedrock geology mapping
+- Web and Mobile Development: Django, Python, HTML, CSS, JavaScript, front-end architecture, design systems, API design
+- Federated Identity: Login.gov platform strategy, authentication UX, security experience design, internationalization
+- Strategic Leadership: Design operations, scaling teams, remote team leadership, agile methodologies, stakeholder management
+- People Management: Team building, mentorship, hiring strategy, retention, training, community building
+- Design Systems: U.S. Web Design System (co-founder), enterprise design system implementation, Figma, component libraries
+- AI Integration: AI-assisted design tooling, GitHub Copilot training, responsible AI adoption frameworks
+
+## Key Accomplishments
+
+- Co-founded the U.S. Web Design System, now used by hundreds of government organizations
+- Grew Login.gov design team from 4 to 24 with 100% retention rate
+- Co-authored Lightweight Django (O'Reilly Media, 2014)
+- Founded Girl Develop It RDU, growing to 2,000+ members
+- Innovation of the Year Award (CyberScoop, 2023)
+- Taught web development at Georgetown University
+
+## Current Work
+
+- Senior Design Operations Specialist at Esri, working across ArcGIS products
+- Volunteer field researcher with the North Carolina Geological Survey
+- Training teams on AI tooling including GitHub Copilot, Figma Make, and Claude
+
+## Links
+
+- Website: https://juliasolorzano.com
+- About: https://juliasolorzano.com/about/
+- CV: https://juliasolorzano.com/cv/
+- Projects: https://juliasolorzano.com/projects/
+- Writing: https://juliasolorzano.com/writing/
+- LinkedIn: https://www.linkedin.com/in/juliasolorzano
+- GitHub: https://github.com/juliasolorzano
+- Email: hello@juliasolorzano.com
