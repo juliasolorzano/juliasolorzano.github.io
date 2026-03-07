@@ -32,7 +32,7 @@ Supports dark mode!
   {{ partial "head.html" . }}
   <body>
 
-    <div id="overlay"></div>
+    <div id="overlay" aria-hidden="true"></div>
     <a class="skipnav" href="#content">{{ i18n "skip_to_content" }}</a>
     <div class="site-wrapper">
       {{ partial "sidebar.html" . }}

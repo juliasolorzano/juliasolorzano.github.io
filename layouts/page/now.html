@@ -1,15 +1,16 @@
 {{ define "main" }}
 <div class="now">
-  <h2 class="title">{{ .Title }}</h2>
+  <h1 class="title">{{ .Title }}</h1>
   <p class="now__intro">{{ i18n "now_intro" | safeHTML }}</p>
   <p class="now__updated">{{ i18n "last_updated" }} {{ .Params.last_updated }}</p>
 
   {{ range .Params.sections }}
+  {{ $sectionTitle := .title }}
   <section class="now__section">
-    <h3 class="now__heading"><span class="now__emoji">{{ .emoji }}</span> {{ .title }}</h3>
+    <h2 class="now__heading"><span class="now__emoji" aria-hidden="true">{{ .emoji }}</span> {{ .title }}</h2>
 
     {{ with .image }}
-    <img class="now__image" src="{{ . }}" alt="{{ .title }}">
+    <img class="now__image" src="{{ . }}" alt="{{ $sectionTitle }}">
     {{ end }}
 
     {{ with .image_placeholder }}
@@ -53,7 +54,7 @@
     <h3>{{ i18n "changelog" }}</h3>
     {{ range . }}
     <div class="now__changelog-entry">
-      <time>{{ .date }}</time>
+      <time datetime="{{ .date }}">{{ .date }}</time>
       <span>{{ .note }}</span>
     </div>
     {{ end }}

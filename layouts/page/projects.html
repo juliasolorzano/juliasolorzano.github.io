@@ -1,5 +1,5 @@
 {{ define "main" }}
-<h2 class="title">{{ .Title }}</h2>
+<h1 class="title">{{ .Title }}</h1>
 
 {{ with .Params.headline }}
 <p class="headline">{{ . }}</p>
@@ -10,7 +10,7 @@
 {{ end }}
 
 {{ with .Params.section_title }}
-<h3 class="section-title">{{ . }}</h3>
+<h2 class="section-title">{{ . }}</h2>
 {{ end }}
 
 <div class="projects-grid">

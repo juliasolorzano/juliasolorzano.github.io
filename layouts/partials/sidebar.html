@@ -29,22 +29,22 @@
         {{ $section = index $segments 2 }}
       {{ end }}
     {{ end }}
-    <nav role="navigation" aria-label="Main Navigation" class="sidebar__nav">
+    <nav aria-label="Main Navigation" class="sidebar__nav">
       <ul>
         <li{{ if eq $section "about" }} class="active"{{ end }}>
-          <a href="{{ "about/" | relLangURL }}">{{ i18n "nav_about" }}</a>
+          <a href="{{ "about/" | relLangURL }}"{{ if eq $section "about" }} aria-current="page"{{ end }}>{{ i18n "nav_about" }}</a>
         </li>
         <li{{ if eq $section "projects" }} class="active"{{ end }}>
-          <a href="{{ "projects/" | relLangURL }}">{{ i18n "nav_projects" }}</a>
+          <a href="{{ "projects/" | relLangURL }}"{{ if eq $section "projects" }} aria-current="page"{{ end }}>{{ i18n "nav_projects" }}</a>
         </li>
         <li{{ if or (eq $section "writing") (eq $section "blog") }} class="active"{{ end }}>
-          <a href="{{ "writing/" | relLangURL }}">{{ i18n "nav_writing" }}</a>
+          <a href="{{ "writing/" | relLangURL }}"{{ if or (eq $section "writing") (eq $section "blog") }} aria-current="page"{{ end }}>{{ i18n "nav_writing" }}</a>
         </li>
         <li{{ if eq $section "cv" }} class="active"{{ end }}>
-          <a href="{{ "cv/" | relLangURL }}">{{ i18n "nav_cv" }}</a>
+          <a href="{{ "cv/" | relLangURL }}"{{ if eq $section "cv" }} aria-current="page"{{ end }}>{{ i18n "nav_cv" }}</a>
         </li>
         <li{{ if eq $section "now" }} class="active"{{ end }}>
-          <a href="{{ "now/" | relLangURL }}">{{ i18n "nav_now" }}</a>
+          <a href="{{ "now/" | relLangURL }}"{{ if eq $section "now" }} aria-current="page"{{ end }}>{{ i18n "nav_now" }}</a>
         </li>
       </ul>
     </nav>

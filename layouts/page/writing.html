@@ -1,7 +1,7 @@
 {{ define "main" }}
-<h2 class="title">{{ .Title }}</h2>
+<h1 class="title">{{ .Title }}</h1>
 
-<h3>{{ i18n "book" }}</h3>
+<h2>{{ i18n "book" }}</h2>
 
 <p>{{ i18n "book_description" | safeHTML }}</p>
 
@@ -9,7 +9,7 @@
 {{ range where site.RegularPages "Section" "posts" }}
   {{ $year := .Date.Format "2006" }}
   {{ if ne $year $prev_year }}
-<h3>{{ $year }}</h3>
+<h2>{{ $year }}</h2>
     {{ $prev_year = $year }}
   {{ end }}
 <article class="writing-entry">

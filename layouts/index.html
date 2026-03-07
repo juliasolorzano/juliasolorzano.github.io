@@ -7,10 +7,10 @@
 </div>
 
 <section class="home-section">
-  <h2 class="home-section__heading">
-    {{ i18n "recent_posts" }}
+  <div class="home-section__header">
+    <h2 class="home-section__heading">{{ i18n "recent_posts" }}</h2>
     <a href="{{ "writing/" | relLangURL }}" class="home-section__link">{{ i18n "view_all" }} &rarr;</a>
-  </h2>
+  </div>
   {{ range first 5 (where site.RegularPages "Section" "posts") }}
   <article class="writing-entry">
     <div class="writing-entry__meta">
@@ -29,10 +29,10 @@
 </section>
 
 <section class="home-section">
-  <h2 class="home-section__heading">
-    {{ i18n "nav_projects" }}
+  <div class="home-section__header">
+    <h2 class="home-section__heading">{{ i18n "nav_projects" }}</h2>
     <a href="{{ "projects/" | relLangURL }}" class="home-section__link">{{ i18n "view_all" }} &rarr;</a>
-  </h2>
+  </div>
   {{ $projects := site.GetPage "/projects" }}
   {{ with $projects }}
   <div class="projects-grid projects-grid--home">

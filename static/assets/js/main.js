@@ -36,6 +36,8 @@ navMenu = function () {
     if (sidebar) sidebar.classList.remove('sidebar--visible');
     if (overlay) overlay.classList.remove('overlay--visible');
     if (menuBtn) menuBtn.setAttribute('aria-expanded', 'false');
+    document.removeEventListener('keydown', app.trapFocus);
+    if (menuBtn) menuBtn.focus();
   };
 
   this.show = function () {
@@ -43,6 +45,32 @@ navMenu = function () {
     if (sidebar) sidebar.classList.add('sidebar--visible');
     if (overlay) overlay.classList.add('overlay--visible');
     if (menuBtn) menuBtn.setAttribute('aria-expanded', 'true');
+    document.addEventListener('keydown', app.trapFocus);
+    // Focus the first link in sidebar
+    var firstLink = sidebar && sidebar.querySelector('a');
+    if (firstLink) firstLink.focus();
+  };
+
+  this.trapFocus = function (e) {
+    if (e.key === 'Escape') {
+      app.hide();
+      return;
+    }
+    if (e.key !== 'Tab') return;
+
+    var focusable = sidebar.querySelectorAll('a, button, [tabindex]:not([tabindex="-1"])');
+    // Include the menu button (outside sidebar) in the focus loop
+    var allFocusable = [menuBtn].concat(Array.prototype.slice.call(focusable));
+    var first = allFocusable[0];
+    var last = allFocusable[allFocusable.length - 1];
+
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
   };
 
   this.init();
