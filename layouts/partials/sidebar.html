@@ -15,12 +15,6 @@
 
     <hr class="sidebar__divider">
 
-    <div class="sidebar__about">
-      <p>{{ i18n "sidebar_intro" | safeHTML }}</p>
-    </div>
-
-    <hr class="sidebar__divider">
-
     {{ $path := .RelPermalink | lower }}
     {{ $segments := split $path "/" }}
     {{ $section := index $segments 1 }}
