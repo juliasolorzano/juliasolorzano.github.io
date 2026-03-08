@@ -7,6 +7,9 @@ aliases:
   - /speaking/
 ---
 
+<div class="about__hero">
+<div class="about__hero-text">
+
 Welcome to my spot on the web for writing, projects, and whatever else I want to put out there.
 
 I'm a design operations and systems specialist based in North Carolina. I've been working in tech since 2002 — building design systems, growing teams, and helping people see what they can't see on their own. I've worked across government, startups, and enterprise, including [Esri](https://esri.com), [Login.gov](https://login.gov), [Zapier](https://zapier.com), and the [Department of Veterans Affairs](https://developer.va.gov/).
@@ -14,6 +17,12 @@ I'm a design operations and systems specialist based in North Carolina. I've bee
 Some things I'm proud of: I founded the [U.S. Web Design System](https://designsystem.digital.gov/), grew Login.gov's design team from 4 to 24, co-authored [*Lightweight Django*](https://www.oreilly.com/library/view/lightweight-django/9781491946275/) (O'Reilly Media), and taught at [Georgetown University](https://www.georgetown.edu/). I also founded Girl Develop It RDU, growing it to over 2,000 members.
 
 Outside of work, I volunteer with the North Carolina Geological Survey, mapping rocks and learning about water resources. I have a BFA from the University of Kansas and still think about art more than you'd expect.
+
+</div>
+<div class="about__hero-image">
+	<img src="/assets/images/julia-solorzano-about.jpg" alt="Julia Solórzano in a field of tall grass on a sunny day" class="about__photo" />
+</div>
+</div>
 
 ## Speaking
 

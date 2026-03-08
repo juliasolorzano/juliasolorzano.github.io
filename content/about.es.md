@@ -7,6 +7,9 @@ aliases:
   - /es/speaking/
 ---
 
+<div class="about__hero">
+<div class="about__hero-text">
+
 Bienvenida a mi espacio en la web para escribir, proyectos y lo que sea que quiera compartir.
 
 Soy especialista en operaciones y sistemas de diseño, radicada en Carolina del Norte. Llevo trabajando en tecnología desde 2002 — construyendo sistemas de diseño, formando equipos y ayudando a las personas a ver lo que no pueden ver por sí mismas. He trabajado en gobierno, startups y empresas, incluyendo [Esri](https://esri.com), [Login.gov](https://login.gov), [Zapier](https://zapier.com) y el [Departamento de Asuntos de Veteranos](https://developer.va.gov/).
@@ -14,6 +17,12 @@ Soy especialista en operaciones y sistemas de diseño, radicada en Carolina del 
 Algunas cosas de las que estoy orgullosa: fundé el [U.S. Web Design System](https://designsystem.digital.gov/), hice crecer el equipo de diseño de Login.gov de 4 a 24 personas, soy coautora de [*Lightweight Django*](https://www.oreilly.com/library/view/lightweight-django/9781491946275/) (O'Reilly Media) y di clases en [Georgetown University](https://www.georgetown.edu/). También fundé Girl Develop It RDU, haciéndolo crecer a más de 2,000 miembros.
 
 Fuera del trabajo, soy voluntaria con el Servicio Geológico de Carolina del Norte, mapeando rocas y aprendiendo sobre recursos hídricos. Tengo un BFA de la Universidad de Kansas y todavía pienso en arte más de lo que esperarías.
+
+</div>
+<div class="about__hero-image">
+	<img src="/assets/images/julia-solorzano-about.jpg" alt="Julia Solórzano en un campo de hierba alta en un día soleado" class="about__photo" />
+</div>
+</div>
 
 ## Conferencias
 
