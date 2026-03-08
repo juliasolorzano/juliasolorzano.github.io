@@ -20,7 +20,7 @@ Outside of work, I volunteer with the North Carolina Geological Survey, mapping 
 
 </div>
 <div class="about__hero-image">
-	<img src="/assets/images/julia-solorzano-about.jpg" alt="Julia Solórzano in a field of tall grass on a sunny day" class="about__photo" />
+	<img src="/assets/images/julia-solorzano.jpg" alt="Julia Solórzano in a field of tall grass on a sunny day" class="about__photo" />
 </div>
 </div>
 

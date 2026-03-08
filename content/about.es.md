@@ -20,7 +20,7 @@ Fuera del trabajo, soy voluntaria con el Servicio Geológico de Carolina del Nor
 
 </div>
 <div class="about__hero-image">
-	<img src="/assets/images/julia-solorzano-about.jpg" alt="Julia Solórzano en un campo de hierba alta en un día soleado" class="about__photo" />
+	<img src="/assets/images/julia-solorzano.jpg" alt="Julia Solórzano en un campo de hierba alta en un día soleado" class="about__photo" />
 </div>
 </div>
 
