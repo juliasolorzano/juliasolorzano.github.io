@@ -4,7 +4,12 @@
 
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  {{/* Mobile app experience */}}
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="mobile-web-app-capable" content="yes">
 
   {{/* Title */}}
   {{ if .Title }}
@@ -52,6 +57,21 @@
       var theme = localStorage.getItem('theme');
       if (theme) {
         document.documentElement.setAttribute('data-theme', theme);
+      }
+    })();
+  </script>
+
+  {{/* Mobile device detection — sets data-device="mobile" on phones only */}}
+  <script>
+    (function() {
+      var isMobile = false;
+      if (typeof navigator.userAgentData !== 'undefined') {
+        isMobile = navigator.userAgentData.mobile === true;
+      } else {
+        isMobile = /Mobi/i.test(navigator.userAgent);
+      }
+      if (isMobile) {
+        document.documentElement.setAttribute('data-device', 'mobile');
       }
     })();
   </script>

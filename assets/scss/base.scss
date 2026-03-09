@@ -675,6 +675,11 @@ footer {
   color: var(--color-text-muted);
 }
 
+// Hidden on desktop — shown only on mobile phones via html[data-device="mobile"]
+.footer__connect {
+  display: none;
+}
+
 // Home
 // ====================
 .hero {
@@ -1544,5 +1549,465 @@ footer {
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
+  }
+}
+
+// =============================================================================
+// Mobile App Experience — Apple HIG
+// =============================================================================
+// Applies iOS-like conventions on actual phone devices only.
+// Detection: JS in <head> sets data-device="mobile" on <html> via User-Agent.
+// Desktop browsers at any viewport width will NOT get these styles.
+//
+// Conventions applied:
+//   - SF-style system font stack
+//   - 17px body text (Apple HIG default)
+//   - 44px minimum touch targets
+//   - Bottom tab bar navigation
+//   - Safe area insets for notch / home indicator
+//   - Large title typography
+//   - Edge-to-edge grouped card style
+// =============================================================================
+
+// ── Tab bar: hidden by default, shown only on mobile phones ──────────────
+.tab-bar {
+  display: none;
+}
+
+html[data-device="mobile"] {
+
+  // ── System font & base typography ──────────────────────────────────────
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', Helvetica, sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  &, & body {
+    font-size: 17px; // Apple HIG body default
+  }
+
+  // ── Hide hamburger menu — tab bar replaces primary navigation ──────────
+  .menu-btn {
+    display: none !important; // Override the responsive display:block
+  }
+
+  .sidebar {
+    display: none !important; // No sidebar drawer on phones
+  }
+
+  #overlay {
+    display: none !important;
+  }
+
+  // ── Layout & safe area insets ────────────────────────────────────────────
+  .content-wrapper {
+    padding: 1rem 1.25rem #{"calc(80px + env(safe-area-inset-bottom, 0px))"} 1.25rem;
+  }
+
+  // ── Large Title style (iOS navigation bar) ─────────────────────────────
+  .hero__heading,
+  .title,
+  h1 {
+    font-size: 34px; // iOS large title
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    line-height: 1.15;
+  }
+
+  h2 {
+    font-size: 22px; // iOS headline
+    font-weight: 700;
+    letter-spacing: -0.01em;
+  }
+
+  h3 {
+    font-size: 20px; // iOS title 3
+    font-weight: 600;
+  }
+
+  p, ul, ol {
+    font-size: 17px; // Apple HIG body
+    line-height: 1.53; // 22pt / 17pt = ~1.29 but we keep a bit more for web
+  }
+
+  // ── Minimum 44px touch targets ─────────────────────────────────────────
+  .sidebar__nav a,
+  .mobile-header__actions button,
+  .mobile-header__actions a,
+  .tab-bar__item,
+  .menu-btn,
+  .theme-toggle,
+  .lang-switch,
+  .cv__print-btn,
+  .home-section__link {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  // ── Mobile header adjustments ──────────────────────────────────────────
+  .mobile-header {
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-bg);
+    z-index: 10;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: #{"rgba(var(--color-bg-rgb, 240, 237, 226), 0.85)"};
+    border-bottom: 0.5px solid var(--color-border);
+    margin-left: #{"calc(-1 * max(1.25rem, env(safe-area-inset-left)))"};
+    margin-right: #{"calc(-1 * max(1.25rem, env(safe-area-inset-right)))"};
+    padding-left: #{"max(1.25rem, env(safe-area-inset-left))"};
+    padding-right: #{"max(1.25rem, env(safe-area-inset-right))"};
+    padding-top: #{"env(safe-area-inset-top, 0.5rem)"};
+  }
+
+  .mobile-header__brand {
+    font-size: 17px; // Match HIG nav bar title
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', Helvetica, sans-serif;
+  }
+
+  // ── Bottom tab bar ─────────────────────────────────────────────────────
+  .tab-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    background-color: var(--color-bg);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: #{"rgba(var(--color-bg-rgb, 240, 237, 226), 0.85)"};
+    border-top: 0.5px solid var(--color-border);
+    padding-bottom: #{"env(safe-area-inset-bottom, 0px)"};
+    height: #{"calc(50px + env(safe-area-inset-bottom, 0px))"};
+    padding-left: #{"env(safe-area-inset-left, 0px)"};
+    padding-right: #{"env(safe-area-inset-right, 0px)"};
+  }
+
+  .tab-bar__item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    text-decoration: none;
+    color: var(--color-text-muted);
+    font-size: 10px; // Apple HIG tab bar label
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', Helvetica, sans-serif;
+    padding: 4px 0;
+    min-height: 50px;
+    transition: color 0.15s ease;
+    -webkit-tap-highlight-color: transparent;
+
+    &:hover {
+      color: var(--color-accent);
+      text-decoration: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--color-accent);
+      outline-offset: -2px;
+      border-radius: 8px;
+    }
+  }
+
+  .tab-bar__item--active {
+    color: var(--color-accent);
+    font-weight: 600;
+
+    .tab-bar__icon {
+      stroke-width: 2.2;
+    }
+  }
+
+  .tab-bar__icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .tab-bar__label {
+    display: block;
+    line-height: 1;
+  }
+
+  // ── Cards (grouped / inset style) ─────────────────────────────────────
+  .project-card {
+    border-radius: 12px; // Apple HIG card radius
+    background-color: var(--color-bg-secondary);
+    box-shadow: none;
+    overflow: hidden;
+
+    &:hover {
+      transform: none; // No hover lift on touch devices
+      box-shadow: none;
+    }
+
+    &:active {
+      opacity: 0.7;
+      transition: opacity 0.1s ease;
+    }
+  }
+
+  .project-card__body {
+    padding: 1rem;
+  }
+
+  .project-card__name {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  .project-card__description {
+    font-size: 15px; // HIG subheadline
+    line-height: 1.4;
+    color: var(--color-text-muted);
+  }
+
+  .projects-grid {
+    gap: 1rem;
+  }
+
+  // ── Writing entries (list rows) ────────────────────────────────────────
+  .writing-entry {
+    min-height: 44px;
+    padding: 0.75rem 0;
+    margin-bottom: 0;
+    border-bottom: 0.5px solid var(--color-border);
+    align-items: center;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .writing-entry__meta time {
+    font-size: 13px; // HIG footnote
+    color: var(--color-text-muted);
+  }
+
+  .writing-entry__content a {
+    font-size: 17px;
+    font-weight: 400;
+    display: block;
+    padding: 0;
+  }
+
+  // ── Home sections ──────────────────────────────────────────────────────
+  .home-section {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+
+    &:first-of-type {
+      border-top: none; // Remove duplicate line after hero content
+    }
+  }
+
+  .home-section__header {
+    margin-bottom: 1rem;
+  }
+
+  .home-section__heading {
+    font-size: 22px;
+  }
+
+  .home-section__link {
+    font-size: 17px; // Make tappable
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  // ── Hero ───────────────────────────────────────────────────────────────
+  .hero {
+    padding-top: 0;
+  }
+
+  .hero__heading {
+    display: none; // No large title on mobile homepage — content speaks for itself
+  }
+
+  .hero__tagline {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+
+  .hero__content p {
+    font-size: 17px;
+    line-height: 1.53;
+  }
+
+  // ── About hero ─────────────────────────────────────────────────────────
+  .about__hero {
+    gap: 1.5rem;
+  }
+
+  .about__hero-image {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .about__photo {
+    border-radius: 12px;
+  }
+
+  // ── Post content ───────────────────────────────────────────────────────
+  .post {
+    header > h1 {
+      font-size: 28px;
+      line-height: 1.2;
+    }
+
+    li {
+      margin: 0.75em 1.25em;
+      font-size: 17px;
+    }
+  }
+
+  .post__meta {
+    font-size: 15px;
+  }
+
+  .post__toc {
+    border-radius: 12px;
+    padding: 1.25rem;
+
+    ul {
+      font-size: 15px;
+    }
+  }
+
+  // ── Now page ───────────────────────────────────────────────────────────
+  .now__heading {
+    font-size: 22px;
+  }
+
+  .now__image {
+    border-radius: 12px;
+  }
+
+  // ── CV page ────────────────────────────────────────────────────────────
+  .cv__print-btn {
+    border-radius: 12px;
+    padding: 0.65rem 1.25rem;
+    font-size: 17px;
+  }
+
+  .cv__section-title {
+    font-size: 22px;
+  }
+
+  // ── Footer ─────────────────────────────────────────────────────────────
+  footer {
+    font-size: 15px;
+    padding-bottom: 1rem;
+    border-top: none; // .footer__connect provides the separator
+  }
+
+  .footer__connect {
+    display: block;
+    text-align: center;
+    padding: 1.5rem 0 1rem;
+    border-top: 0.5px solid var(--color-border);
+    margin-bottom: 1rem;
+
+    h4 {
+      font-family: 'Lora', Georgia, serif;
+      font-weight: 700;
+      font-size: 15px;
+      margin: 0 0 0.75rem 0;
+    }
+  }
+
+  .footer__connect-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+
+    a {
+      font-size: 15px;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: var(--color-text);
+
+      &:hover {
+        color: var(--color-accent);
+      }
+    }
+  }
+
+  // ── Blockquotes ────────────────────────────────────────────────────────
+  blockquote {
+    border-radius: 0 12px 12px 0;
+    padding: 0.75rem 1rem 0.75rem 1.25rem;
+    background-color: var(--color-bg-secondary);
+    border-left-width: 3px;
+  }
+
+  // ── Code blocks ────────────────────────────────────────────────────────
+  pre {
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 1.25rem;
+  }
+
+  // ── Time elements ──────────────────────────────────────────────────────
+  time {
+    font-size: 13px;
+  }
+
+  // ── Dark mode tab bar background (RGB for translucent backdrop) ────────
+  --color-bg-rgb: 240, 237, 226;
+
+  &[data-theme="dark"] {
+    --color-bg-rgb: 28, 27, 26;
+  }
+
+  // ── Extra small screen refinements ──────────────────────────────────────
+  @media (max-width: $xsmall) {
+    &, & body {
+      font-size: 16px; // Slightly smaller on very small screens, still >> old 13px
+    }
+
+    .tab-bar__label {
+      font-size: 9px;
+    }
+
+    .hero__heading,
+    .title,
+    h1 {
+      font-size: 28px;
+    }
+
+    .writing-entry {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.25rem;
+    }
+
+    .writing-entry__meta {
+      width: auto;
+    }
+  }
+} // end html[data-device="mobile"]
+
+// ── Dark mode RGB fallback for system preference (scoped to mobile) ──────
+@media (prefers-color-scheme: dark) {
+  html[data-device="mobile"]:not([data-theme="light"]) {
+    --color-bg-rgb: 28, 27, 26;
   }
 }
