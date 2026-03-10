@@ -325,32 +325,6 @@ img {
   margin: 1.25rem 0;
 }
 
-.sidebar__about {
-  h4 {
-    font-family: 'Lora', Georgia, serif;
-    font-weight: 700;
-    font-size: 0.9rem;
-    margin: 0 0 0.5rem 0;
-  }
-
-  p {
-    font-size: 0.85rem;
-    line-height: 1.5;
-    margin: 0;
-    opacity: 0.85;
-  }
-
-  a {
-    color: var(--color-accent);
-    font-weight: 500;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-}
-
 .sidebar__nav {
   ul {
     list-style: none;
@@ -695,17 +669,6 @@ footer {
   font-family: 'Lora', Georgia, serif;
   font-weight: 700;
   margin-bottom: 0.25em;
-}
-
-.hero__tagline {
-  font-size: 1.25rem;
-  line-height: 1.5;
-  opacity: 0.85;
-  margin-bottom: 2rem;
-
-  @media (max-width: $small) {
-    font-size: 1.1rem;
-  }
 }
 
 .hero__content {
@@ -1847,12 +1810,6 @@ html[data-device="mobile"] {
     display: none; // No large title on mobile homepage — content speaks for itself
   }
 
-  .hero__tagline {
-    font-size: 17px;
-    line-height: 1.5;
-    margin-bottom: 1.5rem;
-  }
-
   .hero__content p {
     font-size: 17px;
     line-height: 1.53;
@@ -1922,6 +1879,7 @@ html[data-device="mobile"] {
   footer {
     font-size: 15px;
     padding-bottom: 1rem;
+    text-align: center;
     border-top: none; // .footer__connect provides the separator
   }
 

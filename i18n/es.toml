@@ -1,7 +1,4 @@
 # Sidebar
-[sidebar_intro]
-other = "Soy <a href=\"/es/about/\">Julia</a>, y este es mi espacio en la web para <a href=\"/es/writing/\">escribir</a>, <a href=\"/es/projects/\">proyectos</a>, y lo que sea que quiera compartir con el universo."
-
 [nav_about]
 other = "Acerca de mí"
 

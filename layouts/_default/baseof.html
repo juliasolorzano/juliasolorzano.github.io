@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
-<!--
+{{ "<!--" | safeHTML }}
     ___       ___       ___       ___       ___
    /\__\     /\  \     /\__\     /\__\     /\  \
   /:/__/_   /::\  \   /:/  /    /:/  /    /::\  \
@@ -20,15 +20,15 @@ personal site and use it to try out new things:
 - Hugo: A fast and flexible static site generator written in Go.
 - Sass: A CSS preprocessor for writing CSS more easily and efficiently.
 
-The font pairings are Raleway for headings and Open Sans for body copy. Both are Google Web Fonts and
+The font pairings are Lora for headings and Inter for body copy. Both are Google Web Fonts and
 open sourced for anyone to use:
 
-https://fonts.google.com/specimen/Raleway
-https://fonts.google.com/specimen/Open+Sans
+https://fonts.google.com/specimen/Lora
+https://fonts.google.com/specimen/Inter
 
 Supports dark mode!
 
--->
+{{ "-->" | safeHTML }}
   {{ partial "head.html" . }}
   <body>
 
