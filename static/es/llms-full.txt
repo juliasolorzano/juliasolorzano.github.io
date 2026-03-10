@@ -66,7 +66,7 @@ Licenciatura en Bellas Artes, Universidad de Kansas
 
 - Sitio web: https://juliasolorzano.com/es/
 - Acerca de: https://juliasolorzano.com/es/about/
-- CV: https://juliasolorzano.com/es/cv/
+- Currículum: https://juliasolorzano.com/es/resume/
 - Proyectos: https://juliasolorzano.com/es/projects/
 - Escritos: https://juliasolorzano.com/es/writing/
 - LinkedIn: https://www.linkedin.com/in/juliasolorzano

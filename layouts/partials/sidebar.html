@@ -34,8 +34,8 @@
         <li{{ if or (eq $section "writing") (eq $section "blog") }} class="active"{{ end }}>
           <a href="{{ "writing/" | relLangURL }}"{{ if or (eq $section "writing") (eq $section "blog") }} aria-current="page"{{ end }}>{{ i18n "nav_writing" }}</a>
         </li>
-        <li{{ if eq $section "cv" }} class="active"{{ end }}>
-          <a href="{{ "cv/" | relLangURL }}"{{ if eq $section "cv" }} aria-current="page"{{ end }}>{{ i18n "nav_cv" }}</a>
+        <li{{ if eq $section "resume" }} class="active"{{ end }}>
+          <a href="{{ "resume/" | relLangURL }}"{{ if eq $section "resume" }} aria-current="page"{{ end }}>{{ i18n "nav_cv" }}</a>
         </li>
         <li{{ if eq $section "now" }} class="active"{{ end }}>
           <a href="{{ "now/" | relLangURL }}"{{ if eq $section "now" }} aria-current="page"{{ end }}>{{ i18n "nav_now" }}</a>

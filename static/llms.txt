@@ -35,7 +35,7 @@ Julia is a Senior Design Operations Specialist at Esri, where she establishes de
 
 - Website: https://juliasolorzano.com
 - About: https://juliasolorzano.com/about/
-- CV: https://juliasolorzano.com/cv/
+- Resume: https://juliasolorzano.com/resume/
 - Projects: https://juliasolorzano.com/projects/
 - Writing: https://juliasolorzano.com/writing/
 - LinkedIn: https://www.linkedin.com/in/juliasolorzano
