@@ -1,10 +1,10 @@
 ---
-title: Proyectos
+title: Trabajo
 type: page
-layout: projects
-url: /es/projects/
+layout: work
+url: /es/work/
 aliases:
-  - /es/work/
+  - /es/projects/
 headline: "Ayudo a equipos a construir mejores productos — y mejores formas de trabajar juntos."
 intro: "Me atraen los problemas complicados y significativos — esos donde el diseño, las operaciones y las personas necesitan trabajar juntos. Ya sea escalando un equipo, lanzando un sistema de diseño o repensando cómo millones de personas interactúan con servicios gubernamentales, lo que más me importa son los seres humanos en el proceso."
 section_title: "Aquí hay un vistazo a algunos de los trabajos de los que estoy más orgullosa:"

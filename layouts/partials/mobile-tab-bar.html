@@ -16,9 +16,9 @@
     <svg class="tab-bar__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
     <span class="tab-bar__label">{{ i18n "nav_about" }}</span>
   </a>
-  <a href="{{ "projects/" | relLangURL }}" class="tab-bar__item{{ if eq $section "projects" }} tab-bar__item--active{{ end }}"{{ if eq $section "projects" }} aria-current="page"{{ end }}>
+  <a href="{{ "work/" | relLangURL }}" class="tab-bar__item{{ if eq $section "work" }} tab-bar__item--active{{ end }}"{{ if eq $section "work" }} aria-current="page"{{ end }}>
     <svg class="tab-bar__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
-    <span class="tab-bar__label">{{ i18n "nav_projects" }}</span>
+    <span class="tab-bar__label">{{ i18n "nav_work" }}</span>
   </a>
   <a href="{{ "writing/" | relLangURL }}" class="tab-bar__item{{ if or (eq $section "writing") (eq $section "blog") }} tab-bar__item--active{{ end }}"{{ if or (eq $section "writing") (eq $section "blog") }} aria-current="page"{{ end }}>
     <svg class="tab-bar__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>

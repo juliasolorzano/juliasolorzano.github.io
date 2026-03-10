@@ -33,11 +33,11 @@
 
 <section class="home-section">
   <div class="home-section__header">
-    <h2 class="home-section__heading">{{ i18n "nav_projects" }}</h2>
-    <a href="{{ "projects/" | relLangURL }}" class="home-section__link">{{ i18n "view_all" }} &rarr;</a>
+    <h2 class="home-section__heading">{{ i18n "nav_work" }}</h2>
+    <a href="{{ "work/" | relLangURL }}" class="home-section__link">{{ i18n "view_all" }} &rarr;</a>
   </div>
-  {{ $projects := site.GetPage "/projects" }}
-  {{ with $projects }}
+  {{ $work := site.GetPage "/work" }}
+  {{ with $work }}
   <div class="projects-grid projects-grid--home">
     {{ range first 3 .Params.projects }}
     {{ $name := .name }}

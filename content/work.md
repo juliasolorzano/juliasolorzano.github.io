@@ -1,10 +1,10 @@
 ---
-title: Projects
+title: Work
 type: page
-layout: projects
-url: /projects/
+layout: work
+url: /work/
 aliases:
-  - /work/
+  - /projects/
 headline: "I help teams build better products — and better ways of working together."
 intro: "I'm drawn to messy, meaningful problems — the kind where design, operations, and people all need to come together. Whether it's scaling a team, launching a design system, or rethinking how millions of people interact with government services, I care most about the humans in the process."
 section_title: "Here's a look at some of the work I'm most proud of:"

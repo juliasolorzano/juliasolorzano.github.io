@@ -2,8 +2,8 @@
 [nav_about]
 other = "Acerca de mí"
 
-[nav_projects]
-other = "Proyectos"
+[nav_work]
+other = "Trabajo"
 
 [nav_writing]
 other = "Escritos"
@@ -60,8 +60,8 @@ other = "Imprimir o guardar como PDF"
 [professional_experience]
 other = "Experiencia profesional"
 
-[special_projects]
-other = "Proyectos especiales"
+[special_work]
+other = "Trabajo especial"
 
 [skills_expertise]
 other = "Habilidades y experiencia"

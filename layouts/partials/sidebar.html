@@ -28,8 +28,8 @@
         <li{{ if eq $section "about" }} class="active"{{ end }}>
           <a href="{{ "about/" | relLangURL }}"{{ if eq $section "about" }} aria-current="page"{{ end }}>{{ i18n "nav_about" }}</a>
         </li>
-        <li{{ if eq $section "projects" }} class="active"{{ end }}>
-          <a href="{{ "projects/" | relLangURL }}"{{ if eq $section "projects" }} aria-current="page"{{ end }}>{{ i18n "nav_projects" }}</a>
+        <li{{ if eq $section "work" }} class="active"{{ end }}>
+          <a href="{{ "work/" | relLangURL }}"{{ if eq $section "work" }} aria-current="page"{{ end }}>{{ i18n "nav_work" }}</a>
         </li>
         <li{{ if or (eq $section "writing") (eq $section "blog") }} class="active"{{ end }}>
           <a href="{{ "writing/" | relLangURL }}"{{ if or (eq $section "writing") (eq $section "blog") }} aria-current="page"{{ end }}>{{ i18n "nav_writing" }}</a>
