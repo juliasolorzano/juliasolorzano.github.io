@@ -29,7 +29,7 @@ Outside of work, I volunteer with the North Carolina Geological Survey, mapping 
 <h3>2023</h3>
 <article>
 	<p>
-			<a href="https://2023.djangocon.us/talks/keynote-django-the-dinosaur/">
+			<a href="https://2023.djangocon.us/talks/keynote-django-the-dinosaur/" target="_blank" rel="noopener">
 			DjangoCon 2023, <em>Keynote: Django the Dinosaur: A Story About A Web Framework.</em>
 		</a>
 	</p>
@@ -37,7 +37,7 @@ Outside of work, I volunteer with the North Carolina Geological Survey, mapping 
 <h3>2021</h3>
 <article>
 	<p>
-			<a href="https://govciomedia.com/events/archive/digital-services-series-customer-experiences-recap/">
+			<a href="https://govciomedia.com/events/archive/digital-services-series-customer-experiences-recap/" target="_blank" rel="noopener">
 			Digital Service Series, Customer Experience <em>Plugging in the User Needs For Improved Experiences</em>
 		</a>
 	</p>
@@ -45,7 +45,7 @@ Outside of work, I volunteer with the North Carolina Geological Survey, mapping 
 <h3>2019</h3>
 <article>
 	<p>
-			<a href="https://www.apidays.global/">
+			<a href="https://www.apidays.global/" target="_blank" rel="noopener">
 			API Days Paris, <em>Designing APIs for Humans: Leveraging UX Methods to Develop Human-Centered APIs</em>
 		</a>
 	</p>
@@ -53,7 +53,7 @@ Outside of work, I volunteer with the North Carolina Geological Survey, mapping 
 <h3>2016</h3>
 <article>
 	<p>
-			<a href="https://talkpython.fm/episodes/show/88/lightweight-django">
+			<a href="https://talkpython.fm/episodes/show/88/lightweight-django" target="_blank" rel="noopener">
 			Talk Python Podcast
 		</a>
 	</p>
@@ -71,7 +71,7 @@ Outside of work, I volunteer with the North Carolina Geological Survey, mapping 
 <h3>2015</h3>
 <article>
 	<p>
-		<a href="https://responsivewebdesign.com/podcast/usds/">
+		<a href="https://responsivewebdesign.com/podcast/usds/" target="_blank" rel="noopener">
 			Responsive Web Design Podcast
 		</a>
 	</p>
@@ -79,21 +79,21 @@ Outside of work, I volunteer with the North Carolina Geological Survey, mapping 
 <h3>2014</h3>
 <article>
 	<p>
-		<a href="https://www.youtube.com/watch?v=9zN7KeDqLDs">
+		<a href="https://www.youtube.com/watch?v=9zN7KeDqLDs" target="_blank" rel="noopener">
 			Frontporch.io, <em>To The Moon And Back: Taking The Leap Towards Solving Big Problems</em>
 		</a>
 	</p>
 </article>
 <article>
 	<p>
-		<a href="https://vimeo.com/114568893">
+		<a href="https://vimeo.com/114568893" target="_blank" rel="noopener">
 			BlendConf, <em>To The Moon And Back: Taking the Leap Towards Solving Big Problems</em>
 		</a>
 	</p>
 </article>
 <article>
 	<p>
-		<a href="https://www.youtube.com/watch?v=ZRFFEsoSbKs">
+		<a href="https://www.youtube.com/watch?v=ZRFFEsoSbKs" target="_blank" rel="noopener">
 			Midwest.io, <em>To The Moon And Back: Taking the Leap Towards Solving Big Problems</em>
 		</a>
 	</p>
@@ -107,14 +107,14 @@ Outside of work, I volunteer with the North Carolina Geological Survey, mapping 
 </article>
 <article>
 	<p>
-		<a href="https://conferences.oreilly.com/oscon/oscon2013/public/schedule/detail/28590">
+		<a href="https://conferences.oreilly.com/oscon/oscon2013/public/schedule/detail/28590" target="_blank" rel="noopener">
 			OSCON, <em>Developers + Designers: Collaborating on your Open Source project</em>
 		</a>
 	</p>
 </article>
 <article>
 	<p>
-		<a href="https://us.pycon.org/2013/schedule/presentation/56/">
+		<a href="https://us.pycon.org/2013/schedule/presentation/56/" target="_blank" rel="noopener">
 			PyCon, <em>Designers + Developers: Collaborating on your Python project</em>
 		</a>
 	</p>
