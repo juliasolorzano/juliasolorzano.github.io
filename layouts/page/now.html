@@ -33,6 +33,18 @@
     </div>
     {{ end }}
 
+    {{ with .countdown }}
+    <div class="now__countdown" data-start="{{ .start }}" data-date="{{ .date }}">
+      <div class="now__progress-label">
+        <span>{{ .label }}</span>
+        <span class="now__countdown-value"></span>
+      </div>
+      <div class="now__progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-label="{{ .label }}">
+        <div class="now__progress-fill now__countdown-fill"></div>
+      </div>
+    </div>
+    {{ end }}
+
     {{ with .progress_list }}
     {{ range . }}
     <div class="now__progress">
@@ -61,4 +73,31 @@
   </section>
   {{ end }}
 </div>
+
+<script>
+  document.querySelectorAll('.now__countdown').forEach(function(el) {
+    var startDate = new Date(el.dataset.start + 'T00:00:00');
+    var raceDate = new Date(el.dataset.date + 'T00:00:00');
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+    var diff = Math.ceil((raceDate - today) / (1000 * 60 * 60 * 24));
+    var total = Math.ceil((raceDate - startDate) / (1000 * 60 * 60 * 24));
+    var elapsed = total - diff;
+    var pct = Math.min(100, Math.max(0, Math.round((elapsed / total) * 100)));
+    var valueEl = el.querySelector('.now__countdown-value');
+    var fillEl = el.querySelector('.now__countdown-fill');
+    var barEl = fillEl.parentElement;
+    if (diff > 0) {
+      valueEl.textContent = diff + (diff === 1 ? ' day away' : ' days away');
+    } else if (diff === 0) {
+      valueEl.textContent = "Today!";
+      pct = 100;
+    } else {
+      valueEl.textContent = "Race complete!";
+      pct = 100;
+    }
+    fillEl.style.width = pct + '%';
+    barEl.setAttribute('aria-valuenow', pct);
+  });
+</script>
 {{ end }}

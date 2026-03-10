@@ -26,12 +26,13 @@ sections:
 
   - title: Running
     emoji: "🏃‍♀️"
-    content: "Training for my first 8K — the Running of the Bulls in Durham, NC on May 30, 2026. Current pace: 11:35/mile."
-    progress:
+    content: "Training for my first 8K — the Running of the Bulls in Durham, NC on May 30, 2026.<br><span style='display:inline-block;margin-top:0.75rem'>**Current pace: 11:35/mile**</span>"
+    countdown:
       label: "Race day countdown"
-      value: 33
+      start: "2026-01-05"
+      date: "2026-05-30"
 
   - title: Family
     emoji: "👨‍👩‍👧‍👦"
-    content: "Proud wife to [Henry Solórzano](https://henrysolorzano.com/). We have three kids and spend our time chasing adventures big and small."
+    content: "Proud wife to doting husband [Henry Solórzano](https://henrysolorzano.com/). We have three kids and spend our time chasing adventures big and small."
 ---
