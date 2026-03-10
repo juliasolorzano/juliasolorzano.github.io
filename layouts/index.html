@@ -6,12 +6,14 @@
   {{ .Content }}
 </div>
 
+{{ $recentPosts := where (where site.RegularPages "Section" "posts") "Date" "ge" (now.AddDate 0 0 -30) }}
+{{ with $recentPosts }}
 <section class="home-section">
   <div class="home-section__header">
     <h2 class="home-section__heading">{{ i18n "recent_posts" }}</h2>
     <a href="{{ "writing/" | relLangURL }}" class="home-section__link">{{ i18n "view_all" }} &rarr;</a>
   </div>
-  {{ range first 5 (where site.RegularPages "Section" "posts") }}
+  {{ range first 5 . }}
   <article class="writing-entry">
     <div class="writing-entry__meta">
       <time datetime="{{ .Date.Format "2006-01-02" }}">{{ time.Format ":date_medium" .Date }}</time>
@@ -27,6 +29,7 @@
   </article>
   {{ end }}
 </section>
+{{ end }}
 
 <section class="home-section">
   <div class="home-section__header">
