@@ -1,7 +1,8 @@
 ---
 date: 2026-03-10
-slug: changing-the-frameworks
-title: "Ch-ch-ch-ch-changes"
+slug: part-1-changing-the-frameworks
+title: "Part 1: Ch-ch-ch-ch-changes"
+image: /assets/images/og-part-1-changing-the-frameworks.png
 ---
 
 *Este es el primero de una serie de cinco escritos sobre las actualizaciones que estoy haciendo en mi sitio web personal — desde migrar el framework, hasta rediseñar el diseño, traducir todo el sitio al español, y más. Estoy trabajando junto a [Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview), ejecutando Opus 4.6 de Anthropic localmente, para hacer estos cambios. La parte 1 cubre la migración del framework.*

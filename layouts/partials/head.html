@@ -38,6 +38,16 @@
   <meta name="keywords" content="{{ i18n "meta_keywords" }}">
   <meta name="author" content="Julia Solórzano">
 
+  {{/* Open Graph */}}
+  <meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ site.Title }}{{ end }}">
+  <meta property="og:description" content="{{ $description }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ site.Title }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  {{ with .Params.image }}
+  <meta property="og:image" content="{{ . | absURL }}">
+  {{ end }}
+
   {{/* Favicon and touch icons */}}
   <link rel="shortcut icon" href="/assets/images/favicon.ico">
   <link rel="apple-touch-icon" href="/assets/images/touch_icon.png">
