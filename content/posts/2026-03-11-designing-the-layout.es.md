@@ -55,4 +55,4 @@ El diseño es lo que hizo que el sitio se sintiera mío otra vez. El cambio de f
 
 *But I try. I try.*
 
-Lo que sigue: traducir todo el sitio al español.
+Lo que sigue: [traducir todo el sitio al español](/es/blog/2026/03/12/part-3-translating-into-spanish/).

@@ -17,8 +17,12 @@
   </nav>
   {{ end }}
 
+  {{ partial "tts-player.html" . }}
+
   <div class="post__content">
     {{ .Content }}
   </div>
 </article>
+
+<script src="/assets/js/tts.js?v=3" defer></script>
 {{ end }}
