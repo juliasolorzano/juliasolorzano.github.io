@@ -58,7 +58,7 @@ El último cambio técnico fue pequeño pero fácil de pasar por alto. Agregué 
 
 Si estás pensando en AEO para tu propio sitio, esto es en lo que me enfocaría:
 
-**Empieza con datos estructurados.** Agrega [JSON-LD](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) a tus páginas. Como mínimo, identifícate con un schema de Person u Organization. Si publicas artículos, agrega schemas de Article o BlogPosting. Si tienes un portafolio, agrega schemas de CreativeWork. [Schema.org](https://schema.org/) es el vocabulario. [La documentación de datos estructurados de Google](https://developers.google.com/search/docs/appearance/structured-data/search-gallery) es la mejor guía práctica.
+**Empieza con datos estructurados.** Agrega [JSON-LD](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) a tus páginas. Como mínimo, identifícate con un schema de Person u Organization. Si publicas artículos, agrega schemas de Article o BlogPosting. Si tienes un portafolio, agrega schemas de CreativeWork. Schema.org es el vocabulario. [La documentación de datos estructurados de Google](https://developers.google.com/search/docs/appearance/structured-data/search-gallery) es la mejor guía práctica.
 
 **Escribe meta descripciones para todo.** Cada página. Cada publicación. Mantenlas bajo 160 caracteres, hazlas específicas y hazlas precisas. Esta es la oración que un motor de respuesta usará para decidir si tu página vale la pena citar.
 

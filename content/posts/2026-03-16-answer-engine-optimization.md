@@ -58,7 +58,7 @@ The last technical change was small but easy to overlook. I added a `<link rel="
 
 If you are thinking about AEO for your own site, here is what I would focus on:
 
-**Start with structured data.** Add [JSON-LD](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) to your pages. At minimum, identify yourself with a Person or Organization schema. If you publish articles, add Article or BlogPosting schemas. If you have a portfolio, add CreativeWork schemas. [Schema.org](https://schema.org/) is the vocabulary. [Google's structured data documentation](https://developers.google.com/search/docs/appearance/structured-data/search-gallery) is the best practical guide.
+**Start with structured data.** Add [JSON-LD](https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data) to your pages. At minimum, identify yourself with a Person or Organization schema. If you publish articles, add Article or BlogPosting schemas. If you have a portfolio, add CreativeWork schemas. Schema.org is the vocabulary. [Google's structured data documentation](https://developers.google.com/search/docs/appearance/structured-data/search-gallery) is the best practical guide.
 
 **Write meta descriptions for everything.** Every page. Every post. Keep them under 160 characters, make them specific, and make them accurate. This is the sentence an answer engine will use to decide if your page is worth citing.
 
