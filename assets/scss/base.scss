@@ -244,6 +244,13 @@ img {
   height: auto;
 }
 
+figcaption {
+  font-style: italic;
+  font-size: 0.85em;
+  color: var(--color-text-muted);
+  margin-top: 0.5rem;
+}
+
 // Layout: Two-Column
 // ====================
 .site-wrapper {
