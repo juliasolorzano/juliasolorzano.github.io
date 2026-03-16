@@ -2,6 +2,7 @@
 date: 2026-03-13
 slug: part-4-building-for-mobile
 title: "Part 4: Space Oddity"
+description: "Construyendo una experiencia móvil con barra de pestañas inferior, objetivos táctiles de 44pt, fuentes del sistema y detección por dispositivo — no solo puntos de quiebre responsivos."
 image: /assets/images/og-part-4-building-for-mobile.png
 ---
 

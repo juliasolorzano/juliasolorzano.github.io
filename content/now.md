@@ -3,6 +3,7 @@ title: Now
 type: page
 layout: now
 url: /now/
+description: "What Julia Solórzano is up to right now — work at Esri, field geology volunteering, current reading, race training, and family life."
 last_updated: "March 2026"
 sections:
   - title: Work

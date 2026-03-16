@@ -2,6 +2,7 @@
 date: 2026-03-12
 slug: part-3-translating-into-spanish
 title: "Part 3: \"Heroes\""
+description: "Traduciendo cada página y las 54 publicaciones del blog al español usando el framework multilingüe de Hugo, archivos i18n y etiquetas hreflang."
 image: /assets/images/og-part-3-translating-into-spanish.png
 ---
 

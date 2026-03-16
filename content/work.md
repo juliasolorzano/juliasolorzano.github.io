@@ -3,6 +3,7 @@ title: Work
 type: page
 layout: work
 url: /work/
+description: "A portfolio of Julia Solórzano's professional work across design operations, government services, and product design — including Esri, Login.gov, the VA API Platform, Zapier, and the U.S. Web Design System."
 aliases:
   - /projects/
 headline: "I help teams build better products — and better ways of working together."

@@ -2,6 +2,7 @@
 date: 2026-03-13
 slug: part-4-building-for-mobile
 title: "Part 4: Space Oddity"
+description: "Building a mobile experience with a bottom tab bar, 44pt touch targets, system fonts, and device-aware detection — not just responsive breakpoints."
 image: /assets/images/og-part-4-building-for-mobile.png
 ---
 

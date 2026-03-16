@@ -2,6 +2,7 @@
 date: 2026-03-15
 slug: accessibility-is-the-foundation
 title: "Accessibility is the Foundation"
+description: "How accessibility shaped every decision in this site rebuild — focus indicators, skip navigation, semantic HTML, ARIA patterns, reduced motion, and dark mode."
 image: /assets/images/og-accessibility-is-the-foundation.png
 ---
 

@@ -2,6 +2,7 @@
 date: 2026-03-10
 slug: part-1-changing-the-frameworks
 title: "Part 1: Ch-ch-ch-ch-changes"
+description: "Migrating a 13-year-old Jekyll site to Hugo — cleaning up dead links, preserving every URL, and dropping dependencies to start fresh."
 image: /assets/images/og-part-1-changing-the-frameworks.png
 ---
 

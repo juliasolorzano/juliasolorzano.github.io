@@ -2,6 +2,7 @@
 date: 2026-03-11
 slug: part-2-designing-the-layout
 title: "Part 2: Modern Love"
+description: "Rediseñando el sitio con una barra lateral fija, paleta de tonos tierra, tipografía Lora e Inter, modo oscuro y un diseño nativo para móvil."
 image: /assets/images/og-part-2-designing-the-layout.png
 ---
 

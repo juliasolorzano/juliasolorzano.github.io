@@ -3,6 +3,7 @@ title: Ahora
 type: page
 layout: now
 url: /es/now/
+description: "Lo que Julia Solórzano está haciendo ahora — trabajo en Esri, voluntariado en geología de campo, lecturas actuales, entrenamiento para carreras y vida familiar."
 last_updated: "Marzo 2026"
 sections:
   - title: Trabajo

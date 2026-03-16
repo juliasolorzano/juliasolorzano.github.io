@@ -20,5 +20,16 @@
   <div class="post__content">
     {{ .Content }}
   </div>
+
+  {{ with .Params.takeaways }}
+  <section class="post__takeaways" aria-label="{{ i18n "key_takeaways" }}">
+    <h2>{{ i18n "key_takeaways" }}</h2>
+    <ul>
+      {{ range . }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
 </article>
 {{ end }}

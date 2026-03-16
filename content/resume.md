@@ -3,6 +3,7 @@ title: Resume
 type: page
 url: /resume/
 layout: resume
+description: "Resume of Julia Solórzano — design operations and systems specialist with 20+ years of experience across government, startups, and enterprise, currently at Esri."
 summary: "Design operations and systems specialist with 20+ years of experience across government, startups, and enterprise. Builds and scales design teams, implements design systems, and leverages AI tooling to streamline workflows so teams can focus on solving hard problems. Currently driving design consistency and operational excellence across ArcGIS products at Esri."
 contact_email: hello@juliasolorzano.com
 linkedin: linkedin.com/in/juliasolorzano

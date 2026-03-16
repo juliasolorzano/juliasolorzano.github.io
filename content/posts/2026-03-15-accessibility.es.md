@@ -2,6 +2,7 @@
 date: 2026-03-15
 slug: accessibility-is-the-foundation
 title: "La accesibilidad es la base"
+description: "Cómo la accesibilidad guió cada decisión en esta reconstrucción — indicadores de enfoque, navegación por salto, HTML semántico, patrones ARIA, movimiento reducido y modo oscuro."
 image: /assets/images/og-accessibility-is-the-foundation.png
 ---
 

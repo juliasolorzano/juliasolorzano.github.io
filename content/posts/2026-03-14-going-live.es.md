@@ -2,6 +2,7 @@
 date: 2026-03-14
 slug: part-5-going-live
 title: "Part 5: Starman"
+description: "Desplegando el sitio reconstruido con GitHub Actions, compilaciones de Hugo en menos de un segundo, rendimiento probado con Lighthouse y un pipeline que desaparece."
 image: /assets/images/og-part-5-going-live.png
 ---
 

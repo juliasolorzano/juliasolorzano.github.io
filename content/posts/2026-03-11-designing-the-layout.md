@@ -2,6 +2,7 @@
 date: 2026-03-11
 slug: part-2-designing-the-layout
 title: "Part 2: Modern Love"
+description: "Redesigning the site with a fixed sidebar, earth-tone palette, Lora and Inter typography, dark mode, and a mobile-native layout."
 image: /assets/images/og-part-2-designing-the-layout.png
 ---
 

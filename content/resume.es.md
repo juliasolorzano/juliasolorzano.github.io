@@ -3,6 +3,7 @@ title: Currículum
 type: page
 url: /es/resume/
 layout: resume
+description: "Currículum de Julia Solórzano — especialista en operaciones y sistemas de diseño con más de 20 años de experiencia en gobierno, startups y empresas, actualmente en Esri."
 summary: "Especialista en operaciones y sistemas de diseño con más de 20 años de experiencia en gobierno, startups y empresas. Construye y escala equipos de diseño, implementa sistemas de diseño y aprovecha herramientas de IA para optimizar flujos de trabajo para que los equipos puedan enfocarse en resolver problemas difíciles. Actualmente impulsa la consistencia de diseño y la excelencia operativa en los productos ArcGIS en Esri."
 contact_email: hello@juliasolorzano.com
 linkedin: linkedin.com/in/juliasolorzano
