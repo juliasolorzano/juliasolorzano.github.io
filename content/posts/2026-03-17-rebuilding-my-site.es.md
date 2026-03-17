@@ -32,7 +32,7 @@ Mi sitio no había cambiado en 13 años. Mismo framework. Mismo diseño. Mismo t
 
 ***
 
-**Hice de la accesibilidad la base.** Indicadores de enfoque visibles en cada elemento interactivo. Un enlace para saltar la navegación traducido a ambos idiomas. Una trampa de enfoque en el menú móvil. Atributos `aria-current`, `aria-expanded` y `aria-live` actualizándose dinámicamente. `prefers-reduced-motion` respetado en todo el sitio. Modo oscuro con relaciones de contraste que se mantienen tanto en modo claro como oscuro. Estos no son extras agregados al final — son decisiones tomadas desde el inicio. [Lee más sobre accesibilidad.](/es/blog/2026/03/15/accessibility-is-the-foundation/)
+**Hice de la accesibilidad la base.** Indicadores de enfoque visibles en cada elemento interactivo. Un enlace para saltar la navegación traducido a ambos idiomas. Una trampa de enfoque en el menú móvil. Atributos `aria-current`, `aria-expanded` y `aria-live` actualizándose dinámicamente. `prefers-reduced-motion` respetado en todo el sitio. Modo oscuro con relaciones de contraste que se mantienen tanto en modo claro como oscuro. Estos no son extras agregados al final — son decisiones tomadas desde el inicio. La accesibilidad es su propia publicación independiente, separada de la serie de cinco partes, porque merece ser tratada como la base que es — no una subsección enterrada dentro de otra cosa. [Lee más sobre accesibilidad.](/es/blog/2026/03/15/accessibility-is-the-foundation/)
 
 ***
 

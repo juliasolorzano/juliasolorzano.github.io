@@ -32,7 +32,7 @@ My site had not changed in 13 years. Same framework. Same layout. Same everythin
 
 ***
 
-**I made accessibility the foundation.** Visible focus indicators on every interactive element. A skip-navigation link that is translated into both languages. A focus trap on the mobile menu. `aria-current`, `aria-expanded`, and `aria-live` attributes updating dynamically. `prefers-reduced-motion` respected across the entire site. Dark mode with contrast ratios that hold in both light and dark. These are not extras added at the end — they are decisions made from the start. [Read more about accessibility.](/blog/2026/03/15/accessibility-is-the-foundation/)
+**I made accessibility the foundation.** Visible focus indicators on every interactive element. A skip-navigation link that is translated into both languages. A focus trap on the mobile menu. `aria-current`, `aria-expanded`, and `aria-live` attributes updating dynamically. `prefers-reduced-motion` respected across the entire site. Dark mode with contrast ratios that hold in both light and dark. These are not extras added at the end — they are decisions made from the start. Accessibility is its own standalone post, separate from the five-part series, because it deserves to be treated as the foundation it is — not a subsection buried inside something else. [Read more about accessibility.](/blog/2026/03/15/accessibility-is-the-foundation/)
 
 ***
 
