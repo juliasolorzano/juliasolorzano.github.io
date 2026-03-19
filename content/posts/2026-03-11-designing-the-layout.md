@@ -56,4 +56,4 @@ The design is the part that made the site feel like mine again. The framework sw
 
 *But I try. I try.*
 
-Next up: translating the entire site into Spanish.
+Next up: [translating the entire site into Spanish](/blog/2026/03/12/part-3-translating-into-spanish/).

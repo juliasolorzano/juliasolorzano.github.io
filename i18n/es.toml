@@ -47,6 +47,24 @@ other = "<a href=\"https://shop.oreilly.com/product/0636920032502.do\">Lightweig
 [min_read]
 other = "min de lectura"
 
+[tts_listen]
+other = "Escuchar esta publicación"
+
+[tts_pause]
+other = "Pausar"
+
+[tts_resume]
+other = "Reanudar"
+
+[tts_stop]
+other = "Detener"
+
+[tts_playing]
+other = "Reproduciendo"
+
+[tts_speed]
+other = "Velocidad de reproducción"
+
 [table_of_contents]
 other = "Tabla de contenidos"
 
