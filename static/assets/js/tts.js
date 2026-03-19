@@ -18,6 +18,7 @@
   var playIcon = player.querySelector('.tts-player__icon--play');
   var pauseIcon = player.querySelector('.tts-player__icon--pause');
   var srStatus = player.querySelector('.tts-player__sr-status');
+  var selectedVoice = null;
 
   // SVG elements don't reliably reflect .hidden as an attribute
   function hide(el) { el.setAttribute('hidden', ''); }
@@ -44,6 +45,26 @@
     playing: player.dataset.playing || 'Playing',
     stop: player.dataset.stop || 'Stop'
   };
+
+  // Preferred voice: Tessa, falling back to system default
+  var PREFERRED_VOICE = 'Tessa';
+
+  function loadVoices() {
+    var voices = speechSynthesis.getVoices();
+    selectedVoice = null;
+    for (var i = 0; i < voices.length; i++) {
+      if (voices[i].name === PREFERRED_VOICE) {
+        selectedVoice = voices[i];
+        break;
+      }
+    }
+  }
+
+  // Voices load asynchronously in some browsers
+  loadVoices();
+  if (speechSynthesis.onvoiceschanged !== undefined) {
+    speechSynthesis.onvoiceschanged = loadVoices;
+  }
 
   function getPostText() {
     var content = document.querySelector('.post__content');
@@ -136,6 +157,11 @@
     var utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = document.documentElement.lang || 'en';
     utterance.rate = speeds[speedIndex];
+
+    // Apply preferred voice (Tessa if available)
+    if (selectedVoice) {
+      utterance.voice = selectedVoice;
+    }
 
     utterance.onend = function () {
       if (generation === gen) {
