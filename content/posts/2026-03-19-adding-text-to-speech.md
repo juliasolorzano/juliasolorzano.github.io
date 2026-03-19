@@ -1,7 +1,7 @@
 ---
 date: 2026-03-19
 slug: adding-text-to-speech
-title: "Adding Text-to-Speech (TTS) to ny writings"
+title: "Adding Text-to-Speech (TTS) to my writings"
 image: /assets/images/og-adding-text-to-speech.png
 ---
 
@@ -52,3 +52,5 @@ No npm packages were installed. No build pipeline was changed. It is one HTML pa
 You can try it right now. Scroll back to the top of this writing and press play. If Tessa is available on your device, you will hear her. If not, your system's default voice will step in. Either way, the words are the same.
 
 I like building things that make a site more accessible without making it more complicated. And if it also means I can listen to my own writings on a morning walk, even better.
+
+
