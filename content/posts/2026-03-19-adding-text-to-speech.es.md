@@ -2,6 +2,7 @@
 date: 2026-03-19
 slug: adding-text-to-speech
 title: "Agregando Texto a Voz (TTS) a mis escritos"
+description: "Cómo agregué un reproductor de texto a voz a mi sitio estático de Hugo usando la Web Speech API — diseñado para accesibilidad, probado para lectores de pantalla, baja visión y daltonismo, y útil para escuchar mientras camino o conduzco."
 image: /assets/images/og-adding-text-to-speech.png
 ---
 

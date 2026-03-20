@@ -2,6 +2,7 @@
 date: 2026-03-19
 slug: adding-text-to-speech
 title: "Adding Text-to-Speech (TTS) to my writings"
+description: "How I added a text-to-speech player to my static Hugo site using the Web Speech API — built for accessibility, tested for screen readers, low vision, and color blindness, and handy for listening on walks and drives."
 image: /assets/images/og-adding-text-to-speech.png
 ---
 
