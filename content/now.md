@@ -4,15 +4,15 @@ type: page
 layout: now
 url: /now/
 description: "What Julia Solórzano is up to right now — work at Esri, field geology volunteering, current reading, race training, and family life."
-last_updated: "March 2026"
+last_updated: "April 2026"
 sections:
   - title: Work
     emoji: "💼"
     content: "I'm a Senior Design Operations Specialist in the Creative Lab at [Esri](https://esri.com)."
 
-  - title: Field Work
+  - title: Geology Finds
     emoji: "🪨"
-    content: "I volunteer with the [North Carolina Geological Survey](https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey), joining geologists in the field as they map the state's bedrock geology — work that informs decisions about land use, water resources, and infrastructure across North Carolina."
+    content: 'I just started reading [Rocks: A Guide to the Stones Around Us and the Stories They Tell by Vojta Hybl](https://vojtahybl.com/rocks-guide), and I am absolutely loving it! It is a delightful little book that brings the world of rocks to life in the most unexpected ways. My youngest and I have even made it part of our bedtime routine — reading a few pages together each night. Highly recommend it if you are curious about the stories hiding in the stones beneath your feet!'
 
   - title: Reading
     emoji: "📚"
@@ -23,7 +23,7 @@ sections:
       - label: "The Book of Delights"
         value: 25
       - label: "When Things Fall Apart"
-        value: 15
+        value: 31
 
   - title: Running
     emoji: "🏃‍♀️"

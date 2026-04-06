@@ -4,15 +4,15 @@ type: page
 layout: now
 url: /es/now/
 description: "Lo que Julia Solórzano está haciendo ahora — trabajo en Esri, voluntariado en geología de campo, lecturas actuales, entrenamiento para carreras y vida familiar."
-last_updated: "Marzo 2026"
+last_updated: "Abril 2026"
 sections:
   - title: Trabajo
     emoji: "💼"
     content: "Soy Especialista Senior en Operaciones de Diseño en el Creative Lab de [Esri](https://esri.com)."
 
-  - title: Trabajo de campo
+  - title: Geología Chida
     emoji: "🪨"
-    content: "Soy voluntaria con el [Servicio Geológico de Carolina del Norte](https://www.deq.nc.gov/about/divisions/energy-mineral-and-land-resources/nc-geological-survey), acompañando a geólogos en campo mientras mapean la geología del lecho rocoso del estado — trabajo que informa decisiones sobre uso de suelo, recursos hídricos e infraestructura en toda Carolina del Norte."
+    content: "Acabo de empezar a leer [Rocks: A Guide to the Stones Around Us and the Stories They Tell de Vojta Hybl](https://vojtahybl.com/rocks-guide), ¡y me está encantando! Es un librito delicioso que da vida al mundo de las rocas de las maneras más inesperadas. Mi hijo/a menor y yo incluso lo hemos convertido en parte de nuestra rutina antes de dormir — leyendo algunas páginas juntos cada noche. ¡Lo recomiendo mucho si tienes curiosidad por las historias que esconden las piedras bajo tus pies!"
 
   - title: Lectura
     emoji: "📚"
