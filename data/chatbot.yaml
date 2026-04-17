@@ -1,0 +1,785 @@
+en:
+  nodes:
+    start:
+      messages:
+        - "Hey! Welcome to my corner of the internet."
+        - "I'm Julia — design ops specialist, author, and occasional geology volunteer. What brings you here today?"
+      choices:
+        - label: "Work experience"
+          next: experience
+        - label: "Projects I've built"
+          next: projects
+        - label: "My writing"
+          next: blog
+        - label: "A bit about me"
+          next: about
+        - label: "Get in touch"
+          next: contact
+
+    # ─── EXPERIENCE ─────────────────────────────────────────────
+    experience:
+      messages:
+        - "I've been working in tech since 2002 — over 20 years across government, startups, and enterprise."
+        - "I specialize in design operations and systems: scaling teams, building design systems, and making complex organizations work better."
+        - "What aspect of my experience interests you most?"
+      choices:
+        - label: "Current role at Esri"
+          next: exp_esri
+        - label: "Government work"
+          next: exp_gov
+        - label: "Startup experience"
+          next: exp_startup
+        - label: "Skills & expertise"
+          next: skills
+        - label: "See my full resume"
+          next: resume_link
+
+    exp_esri:
+      messages:
+        - "I'm currently a Senior Design Operations Specialist at Esri, the global leader in GIS software."
+        - "I establish design standards and operational foundations across ArcGIS product lines — building shared Figma components, coordinating cross-team design sessions, and partnering with UX Research to create impact reporting frameworks."
+        - "A big part of my work is championing AI tooling adoption: I lead GitHub Copilot trainings so designers can contribute directly to codebases, and evaluate tools like Figma Make and Claude to help teams focus on the hard problems."
+      choices:
+        - label: "More about my government work"
+          next: exp_gov
+        - label: "My skills & expertise"
+          next: skills
+        - label: "See the full resume"
+          next: resume_link
+        - label: "Something else"
+          next: main_menu
+
+    exp_gov:
+      messages:
+        - "Most of my career has been in government — I love the challenge of building products that actually serve people at scale."
+        - "Here are a few highlights:"
+        - "At Login.gov (GSA), I grew the design team from 4 to 24 — a 600% increase — while maintaining 100% retention. We served millions of people across 300+ federal applications."
+        - "At the U.S. Web Design System, I co-founded USWDS, a design system now used by hundreds of government websites and serving millions of users globally."
+        - "I also led Federal Web Standards at GSA, working directly with OMB on requirements under the 21st Century IDEA Act."
+        - "Want to dig into any of these?"
+      choices:
+        - label: "Login.gov details"
+          next: exp_logingov
+        - label: "U.S. Web Design System"
+          next: exp_uswds
+        - label: "VA API Platform"
+          next: exp_va
+        - label: "See the full resume"
+          next: resume_link
+        - label: "Something else"
+          next: main_menu
+
+    exp_logingov:
+      messages:
+        - "Login.gov is the U.S. government's shared identity platform — one account to access hundreds of federal services."
+        - "I was Supervisory IT Specialist from 2020 to 2024. In that time I:"
+        - "Scaled the design team from 4 to 24, drove platform internationalization to 3 new markets, and implemented emerging tech features that improved user success rates by 35%."
+        - "I also established a comprehensive design operations framework supporting 5 cross-functional product teams, and developed a user research and testing program that increased feedback collection efficiency by 60%."
+      choices:
+        - label: "U.S. Web Design System"
+          next: exp_uswds
+        - label: "My startup experience"
+          next: exp_startup
+        - label: "See the full resume"
+          next: resume_link
+        - label: "Something else"
+          next: main_menu
+
+    exp_uswds:
+      messages:
+        - "The U.S. Web Design System is a design system co-founded by me in 2015 while at GSA."
+        - "It's now used by hundreds of government organizations and serves millions of people globally. We achieved adoption by 100+ organizations within the first year."
+        - "I led a team of front-end developers and designers, achieved a 50% reduction in implementation time, and established a scalable governance model for distributed contributions."
+      choices:
+        - label: "My startup experience"
+          next: exp_startup
+        - label: "Projects I've built"
+          next: projects
+        - label: "See the full resume"
+          next: resume_link
+        - label: "Something else"
+          next: main_menu
+
+    exp_va:
+      messages:
+        - "At Ad Hoc from 2018 to 2020, I was Senior UX Designer on the Department of Veterans Affairs API Platform."
+        - "I established the human-centered design practice from scratch for the VA's API program, created scalable design and research workflows that increased team efficiency by 40%, and implemented a user research program that reduced implementation errors by 60%."
+      choices:
+        - label: "My startup experience"
+          next: exp_startup
+        - label: "See the full resume"
+          next: resume_link
+        - label: "Something else"
+          next: main_menu
+
+    exp_startup:
+      messages:
+        - "My startup experience is mostly at Zapier, where I was Design Team Manager for Core Product from 2017 to 2018."
+        - "I scaled the design team by 150% in 3 months, reduced hiring timelines from 56 to 28 days, led a complete visual identity redesign, and shipped the first company-wide design system."
+        - "Before that I did consulting and freelance work across various early-stage companies."
+      choices:
+        - label: "My government work"
+          next: exp_gov
+        - label: "Skills & expertise"
+          next: skills
+        - label: "See the full resume"
+          next: resume_link
+        - label: "Something else"
+          next: main_menu
+
+    skills:
+      messages:
+        - "My skills span three areas:"
+        - "Design Leadership: Design systems & operations, user research strategy, service design, accessibility & inclusion, human-AI interaction design."
+        - "Technical: Figma, front-end development (HTML, CSS, JavaScript), AI-assisted tools (Figma Make, GitHub Copilot, Claude), information architecture, prototyping."
+        - "Business & Operations: Team building & mentorship, AI strategy & governance, agile methodologies, stakeholder management, remote team leadership."
+      choices:
+        - label: "See the full resume"
+          next: resume_link
+        - label: "Projects I've built"
+          next: projects
+        - label: "Something else"
+          next: main_menu
+
+    resume_link:
+      messages:
+        - "You can find my full resume — work history, publications, education, and awards — right here on the site."
+      choices:
+        - label: "View my resume →"
+          next: __link__
+          url: /resume/
+        - label: "Something else"
+          next: main_menu
+
+    # ─── PROJECTS ───────────────────────────────────────────────
+    projects:
+      messages:
+        - "Here's a look at some of the work I'm most proud of:"
+      choices:
+        - label: "Esri"
+          next: proj_esri
+        - label: "Login.gov"
+          next: proj_logingov
+        - label: "VA API Platform"
+          next: proj_va
+        - label: "Zapier"
+          next: proj_zapier
+        - label: "U.S. Web Design System"
+          next: proj_uswds
+        - label: "Lightweight Django (book)"
+          next: proj_book
+
+    proj_esri:
+      messages:
+        - "At Esri, I work in the Creative Lab building shared standards across ArcGIS product lines."
+        - "Esri is the global leader in GIS software — their tools are used in everything from emergency response to environmental science."
+      choices:
+        - label: "Visit Esri →"
+          next: __link__
+          url: https://www.esri.com
+        - label: "See more projects"
+          next: projects
+        - label: "Something else"
+          next: main_menu
+
+    proj_logingov:
+      messages:
+        - "At Login.gov, I grew the design team from 4 to 24 and rethought how millions of people log in to government services."
+        - "Login.gov is the shared identity platform for the U.S. government, serving millions across 300+ federal applications."
+      choices:
+        - label: "Visit Login.gov →"
+          next: __link__
+          url: https://login.gov
+        - label: "See more projects"
+          next: projects
+        - label: "Something else"
+          next: main_menu
+
+    proj_va:
+      messages:
+        - "The VA API Platform project was about building a human-centered design practice from scratch for the Department of Veterans Affairs."
+        - "I designed the UX strategy for a large-scale API program, making it easier for developers to build products that serve veterans."
+      choices:
+        - label: "Visit VA Developer Portal →"
+          next: __link__
+          url: https://developer.va.gov
+        - label: "See more projects"
+          next: projects
+        - label: "Something else"
+          next: main_menu
+
+    proj_zapier:
+      messages:
+        - "At Zapier I scaled the design team by 150%, drove a complete visual identity redesign, and shipped the first company-wide design system."
+        - "Zapier is an automation platform that connects thousands of apps — a huge, complex product to wrangle design for."
+      choices:
+        - label: "Visit Zapier →"
+          next: __link__
+          url: https://zapier.com
+        - label: "See more projects"
+          next: projects
+        - label: "Something else"
+          next: main_menu
+
+    proj_uswds:
+      messages:
+        - "The U.S. Web Design System is something I'm especially proud of — I co-founded it in 2015."
+        - "It's a design system used by hundreds of government websites, making federal digital services more consistent and accessible."
+      choices:
+        - label: "Visit USWDS →"
+          next: __link__
+          url: https://designsystem.digital.gov
+        - label: "See more projects"
+          next: projects
+        - label: "Something else"
+          next: main_menu
+
+    proj_book:
+      messages:
+        - "Lightweight Django is a book I co-authored for O'Reilly Media in 2014."
+        - "It shows developers how to build modern web apps by combining Django with client-side frameworks and real-time features. Still a useful read for Django developers!"
+      choices:
+        - label: "View on O'Reilly →"
+          next: __link__
+          url: https://www.oreilly.com/library/view/lightweight-django/9781491946275/
+        - label: "See more projects"
+          next: projects
+        - label: "Something else"
+          next: main_menu
+
+    # ─── BLOG ───────────────────────────────────────────────────
+    blog:
+      messages:
+        - "I write about design systems, accessibility, web development, GIS, team building, and the occasional personal reflection."
+        - "I've published over 100 posts here — what are you most interested in?"
+      choices:
+        - label: "Design systems & ops"
+          next: blog_design
+        - label: "Web development"
+          next: blog_dev
+        - label: "Browse everything"
+          next: blog_all
+
+    blog_design:
+      messages:
+        - "A lot of my writing covers design systems, design operations, and team building — topics I've lived through in detail at Login.gov, Zapier, and Esri."
+        - "Some popular posts cover scaling design teams, building governance models, and the operational side of running design at enterprise scale."
+      choices:
+        - label: "Browse all writing →"
+          next: __link__
+          url: /writing/
+        - label: "Something else"
+          next: main_menu
+
+    blog_dev:
+      messages:
+        - "I write about front-end development, Hugo, CSS architecture, accessibility, and building this very website."
+        - "I recently wrote about adding dark mode, text-to-speech, a full test suite, and mobile optimizations — all on this site."
+      choices:
+        - label: "Browse all writing →"
+          next: __link__
+          url: /writing/
+        - label: "Something else"
+          next: main_menu
+
+    blog_all:
+      messages:
+        - "My full writing archive is organized by year — you can find everything there."
+      choices:
+        - label: "Browse all writing →"
+          next: __link__
+          url: /writing/
+        - label: "Something else"
+          next: main_menu
+
+    # ─── ABOUT ──────────────────────────────────────────────────
+    about:
+      messages:
+        - "I'm a design operations and systems specialist based in North Carolina. I've been working in tech since 2002."
+        - "I build design systems, grow teams, and help people see what they can't see on their own. I've worked across government, startups, and enterprise."
+        - "What would you like to know more about?"
+      choices:
+        - label: "Background & bio"
+          next: about_bio
+        - label: "Speaking & talks"
+          next: about_speaking
+        - label: "Awards & publications"
+          next: about_awards
+        - label: "Outside of work"
+          next: about_outside
+
+    about_bio:
+      messages:
+        - "I founded the U.S. Web Design System, grew Login.gov's design team from 4 to 24, co-authored Lightweight Django (O'Reilly), and taught at Georgetown University."
+        - "I also founded Girl Develop It RDU, growing it to over 2,000 members."
+        - "I have a BFA from the University of Kansas."
+      choices:
+        - label: "My speaking history"
+          next: about_speaking
+        - label: "Read more about me →"
+          next: __link__
+          url: /about/
+        - label: "Something else"
+          next: main_menu
+
+    about_speaking:
+      messages:
+        - "I've spoken at conferences and events since 2012 — DjangoCon, PyCon, OSCON, API Days Paris, and more."
+        - "My DjangoCon 2023 keynote, \"Django the Dinosaur,\" is one I'm particularly proud of."
+        - "Topics range from design systems and APIs to team leadership and the realities of working in government tech."
+      choices:
+        - label: "See full speaking list →"
+          next: __link__
+          url: /about/
+        - label: "Something else"
+          next: main_menu
+
+    about_awards:
+      messages:
+        - "Some recognition I've received over the years:"
+        - "CyberScoop Innovation of the Year (2023), FedHealth IT Innovation Award (2018), Service to the Citizens Award (2021), and an AIGA Kansas City Interactive Design Award (2007)."
+        - "I've also published in Digital.gov, the Zapier Blog, and co-authored a book with O'Reilly."
+      choices:
+        - label: "See all publications →"
+          next: __link__
+          url: /resume/
+        - label: "Something else"
+          next: main_menu
+
+    about_outside:
+      messages:
+        - "Outside of work, I volunteer with the North Carolina Geological Survey — mapping rocks and learning about water resources in the field."
+        - "I also run. I have a half marathon coming up in May 2026, and I'm currently training for it."
+        - "I have a BFA from the University of Kansas and still think about art more than you'd expect."
+      choices:
+        - label: "Something else"
+          next: main_menu
+
+    # ─── CONTACT ────────────────────────────────────────────────
+    contact:
+      messages:
+        - "I'd love to hear from you! Here's where you can find me:"
+      choices:
+        - label: "Email me →"
+          next: __link__
+          url: mailto:hello@juliasolorzano.com
+        - label: "LinkedIn →"
+          next: __link__
+          url: https://linkedin.com/in/juliasolorzano
+        - label: "GitHub →"
+          next: __link__
+          url: https://github.com/juliasolorzano
+        - label: "Bluesky →"
+          next: __link__
+          url: https://bsky.app/profile/juliasolorzano.com
+        - label: "Something else"
+          next: main_menu
+
+    # ─── UTILITY ────────────────────────────────────────────────
+    main_menu:
+      messages:
+        - "What else can I help you find?"
+      choices:
+        - label: "Work experience"
+          next: experience
+        - label: "Projects I've built"
+          next: projects
+        - label: "My writing"
+          next: blog
+        - label: "A bit about me"
+          next: about
+        - label: "Get in touch"
+          next: contact
+
+es:
+  nodes:
+    start:
+      messages:
+        - "¡Hola! Bienvenida a mi rincón en internet."
+        - "Soy Julia — especialista en design ops, autora y voluntaria de geología ocasional. ¿Qué te trae por aquí?"
+      choices:
+        - label: "Experiencia laboral"
+          next: experience
+        - label: "Proyectos que he creado"
+          next: projects
+        - label: "Mis escritos"
+          next: blog
+        - label: "Un poco sobre mí"
+          next: about
+        - label: "Ponerse en contacto"
+          next: contact
+
+    # ─── EXPERIENCIA ────────────────────────────────────────────
+    experience:
+      messages:
+        - "Llevo trabajando en tecnología desde 2002 — más de 20 años en gobierno, startups y empresas grandes."
+        - "Me especializo en operaciones y sistemas de diseño: escalar equipos, construir design systems y hacer que organizaciones complejas funcionen mejor."
+        - "¿Qué aspecto de mi experiencia te interesa más?"
+      choices:
+        - label: "Rol actual en Esri"
+          next: exp_esri
+        - label: "Trabajo en el gobierno"
+          next: exp_gov
+        - label: "Experiencia en startups"
+          next: exp_startup
+        - label: "Habilidades y expertise"
+          next: skills
+        - label: "Ver mi currículum completo"
+          next: resume_link
+
+    exp_esri:
+      messages:
+        - "Actualmente soy Senior Design Operations Specialist en Esri, el líder mundial en software GIS."
+        - "Establezco estándares de diseño y bases operativas en las líneas de productos de ArcGIS — creando componentes compartidos en Figma, coordinando sesiones de diseño entre equipos y colaborando con UX Research para crear marcos de impacto."
+        - "Una parte importante de mi trabajo es promover la adopción de herramientas de IA: doy capacitaciones de GitHub Copilot para que los diseñadores puedan contribuir directamente a los repositorios, y evalúo herramientas como Figma Make y Claude."
+      choices:
+        - label: "Trabajo en el gobierno"
+          next: exp_gov
+        - label: "Mis habilidades y expertise"
+          next: skills
+        - label: "Ver el currículum completo"
+          next: resume_link
+        - label: "Otra cosa"
+          next: main_menu
+
+    exp_gov:
+      messages:
+        - "La mayor parte de mi carrera ha sido en el gobierno — me encanta el desafío de crear productos que realmente sirvan a las personas a escala."
+        - "Algunos puntos destacados:"
+        - "En Login.gov (GSA), hice crecer el equipo de diseño de 4 a 24 personas — un aumento del 600% — con una tasa de retención del 100%. Servimos a millones de personas en más de 300 aplicaciones federales."
+        - "En el U.S. Web Design System, cofundé USWDS, un design system que hoy usan cientos de sitios web del gobierno y que llega a millones de usuarios en todo el mundo."
+        - "También lideré los Estándares Web Federales en la GSA, trabajando directamente con la OMB en los requisitos de la Ley IDEA del siglo XXI."
+        - "¿Quieres conocer más sobre alguno de estos?"
+      choices:
+        - label: "Detalles de Login.gov"
+          next: exp_logingov
+        - label: "U.S. Web Design System"
+          next: exp_uswds
+        - label: "Plataforma API del VA"
+          next: exp_va
+        - label: "Ver el currículum completo"
+          next: resume_link
+        - label: "Otra cosa"
+          next: main_menu
+
+    exp_logingov:
+      messages:
+        - "Login.gov es la plataforma de identidad compartida del gobierno de EE. UU. — una sola cuenta para acceder a cientos de servicios federales."
+        - "Fui Supervisory IT Specialist de 2020 a 2024. En ese tiempo:"
+        - "Escalé el equipo de diseño de 4 a 24 personas, impulsé la internacionalización de la plataforma a 3 nuevos mercados e implementé funciones de tecnología emergente que mejoraron las tasas de éxito de los usuarios en un 35%."
+        - "También establecí un marco integral de design ops que apoyaba a 5 equipos de producto multifuncionales, y desarrollé un programa de investigación y pruebas que aumentó la eficiencia en la recopilación de retroalimentación en un 60%."
+      choices:
+        - label: "U.S. Web Design System"
+          next: exp_uswds
+        - label: "Experiencia en startups"
+          next: exp_startup
+        - label: "Ver el currículum completo"
+          next: resume_link
+        - label: "Otra cosa"
+          next: main_menu
+
+    exp_uswds:
+      messages:
+        - "El U.S. Web Design System es un design system que cofundé en 2015 mientras trabajaba en la GSA."
+        - "Hoy lo utilizan cientos de organizaciones gubernamentales y llega a millones de personas en todo el mundo. En el primer año logramos que más de 100 organizaciones lo adoptaran."
+        - "Lideré un equipo de desarrolladores front-end y diseñadores, logramos reducir el tiempo de implementación en un 50% y establecí un modelo de gobernanza escalable para contribuciones distribuidas."
+      choices:
+        - label: "Experiencia en startups"
+          next: exp_startup
+        - label: "Proyectos que he creado"
+          next: projects
+        - label: "Ver el currículum completo"
+          next: resume_link
+        - label: "Otra cosa"
+          next: main_menu
+
+    exp_va:
+      messages:
+        - "En Ad Hoc de 2018 a 2020, fui Senior UX Designer en la Plataforma API del Departamento de Asuntos de Veteranos."
+        - "Establecí la práctica de diseño centrado en el ser humano desde cero para el programa API del VA, creé flujos de trabajo de diseño e investigación escalables que aumentaron la eficiencia del equipo en un 40%, e implementé un programa de investigación de usuarios que redujo los errores de implementación en un 60%."
+      choices:
+        - label: "Experiencia en startups"
+          next: exp_startup
+        - label: "Ver el currículum completo"
+          next: resume_link
+        - label: "Otra cosa"
+          next: main_menu
+
+    exp_startup:
+      messages:
+        - "Mi experiencia en startups es principalmente en Zapier, donde fui Design Team Manager para el producto principal de 2017 a 2018."
+        - "Escalé el equipo de diseño un 150% en 3 meses, reduje los tiempos de contratación de 56 a 28 días, lideré un rediseño completo de identidad visual y lancé el primer design system de toda la empresa."
+        - "Antes de eso hice trabajo de consultoría y freelance en varias empresas en etapa temprana."
+      choices:
+        - label: "Trabajo en el gobierno"
+          next: exp_gov
+        - label: "Habilidades y expertise"
+          next: skills
+        - label: "Ver el currículum completo"
+          next: resume_link
+        - label: "Otra cosa"
+          next: main_menu
+
+    skills:
+      messages:
+        - "Mis habilidades abarcan tres áreas:"
+        - "Liderazgo en diseño: Design systems y operaciones, estrategia de investigación de usuarios, diseño de servicios, accesibilidad e inclusión, diseño de interacción humano-IA."
+        - "Técnicas: Figma, desarrollo front-end (HTML, CSS, JavaScript), herramientas asistidas por IA (Figma Make, GitHub Copilot, Claude), arquitectura de información, prototipado."
+        - "Negocios y operaciones: Formación de equipos y mentoría, estrategia y gobernanza de IA, metodologías ágiles, gestión de stakeholders, liderazgo de equipos remotos."
+      choices:
+        - label: "Ver el currículum completo"
+          next: resume_link
+        - label: "Proyectos que he creado"
+          next: projects
+        - label: "Otra cosa"
+          next: main_menu
+
+    resume_link:
+      messages:
+        - "Puedes encontrar mi currículum completo — historial laboral, publicaciones, educación y reconocimientos — aquí mismo en el sitio."
+      choices:
+        - label: "Ver mi currículum →"
+          next: __link__
+          url: /es/resume/
+        - label: "Otra cosa"
+          next: main_menu
+
+    # ─── PROYECTOS ──────────────────────────────────────────────
+    projects:
+      messages:
+        - "Aquí hay un vistazo a algunos de los trabajos de los que estoy más orgullosa:"
+      choices:
+        - label: "Esri"
+          next: proj_esri
+        - label: "Login.gov"
+          next: proj_logingov
+        - label: "Plataforma API del VA"
+          next: proj_va
+        - label: "Zapier"
+          next: proj_zapier
+        - label: "U.S. Web Design System"
+          next: proj_uswds
+        - label: "Lightweight Django (libro)"
+          next: proj_book
+
+    proj_esri:
+      messages:
+        - "En Esri, trabajo en el Creative Lab creando estándares compartidos en todas las líneas de productos de ArcGIS."
+        - "Esri es el líder mundial en software GIS — sus herramientas se utilizan en todo, desde respuesta a emergencias hasta ciencias ambientales."
+      choices:
+        - label: "Visitar Esri →"
+          next: __link__
+          url: https://www.esri.com
+        - label: "Ver más proyectos"
+          next: projects
+        - label: "Otra cosa"
+          next: main_menu
+
+    proj_logingov:
+      messages:
+        - "En Login.gov, hice crecer el equipo de diseño de 4 a 24 y repensé cómo millones de personas inician sesión en los servicios gubernamentales."
+        - "Login.gov es la plataforma de identidad compartida del gobierno de EE. UU., que sirve a millones en más de 300 aplicaciones federales."
+      choices:
+        - label: "Visitar Login.gov →"
+          next: __link__
+          url: https://login.gov
+        - label: "Ver más proyectos"
+          next: projects
+        - label: "Otra cosa"
+          next: main_menu
+
+    proj_va:
+      messages:
+        - "El proyecto de la Plataforma API del VA fue sobre construir una práctica de diseño centrado en el ser humano desde cero para el Departamento de Asuntos de Veteranos."
+        - "Diseñé la estrategia de UX para un programa API a gran escala, facilitando que los desarrolladores creen productos que sirvan a los veteranos."
+      choices:
+        - label: "Visitar el Portal para Desarrolladores del VA →"
+          next: __link__
+          url: https://developer.va.gov
+        - label: "Ver más proyectos"
+          next: projects
+        - label: "Otra cosa"
+          next: main_menu
+
+    proj_zapier:
+      messages:
+        - "En Zapier escalé el equipo de diseño un 150%, lideré un rediseño completo de identidad visual y lancé el primer design system de toda la empresa."
+        - "Zapier es una plataforma de automatización que conecta miles de aplicaciones — un producto enorme y complejo para gestionar desde el diseño."
+      choices:
+        - label: "Visitar Zapier →"
+          next: __link__
+          url: https://zapier.com
+        - label: "Ver más proyectos"
+          next: projects
+        - label: "Otra cosa"
+          next: main_menu
+
+    proj_uswds:
+      messages:
+        - "El U.S. Web Design System es algo de lo que estoy especialmente orgullosa — lo cofundé en 2015."
+        - "Es un design system que usan cientos de sitios web del gobierno, haciendo que los servicios digitales federales sean más consistentes y accesibles."
+      choices:
+        - label: "Visitar USWDS →"
+          next: __link__
+          url: https://designsystem.digital.gov
+        - label: "Ver más proyectos"
+          next: projects
+        - label: "Otra cosa"
+          next: main_menu
+
+    proj_book:
+      messages:
+        - "Lightweight Django es un libro que coautoricé para O'Reilly Media en 2014."
+        - "Muestra a los desarrolladores cómo crear aplicaciones web modernas combinando Django con frameworks del lado del cliente y funciones en tiempo real. ¡Sigue siendo una lectura útil para desarrolladores de Django!"
+      choices:
+        - label: "Ver en O'Reilly →"
+          next: __link__
+          url: https://www.oreilly.com/library/view/lightweight-django/9781491946275/
+        - label: "Ver más proyectos"
+          next: projects
+        - label: "Otra cosa"
+          next: main_menu
+
+    # ─── ESCRITOS ───────────────────────────────────────────────
+    blog:
+      messages:
+        - "Escribo sobre design systems, accesibilidad, desarrollo web, SIG, formación de equipos y alguna que otra reflexión personal."
+        - "He publicado más de 100 entradas aquí — ¿qué te interesa más?"
+      choices:
+        - label: "Design systems y operaciones"
+          next: blog_design
+        - label: "Desarrollo web"
+          next: blog_dev
+        - label: "Ver todo"
+          next: blog_all
+
+    blog_design:
+      messages:
+        - "Gran parte de mis escritos tratan sobre design systems, operaciones de diseño y formación de equipos — temas que he vivido en detalle en Login.gov, Zapier y Esri."
+        - "Algunas entradas populares cubren cómo escalar equipos de diseño, construir modelos de gobernanza y el lado operativo de gestionar el diseño a escala empresarial."
+      choices:
+        - label: "Ver todos los escritos →"
+          next: __link__
+          url: /es/writing/
+        - label: "Otra cosa"
+          next: main_menu
+
+    blog_dev:
+      messages:
+        - "Escribo sobre desarrollo front-end, Hugo, arquitectura CSS, accesibilidad y la construcción de este mismo sitio."
+        - "Recientemente escribí sobre agregar modo oscuro, texto a voz, un conjunto completo de pruebas y optimizaciones para móviles — todo en este sitio."
+      choices:
+        - label: "Ver todos los escritos →"
+          next: __link__
+          url: /es/writing/
+        - label: "Otra cosa"
+          next: main_menu
+
+    blog_all:
+      messages:
+        - "Mi archivo completo de escritos está organizado por año — puedes encontrar todo allí."
+      choices:
+        - label: "Ver todos los escritos →"
+          next: __link__
+          url: /es/writing/
+        - label: "Otra cosa"
+          next: main_menu
+
+    # ─── SOBRE MÍ ───────────────────────────────────────────────
+    about:
+      messages:
+        - "Soy especialista en operaciones y sistemas de diseño, vivo en Carolina del Norte. Llevo trabajando en tecnología desde 2002."
+        - "Creo design systems, hago crecer equipos y ayudo a las personas a ver lo que no pueden ver por sí solas. He trabajado en gobierno, startups y empresas grandes."
+        - "¿Qué te gustaría saber?"
+      choices:
+        - label: "Trayectoria y bio"
+          next: about_bio
+        - label: "Charlas y conferencias"
+          next: about_speaking
+        - label: "Premios y publicaciones"
+          next: about_awards
+        - label: "Fuera del trabajo"
+          next: about_outside
+
+    about_bio:
+      messages:
+        - "Fundé el U.S. Web Design System, hice crecer el equipo de diseño de Login.gov de 4 a 24, coautoricé Lightweight Django (O'Reilly) y enseñé en la Universidad de Georgetown."
+        - "También fundé Girl Develop It RDU, que creció hasta más de 2,000 miembros."
+        - "Tengo una licenciatura en Bellas Artes de la Universidad de Kansas."
+      choices:
+        - label: "Mi historial de conferencias"
+          next: about_speaking
+        - label: "Leer más sobre mí →"
+          next: __link__
+          url: /es/about/
+        - label: "Otra cosa"
+          next: main_menu
+
+    about_speaking:
+      messages:
+        - "He dado charlas en conferencias y eventos desde 2012 — DjangoCon, PyCon, OSCON, API Days París, y más."
+        - "El keynote de DjangoCon 2023, \"Django the Dinosaur\", es uno del que estoy especialmente orgullosa."
+        - "Los temas van desde design systems y APIs hasta liderazgo de equipos y las realidades de trabajar en tecnología gubernamental."
+      choices:
+        - label: "Ver lista completa de charlas →"
+          next: __link__
+          url: /es/about/
+        - label: "Otra cosa"
+          next: main_menu
+
+    about_awards:
+      messages:
+        - "Algunos reconocimientos que he recibido a lo largo de los años:"
+        - "CyberScoop Innovation of the Year (2023), FedHealth IT Innovation Award (2018), Service to the Citizens Award (2021) y un AIGA Kansas City Interactive Design Award (2007)."
+        - "También he publicado en Digital.gov, el blog de Zapier, y coautoricé un libro con O'Reilly."
+      choices:
+        - label: "Ver todas las publicaciones →"
+          next: __link__
+          url: /es/resume/
+        - label: "Otra cosa"
+          next: main_menu
+
+    about_outside:
+      messages:
+        - "Fuera del trabajo, hago voluntariado con el North Carolina Geological Survey — mapeando rocas y aprendiendo sobre recursos hídricos en el campo."
+        - "También corro. Tengo un medio maratón en mayo de 2026 y actualmente estoy entrenando para ello."
+        - "Tengo una licenciatura en Bellas Artes de la Universidad de Kansas y pienso en arte más de lo que esperarías."
+      choices:
+        - label: "Otra cosa"
+          next: main_menu
+
+    # ─── CONTACTO ───────────────────────────────────────────────
+    contact:
+      messages:
+        - "¡Me encantaría saber de ti! Aquí es donde puedes encontrarme:"
+      choices:
+        - label: "Enviarme un correo →"
+          next: __link__
+          url: mailto:hello@juliasolorzano.com
+        - label: "LinkedIn →"
+          next: __link__
+          url: https://linkedin.com/in/juliasolorzano
+        - label: "GitHub →"
+          next: __link__
+          url: https://github.com/juliasolorzano
+        - label: "Bluesky →"
+          next: __link__
+          url: https://bsky.app/profile/juliasolorzano.com
+        - label: "Otra cosa"
+          next: main_menu
+
+    # ─── UTILIDAD ───────────────────────────────────────────────
+    main_menu:
+      messages:
+        - "¿En qué más puedo ayudarte?"
+      choices:
+        - label: "Experiencia laboral"
+          next: experience
+        - label: "Proyectos que he creado"
+          next: projects
+        - label: "Mis escritos"
+          next: blog
+        - label: "Un poco sobre mí"
+          next: about
+        - label: "Ponerse en contacto"
+          next: contact

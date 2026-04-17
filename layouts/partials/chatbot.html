@@ -1,0 +1,7 @@
+<script id="chatbot-data" type="application/json">
+  {{ index site.Data.chatbot .Lang | jsonify | safeJS }}
+</script>
+
+<div class="chat" id="chat" role="log" aria-label="Chat with Julia's site assistant" aria-live="polite" aria-atomic="false">
+  <div class="chat__messages" id="chat-messages"></div>
+</div>

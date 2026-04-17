@@ -30,7 +30,7 @@ Supports dark mode!
 
 {{ "-->" | safeHTML }}
   {{ partial "head.html" . }}
-  <body>
+  <body{{ if .Params.is_chat }} class="is-chat"{{ end }}>
 
     <div id="overlay" aria-hidden="true"></div>
     <a class="skipnav" href="#content">{{ i18n "skip_to_content" }}</a>
