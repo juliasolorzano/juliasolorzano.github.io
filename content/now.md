@@ -4,7 +4,7 @@ type: page
 layout: now
 url: /now/
 description: "What Julia Solórzano is up to right now — work at Esri, field geology volunteering, current reading, race training, and family life."
-last_updated: "April 2026"
+last_updated: "May 2026"
 sections:
   - title: Work
     emoji: "💼"
@@ -23,7 +23,7 @@ sections:
       - label: "The Book of Delights"
         value: 25
       - label: "When Things Fall Apart"
-        value: 31
+        value: 65
 
   - title: Running
     emoji: "🏃‍♀️"
