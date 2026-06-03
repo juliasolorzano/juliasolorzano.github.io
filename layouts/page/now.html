@@ -33,6 +33,30 @@
     </div>
     {{ end }}
 
+    {{ with .race_result }}
+    <div class="now__race-result">
+      <div class="now__medal">
+        <span class="now__medal-ribbon" aria-hidden="true">🎗️</span>
+        <span class="now__medal-emoji" aria-hidden="true">🏅</span>
+      </div>
+      <div class="now__race-details">
+        <span class="now__race-badge">{{ .badge }}</span>
+        <span class="now__race-name">{{ .name }}</span>
+        <span class="now__race-meta">{{ .location }} · {{ .date }}</span>
+        <div class="now__race-stats">
+          <div class="now__race-stat">
+            <strong>{{ .time }}</strong>
+            <span>{{ .time_label }}</span>
+          </div>
+          <div class="now__race-stat">
+            <strong>{{ .pace }}</strong>
+            <span>{{ .pace_label }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+
     {{ with .countdown }}
     <div class="now__countdown" data-start="{{ .start }}" data-date="{{ .date }}">
       <div class="now__progress-label">

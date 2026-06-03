@@ -1036,6 +1036,104 @@ footer {
   margin-top: 0.75rem;
 }
 
+.now__race-result {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  max-width: 420px;
+  padding: 1.1rem 1.35rem;
+  border: 1px solid var(--color-border);
+  border-radius: 14px;
+  background: linear-gradient(135deg, var(--color-bg-secondary), transparent);
+}
+
+.now__medal {
+  position: relative;
+  flex-shrink: 0;
+  width: 62px;
+  height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 35%, rgba(255, 215, 0, 0.18), transparent 70%);
+}
+
+.now__medal-ribbon {
+  position: absolute;
+  top: -6px;
+  font-size: 1.1rem;
+  opacity: 0.85;
+}
+
+.now__medal-emoji {
+  font-size: 2.1rem;
+  line-height: 1;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.15));
+  animation: now-medal-shine 3.5s ease-in-out infinite;
+}
+
+@keyframes now-medal-shine {
+  0%, 100% { transform: rotate(-4deg); }
+  50% { transform: rotate(4deg); }
+}
+
+.now__race-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.now__race-badge {
+  display: inline-block;
+  align-self: flex-start;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-accent);
+  margin-bottom: 0.15rem;
+}
+
+.now__race-name {
+  font-family: 'Lora', Georgia, serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.2;
+}
+
+.now__race-meta {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+}
+
+.now__race-stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 0.6rem;
+}
+
+.now__race-stat {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+
+  strong {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.15rem;
+  }
+
+  span {
+    font-size: 0.68rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-top: 0.15rem;
+  }
+}
+
 .now__changelog {
   margin-top: 1rem;
   padding-top: 2rem;

@@ -3,16 +3,16 @@ title: Now
 type: page
 layout: now
 url: /now/
-description: "What Julia Solórzano is up to right now — work at Esri, field geology volunteering, current reading, race training, and family life."
-last_updated: "May 2026"
+description: "What Julia Solórzano is up to right now — work at Esri, art and exhibitions, current reading, race training, and family life."
+last_updated: "June 2026"
 sections:
   - title: Work
     emoji: "💼"
     content: "I'm a Senior Design Operations Specialist in the Creative Lab at [Esri](https://esri.com)."
 
-  - title: Geology Finds
-    emoji: "🪨"
-    content: 'I just started reading [Rocks: A Guide to the Stones Around Us and the Stories They Tell by Vojta Hybl](https://vojtahybl.com/rocks-guide), and I am absolutely loving it! It is a delightful little book that brings the world of rocks to life in the most unexpected ways. My youngest and I have even made it part of our bedtime routine — reading a few pages together each night. Highly recommend it if you are curious about the stories hiding in the stones beneath your feet!'
+  - title: Exploring
+    emoji: "🗺️"
+    content: "I traveled to NYC this past month to soak up its art. I got delightfully lost in [*Frida and Diego: The Last Dream*](https://www.moma.org/calendar/exhibitions/5882) at MoMA — Kahlo and Rivera staged inside a dreamy opera set. I also made it to the [Met](https://www.metmuseum.org) for the very first time, and my favorite stop was the Temple of Dendur: an ancient Egyptian sandstone temple finished by 10 B.C. and built under the Roman emperor Augustus to honor the goddess Isis. Egypt gave it to the United States in 1965, and today it stands reassembled inside a sun-filled glass gallery beside a reflecting pool. Highly recommend slowly walking all the way around it — the carved papyrus and lotus rising from the temple's base, the winged sun disks overhead, and the pharaoh's offerings to the gods all reward a close, quiet look."
 
   - title: Reading
     emoji: "📚"
@@ -21,17 +21,22 @@ sections:
       - *When Things Fall Apart* by Pema Chödrön
     progress_list:
       - label: "The Book of Delights"
-        value: 25
+        value: 28
       - label: "When Things Fall Apart"
-        value: 65
+        value: 49
 
   - title: Running
     emoji: "🏃‍♀️"
-    content: "Training for my first 8K — the Running of the Bulls in Durham, NC on May 30, 2026.<br><span style='display:inline-block;margin-top:0.75rem'>**Current pace: 11:35/mile**</span>"
-    countdown:
-      label: "Race day countdown"
-      start: "2026-01-05"
-      date: "2026-05-30"
+    content: "I did it! 🎉 Crossed my very first 8K finish line at the Running of the Bulls. Now I've got my eye on a bigger horizon — training for a 10K in the coming year."
+    race_result:
+      badge: "8K Finisher"
+      name: "Running of the Bulls"
+      location: "Durham, NC"
+      date: "May 30, 2026"
+      time: "51:53.5"
+      time_label: "Chip time"
+      pace: "10:26 / mi"
+      pace_label: "Average pace"
 
   - title: Family
     emoji: "👨‍👩‍👧‍👦"
