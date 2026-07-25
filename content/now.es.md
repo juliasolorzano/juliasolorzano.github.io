@@ -4,7 +4,7 @@ type: page
 layout: now
 url: /es/now/
 description: "Lo que Julia Solórzano está haciendo ahora — trabajo en Esri, arte y exposiciones, lecturas actuales, entrenamiento para carreras y vida familiar."
-last_updated: "Junio 2026"
+last_updated: "Julio 2026"
 sections:
   - title: Trabajo
     emoji: "💼"
@@ -23,7 +23,7 @@ sections:
       - label: "The Book of Delights"
         value: 28
       - label: "When Things Fall Apart"
-        value: 49
+        value: 54
 
   - title: Running
     emoji: "🏃‍♀️"
@@ -39,6 +39,6 @@ sections:
       pace_label: "Ritmo promedio"
 
   - title: Familia
-    emoji: "👨‍👩‍👧‍👦"
-    content: "Orgullosa esposa de [Henry Solórzano](https://henrysolorzano.com/). Tenemos tres hijos y pasamos nuestro tiempo persiguiendo aventuras grandes y pequeñas."
+    emoji: "🌱"
+    content: "Por primera vez, estoy cultivando mi propio jardín. Me estoy dando espacio para crecer, para sentirme con los pies en la tierra y simplemente estar presente — primero para mí, y para mis dos hermosas hijas."
 ---
