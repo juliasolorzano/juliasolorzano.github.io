@@ -58,7 +58,7 @@
     {{ end }}
 
     {{ with .countdown }}
-    <div class="now__countdown" data-start="{{ .start }}" data-date="{{ .date }}">
+    <div class="now__countdown" data-start="{{ .start }}" data-date="{{ .date }}" data-day-away="{{ i18n "countdown_day_away" }}" data-days-away="{{ i18n "countdown_days_away" }}" data-today="{{ i18n "countdown_today" }}" data-complete="{{ i18n "countdown_complete" }}">
       <div class="now__progress-label">
         <span>{{ .label }}</span>
         <span class="now__countdown-value"></span>
@@ -112,12 +112,13 @@
     var fillEl = el.querySelector('.now__countdown-fill');
     var barEl = fillEl.parentElement;
     if (diff > 0) {
-      valueEl.textContent = diff + (diff === 1 ? ' day away' : ' days away');
+      var template = diff === 1 ? el.dataset.dayAway : el.dataset.daysAway;
+      valueEl.textContent = template.replace('{n}', diff);
     } else if (diff === 0) {
-      valueEl.textContent = "Today!";
+      valueEl.textContent = el.dataset.today;
       pct = 100;
     } else {
-      valueEl.textContent = "Race complete!";
+      valueEl.textContent = el.dataset.complete;
       pct = 100;
     }
     fillEl.style.width = pct + '%';

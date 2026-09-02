@@ -103,6 +103,18 @@ other = "Última actualización:"
 [changelog]
 other = "Registro de cambios"
 
+[countdown_day_away]
+other = "falta {n} día"
+
+[countdown_days_away]
+other = "faltan {n} días"
+
+[countdown_today]
+other = "¡Hoy!"
+
+[countdown_complete]
+other = "¡Carrera completada!"
+
 # 404
 [not_found_title]
 other = "404"

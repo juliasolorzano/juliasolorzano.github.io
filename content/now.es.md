@@ -3,12 +3,20 @@ title: Ahora
 type: page
 layout: now
 url: /es/now/
-description: "Lo que Julia Solórzano está haciendo ahora — trabajo en Esri, lecturas actuales y vida familiar."
-last_updated: "Julio 2026"
+description: "Lo que Julia Solórzano está haciendo ahora — trabajo en Esri, lecturas actuales, entrenamiento para carreras, panadería artesanal y vida familiar."
+last_updated: "Septiembre 2026"
 sections:
   - title: Trabajo
     emoji: "💼"
     content: "Soy Especialista Senior en Operaciones de Diseño en el Creative Lab de [Esri](https://esri.com)."
+
+  - title: Panadería
+    emoji: "🥐"
+    content: "Un capítulo nuevo y delicioso: empecé unas prácticas sin sueldo en una panadería local de Durham, aprendiendo desde cero el oficio de la pastelería y el pan artesanal. Madrugadas, harina por todos lados y la magia silenciosa de una buena fermentación."
+
+  - title: Explorando
+    emoji: "🗺️"
+    content: "Me voy de viaje a Florida para ver a [Flipturn](https://flipturn.band/) en su concierto de casa en el St. Augustine Amphitheatre el 25 de septiembre. Me muero de ganas de disfrutar un gran show en vivo en un lugar tan bonito."
 
   - title: Lectura
     emoji: "📚"
@@ -19,9 +27,17 @@ sections:
       - label: "The Book of Delights"
         value: 28
       - label: "When Things Fall Apart"
-        value: 54
+        value: 66
+
+  - title: Running
+    emoji: "🏃‍♀️"
+    content: "De nuevo con los tenis puestos y feliz — me inscribí al 5K del [Bull City Race Fest](https://bullcityracefest.com/) el 18 de octubre y estoy metida de lleno en el entrenamiento."
+    countdown:
+      label: "Bull City Race Fest 5K"
+      start: "2026-09-01"
+      date: "2026-10-18"
 
   - title: Familia
     emoji: "🌱"
-    content: "Por primera vez, estoy cultivando mi propio jardín. Me estoy dando espacio para crecer, para sentirme con los pies en la tierra y simplemente estar presente — primero para mí, y para mis dos hermosas hijas."
+    content: "Sigo cultivando mi propio jardín — dándome espacio para crecer, con los pies en la tierra y haciendo las cosas que me hacen sentir yo misma, junto a mis dos hermosas hijas."
 ---

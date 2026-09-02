@@ -103,6 +103,18 @@ other = "Last updated:"
 [changelog]
 other = "Changelog"
 
+[countdown_day_away]
+other = "{n} day away"
+
+[countdown_days_away]
+other = "{n} days away"
+
+[countdown_today]
+other = "Today!"
+
+[countdown_complete]
+other = "Race complete!"
+
 # 404
 [not_found_title]
 other = "404"
