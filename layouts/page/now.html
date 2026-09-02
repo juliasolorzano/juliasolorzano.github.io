@@ -82,6 +82,29 @@
     </div>
     {{ end }}
     {{ end }}
+
+    {{ with .goals }}
+    {{ range . }}
+    <div class="now__progress">
+      <div class="now__progress-label">
+        <span id="goal-{{ .label | urlize }}">{{ .label }}</span>
+        <span>{{ .current }} → {{ .target }}</span>
+      </div>
+      <div class="now__progress-bar" role="progressbar" aria-valuenow="{{ .value }}" aria-valuemin="0" aria-valuemax="100" aria-labelledby="goal-{{ .label | urlize }}">
+        <div class="now__progress-fill" style="width: {{ .value }}%"></div>
+      </div>
+    </div>
+    {{ end }}
+    {{ end }}
+
+    {{ with .records }}
+    {{ range . }}
+    <div class="now__record">
+      <strong>{{ .value }}</strong>
+      <span>{{ .label }}</span>
+    </div>
+    {{ end }}
+    {{ end }}
   </section>
   {{ end }}
 

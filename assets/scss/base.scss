@@ -1134,6 +1134,29 @@ footer {
   }
 }
 
+.now__record {
+  display: inline-flex;
+  flex-direction: column;
+  line-height: 1.1;
+  margin-top: 0.85rem;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+
+  strong {
+    font-family: 'Lora', Georgia, serif;
+    font-size: 1.3rem;
+  }
+
+  span {
+    font-size: 0.68rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-top: 0.2rem;
+  }
+}
+
 .now__changelog {
   margin-top: 1rem;
   padding-top: 2rem;

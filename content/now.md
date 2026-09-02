@@ -10,6 +10,26 @@ sections:
     emoji: "💼"
     content: "I'm a Senior Design Operations Specialist in the Creative Lab at [Esri](https://esri.com)."
 
+  - title: Exercise
+    emoji: "💪"
+    content: "Back in my running shoes and loving it — I've signed up for the [Bull City Race Fest](https://bullcityracefest.com/) 5K on October 18 and I'm deep in training. I also started CrossFit last month, with two six-month goals in my sights: one clean pull-up and a 10-minute straight handstand hold."
+    countdown:
+      label: "Bull City Race Fest 5K"
+      start: "2026-09-01"
+      date: "2026-10-18"
+    goals:
+      - label: "Clean pull-up"
+        current: "0 reps"
+        target: "1 clean rep"
+        value: 0
+      - label: "Handstand hold"
+        current: "0:00"
+        target: "10:00"
+        value: 0
+    records:
+      - label: "Heaviest lift"
+        value: "85 lbs"
+
   - title: Baking
     emoji: "🥐"
     content: "A delicious new chapter: I've started an unpaid internship at a local Durham bakery, learning the craft of artisanal pastry and bread from the ground up. Early mornings, flour on everything, and the quiet magic of a good rise."
@@ -28,14 +48,6 @@ sections:
         value: 28
       - label: "When Things Fall Apart"
         value: 66
-
-  - title: Running
-    emoji: "🏃‍♀️"
-    content: "Back in my running shoes and loving it — I've signed up for the [Bull City Race Fest](https://bullcityracefest.com/) 5K on October 18 and I'm deep in training."
-    countdown:
-      label: "Bull City Race Fest 5K"
-      start: "2026-09-01"
-      date: "2026-10-18"
 
   - title: Family
     emoji: "🌱"
