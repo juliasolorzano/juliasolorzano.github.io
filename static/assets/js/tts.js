@@ -46,18 +46,71 @@
     stop: player.dataset.stop || 'Stop'
   };
 
-  // Preferred voice: Tessa, falling back to system default
-  var PREFERRED_VOICE = 'Tessa';
+  // Full BCP-47 tag for this page (en-US, es-MX) so the browser picks the
+  // right regional pronunciation, not just the right language.
+  var pageLang = player.dataset.lang || document.documentElement.lang || 'en';
+  var baseLang = pageLang.split(/[-_]/)[0].toLowerCase();
+
+  // Preferred voice names per language, best first. Matched as a
+  // case-insensitive substring so "(Enhanced)" and "(Premium)" variants win
+  // over the plain ones. A voice is only ever chosen from the page's own
+  // language -- a mismatched voice mangles pronunciation entirely, since
+  // utterance.voice overrides utterance.lang.
+  var PREFERRED_VOICES = {
+    en: ['Tessa', 'Samantha', 'Google US English'],
+    es: ['Paulina', 'Sabina', 'Dalia', 'espanol de Estados Unidos', 'Google espanol']
+  };
+
+  function langMatches(voice) {
+    return String(voice.lang || '').split(/[-_]/)[0].toLowerCase() === baseLang;
+  }
+
+  function regionMatches(voice) {
+    return String(voice.lang || '').replace('_', '-').toLowerCase() === pageLang.toLowerCase();
+  }
+
+  // Strip accents so 'Mónica'/'Monica' and 'español'/'espanol' both match
+  function normalize(str) {
+    return str.normalize ? str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase() : str.toLowerCase();
+  }
 
   function loadVoices() {
-    var voices = speechSynthesis.getVoices();
+    var all = speechSynthesis.getVoices();
+    var candidates = [];
+    var i;
+
+    for (i = 0; i < all.length; i++) {
+      if (langMatches(all[i])) candidates.push(all[i]);
+    }
+
     selectedVoice = null;
-    for (var i = 0; i < voices.length; i++) {
-      if (voices[i].name === PREFERRED_VOICE) {
-        selectedVoice = voices[i];
-        break;
+    if (!candidates.length) return; // Let the browser pick from utterance.lang
+
+    // 1. A named preference for this language, best-ranked first. Within one
+    // name, take the highest quality tier available -- on macOS the plain
+    // voice is the compact one, and Premium/Enhanced sound markedly better.
+    var preferred = PREFERRED_VOICES[baseLang] || [];
+    for (i = 0; i < preferred.length && !selectedVoice; i++) {
+      var want = normalize(preferred[i]);
+      var bestTier = -1;
+      for (var j = 0; j < candidates.length; j++) {
+        var name = normalize(candidates[j].name);
+        if (name.indexOf(want) === -1) continue;
+        var tier = name.indexOf('premium') !== -1 ? 2 : (name.indexOf('enhanced') !== -1 ? 1 : 0);
+        if (tier > bestTier) {
+          bestTier = tier;
+          selectedVoice = candidates[j];
+        }
       }
     }
+
+    // 2. Otherwise an exact regional match (es-MX over es-ES)
+    for (i = 0; i < candidates.length && !selectedVoice; i++) {
+      if (regionMatches(candidates[i])) selectedVoice = candidates[i];
+    }
+
+    // 3. Otherwise any voice in the right language
+    if (!selectedVoice) selectedVoice = candidates[0];
   }
 
   // Voices load asynchronously in some browsers
@@ -155,10 +208,10 @@
 
     var gen = ++generation;
     var utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = document.documentElement.lang || 'en';
+    utterance.lang = pageLang;
     utterance.rate = speeds[speedIndex];
 
-    // Apply preferred voice (Tessa if available)
+    // Apply the language-matched voice, if we found one
     if (selectedVoice) {
       utterance.voice = selectedVoice;
     }

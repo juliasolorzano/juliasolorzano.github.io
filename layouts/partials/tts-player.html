@@ -1,5 +1,5 @@
 {{ if ne (.Params.tts | default true) false }}
-<div class="tts-player" role="region" aria-label="{{ i18n "tts_listen" }}" data-pause="{{ i18n "tts_pause" }}" data-resume="{{ i18n "tts_resume" }}" data-stop="{{ i18n "tts_stop" }}" data-playing="{{ i18n "tts_playing" }}" hidden>
+<div class="tts-player" role="region" aria-label="{{ i18n "tts_listen" }}" data-pause="{{ i18n "tts_pause" }}" data-resume="{{ i18n "tts_resume" }}" data-stop="{{ i18n "tts_stop" }}" data-playing="{{ i18n "tts_playing" }}" data-lang="{{ site.Language.LanguageCode }}" hidden>
   <button class="tts-player__play" aria-label="{{ i18n "tts_listen" }}" type="button">
     <svg class="tts-player__icon tts-player__icon--play" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
       <path d="M8 5v14l11-7z"/>
